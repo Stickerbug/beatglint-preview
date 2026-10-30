@@ -1,0 +1,34 @@
+{
+  "format": "scene_choreography_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v7-multilayer-20261031b/cristalisiaonoken.scene-v7.chart.json",
+  "chart_sha256": "ae646bc342994fe8737a069450c05b6b09f957325b9e068ec520eaad2f22923d",
+  "source_chart_sha256": "6ede7df638370e6a81f51085b986906793781af4e18d8347228ac656311746c0",
+  "choreography_sha256": "4f1e5d1023775fc64c8790622cae540091d806376e7cef0ecd9d6529587f6291",
+  "gameplay_line_count": 2,
+  "background_line_count": 4,
+  "background_note_count": 0,
+  "scene_action_count": 95,
+  "scene_family_counts": {
+    "orbit": 40,
+    "pulse": 15,
+    "ribbon": 34,
+    "split": 6
+  },
+  "active_background_line_ids": [
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "background_recycle": true,
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "status": "pass",
+  "errors": [],
+  "limitations": [
+    "An audit pass does not prove the background is aesthetically appropriate for every song.",
+    "Gameplay readability still requires native Phira and human review."
+  ]
+}

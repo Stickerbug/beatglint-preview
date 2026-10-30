@@ -1,0 +1,35 @@
+{
+  "format": "scene_choreography_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v7-multilayer-20261031b/distortedfate.scene-v7.chart.json",
+  "chart_sha256": "85c11574d1ef2503b814e8f7d2383ff12d8a96b560c804a6889f917a9ce9836d",
+  "source_chart_sha256": "98ddfb5caee3263832ce18b4f0d524fe7977b306e5fdec7b6e04c4d44766bf56",
+  "choreography_sha256": "f60a2aa116b7606615f7f89b0ce72af5e83083b6aba20613968fad61bfa56b74",
+  "gameplay_line_count": 2,
+  "background_line_count": 4,
+  "background_note_count": 0,
+  "scene_action_count": 111,
+  "scene_family_counts": {
+    "orbit": 48,
+    "pulse": 18,
+    "ribbon": 40,
+    "snap": 1,
+    "split": 4
+  },
+  "active_background_line_ids": [
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "background_recycle": true,
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "status": "pass",
+  "errors": [],
+  "limitations": [
+    "An audit pass does not prove the background is aesthetically appropriate for every song.",
+    "Gameplay readability still requires native Phira and human review."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "format": "scene_choreography_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v7-multilayer-20261031b/demonkin.scene-v7.chart.json",
+  "chart_sha256": "0cbe1c486baf1596a97b9cfe1ea3695051c4d63762b201bf609f4a694e060839",
+  "source_chart_sha256": "c1a9dd8a7893900d17817c378e2e847f4d127be14a56836e6cd00a807228ce51",
+  "choreography_sha256": "705b06abca20462313ecdc2be01b7b50c1c6dd4b913ce7da46b3fadd1c1d16f2",
+  "gameplay_line_count": 2,
+  "background_line_count": 4,
+  "background_note_count": 0,
+  "scene_action_count": 95,
+  "scene_family_counts": {
+    "orbit": 38,
+    "pulse": 17,
+    "ribbon": 36,
+    "split": 4
+  },
+  "active_background_line_ids": [
+    "L2",
+    "L3",
+    "L4",
+    "L5"
+  ],
+  "background_recycle": true,
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "status": "pass",
+  "errors": [],
+  "limitations": [
+    "An audit pass does not prove the background is aesthetically appropriate for every song.",
+    "Gameplay readability still requires native Phira and human review."
+  ]
+}

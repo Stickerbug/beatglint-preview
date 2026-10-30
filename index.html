@@ -2,17 +2,17 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="beatglint-asset-version" content="v66">
+  <meta name="beatglint-asset-version" content="v67">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>BeatGlint 谱面预览 v66</title>
+  <title>BeatGlint 谱面预览 v67</title>
   <style>
     :root{color-scheme:dark}body{margin:0;background:#080d17;color:#e8f0fb;font:15px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1120px;margin:auto;padding:28px 18px 56px}h1,h2{line-height:1.25}h1{font-size:30px}h2{font-size:21px;margin-top:0}.muted{color:#a9bbd2}.card{border:1px solid #35506f;border-radius:14px;background:#101a2a;padding:20px;margin:18px 0}.card.warn{border-color:#9d713b}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}.video-card{border:1px solid #2b405d;border-radius:12px;background:#0c1422;padding:12px}.video-card h3{margin:4px 0 8px;font-size:17px}.video-card p{margin:4px 0;color:#b7c8dd}video{width:100%;display:block;border-radius:8px;background:#000}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px;border-bottom:1px solid #263b55}th{color:#a9ddec}code{color:#bfeaff}a{color:#8de7f1}ul{margin-bottom:0}
   </style>
 </head>
 <body>
 <main>
-  <h1>BeatGlint 谱面预览 v66</h1>
-  <p class="muted">Scene v5：独立音符组 + 判定线角色 + onset 边界联合候选。页面资源版本已更新到 v66。</p>
+  <h1>BeatGlint 谱面预览 v67</h1>
+  <p class="muted">Scene v5 与 v7 多层联合候选。页面资源版本已更新到 v67。</p>
 
   <section class="card warn">
     <h2>当前状态：候选验证完成，仍 blocked</h2>
@@ -63,6 +63,26 @@
       <li><a href="scene-v5-v66/cristalisia-v5-contact.jpg">Cristalisia 全曲接触表</a></li>
       <li><a href="scene-v5-v66/distortedfate-v5-contact.jpg">Distorted Fate 全曲接触表</a></li>
     </ul>
+  </section>
+
+  <section class="card">
+    <h2>v7 多层联合候选（v67）</h2>
+    <p>这一版保留两条有音符的主判定线，增加四条无音符背景表演线。背景线按音符组场景族和有界音频 cue 进入，使用边缘斜线、分裂、回旋、脉冲和短促 snap，动作结束会淡出并回收到基线。它们不承担判定，也没有读取官谱动画数组。</p>
+    <div class="grid">
+      <article class="video-card"><h3>Demonkin · 2–4 秒</h3><video controls preload="metadata" src="scene-v7-v67/demonkin-02-04.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Demonkin · 8–10 秒</h3><video controls preload="metadata" src="scene-v7-v67/demonkin-08-10.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Demonkin · 15–17 秒</h3><video controls preload="metadata" src="scene-v7-v67/demonkin-15-17.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Demonkin · 30–32 秒</h3><video controls preload="metadata" src="scene-v7-v67/demonkin-30-32.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Cristalisia.onoken · 2–4 秒</h3><video controls preload="metadata" src="scene-v7-v67/cristalisiaonoken-02-04.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Cristalisia.onoken · 8–10 秒</h3><video controls preload="metadata" src="scene-v7-v67/cristalisiaonoken-08-10.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Cristalisia.onoken · 15–17 秒</h3><video controls preload="metadata" src="scene-v7-v67/cristalisiaonoken-15-17.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Cristalisia.onoken · 30–32 秒</h3><video controls preload="metadata" src="scene-v7-v67/cristalisiaonoken-30-32.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Distorted Fate · 2–4 秒</h3><video controls preload="metadata" src="scene-v7-v67/distortedfate-02-04.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Distorted Fate · 8–10 秒</h3><video controls preload="metadata" src="scene-v7-v67/distortedfate-08-10.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Distorted Fate · 15–17 秒</h3><video controls preload="metadata" src="scene-v7-v67/distortedfate-15-17.mp4?v=67"></video></article>
+      <article class="video-card"><h3>Distorted Fate · 30–32 秒</h3><video controls preload="metadata" src="scene-v7-v67/distortedfate-30-32.mp4?v=67"></video></article>
+    </div>
+    <p><a href="scene-v7-v67/SCENE-V7-REPORT.md">查看 v7 报告</a> · <a href="scene-v7-v67/SCENE-V7-MANIFEST.json">查看 SHA256 清单</a> · <a href="scene-v7-v67/demonkin-contact.jpg">Demonkin 接触图</a> · <a href="scene-v7-v67/cristalisiaonoken-contact.jpg">Cristalisia 接触图</a> · <a href="scene-v7-v67/distortedfate-contact.jpg">Distorted Fate 接触图</a></p>
   </section>
 </main>
 </body>

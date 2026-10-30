@@ -1,0 +1,36 @@
+{
+  "format": "beatglint_scene_v7_multilayer_preview_v1",
+  "route": "scene-v7-multilayer",
+  "source_workdir": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v7-multilayer-20261031b",
+  "render": "optimized Phira headless, 960x540, 30fps, resident windows, high-fidelity v6.4 skin",
+  "songs": [
+    "demonkin",
+    "cristalisiaonoken",
+    "distortedfate"
+  ],
+  "windows_s": [
+    [
+      2,
+      4
+    ],
+    [
+      8,
+      10
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      30,
+      32
+    ]
+  ],
+  "gameplay_lines": 2,
+  "background_lines": 4,
+  "background_notes": 0,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "files": []
+}
