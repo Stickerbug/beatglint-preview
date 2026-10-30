@@ -1,0 +1,113 @@
+{
+  "format": "beatglint_scene_v6_timing_only_manifest_v1",
+  "route": "scene-v6-timing-only",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "full_transcription_started": false,
+  "promotion_ready": false,
+  "rows": [
+    {
+      "song": "demonkin",
+      "chart": "demonkin.scene-v6.chart.json",
+      "chart_sha256": "8e8403e4fd0ad375007984cef21dbb0db9737145d5bb669924ff0bb6571b2e7e",
+      "notes_preserved": true,
+      "audio_control_mode": "timing_only",
+      "amplitude_modulation_allowed": false,
+      "flowphi_covered": 1027,
+      "flowphi_total": 1027,
+      "unplanned": 0,
+      "geometry_issues": 0,
+      "native_headless_windows": [
+        {
+          "path": "demonkin.v6-10-12.mp4",
+          "sha256": "5cbadba1bc33af2c029ee1a867e4b1571ebc4036b62e258654e55e95b43a39d8",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        },
+        {
+          "path": "demonkin.v6-30-32.mp4",
+          "sha256": "8960be518e4ff416fd4af5e0b06d7befaaf3966c3cec74ef29b1db56faee61a7",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        }
+      ],
+      "native_headless_status": "pass"
+    },
+    {
+      "song": "cristalisiaonoken",
+      "chart": "cristalisiaonoken.scene-v6.chart.json",
+      "chart_sha256": "04c5ed92962233fe62370f8fa0bff3a57876eee5794727eb54d775f6d82b8cb6",
+      "notes_preserved": true,
+      "audio_control_mode": "timing_only",
+      "amplitude_modulation_allowed": false,
+      "flowphi_covered": 911,
+      "flowphi_total": 911,
+      "unplanned": 0,
+      "geometry_issues": 0,
+      "native_headless_windows": [
+        {
+          "path": "cristalisiaonoken.v6-10-12.mp4",
+          "sha256": "21b5444145f7eebed1ea856b3e2f13b792ba479d0c468723f923253eaded214c",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        },
+        {
+          "path": "cristalisiaonoken.v6-30-32.mp4",
+          "sha256": "919bddd797e96c0e9e8b2f67b06557dc09b351136efafb186e4e05c0742617f9",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        }
+      ],
+      "native_headless_status": "pass"
+    },
+    {
+      "song": "distortedfate",
+      "chart": "distortedfate.scene-v6.chart.json",
+      "chart_sha256": "0031e79af4d44f98d4e4f1e05e7aca241a51a8ecca947d779165f722447aca2a",
+      "notes_preserved": true,
+      "audio_control_mode": "timing_only",
+      "amplitude_modulation_allowed": false,
+      "flowphi_covered": 911,
+      "flowphi_total": 911,
+      "unplanned": 0,
+      "geometry_issues": 0,
+      "native_headless_windows": [
+        {
+          "path": "distortedfate.v6-10-12.mp4",
+          "sha256": "dcd6805093cf35dff3c4af2dd9ebdb465fcbe5591876989ca8be40ce2c91fa70",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        },
+        {
+          "path": "distortedfate.v6-30-32.mp4",
+          "sha256": "99fcef56e5ef1439889eee653b1cd6353e46743f1ed2e4cc6cdcf0c5774f9d83",
+          "width": 960,
+          "height": 540,
+          "fps": 30,
+          "frames": 60,
+          "duration_s": 2.0
+        }
+      ],
+      "native_headless_status": "pass"
+    }
+  ],
+  "status": "blocked_pending_human_review",
+  "native_headless_renderer": "phira-render-beatglint patched binary; Xorg :99; 960x540 30fps",
+  "native_headless_status": "pass"
+}
