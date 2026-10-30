@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="beatglint-asset-version" content="v66">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>BeatGlint 谱面预览 v66</title>
+  <style>
+    :root{color-scheme:dark}body{margin:0;background:#080d17;color:#e8f0fb;font:15px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1120px;margin:auto;padding:28px 18px 56px}h1,h2{line-height:1.25}h1{font-size:30px}h2{font-size:21px;margin-top:0}.muted{color:#a9bbd2}.card{border:1px solid #35506f;border-radius:14px;background:#101a2a;padding:20px;margin:18px 0}.card.warn{border-color:#9d713b}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}.video-card{border:1px solid #2b405d;border-radius:12px;background:#0c1422;padding:12px}.video-card h3{margin:4px 0 8px;font-size:17px}.video-card p{margin:4px 0;color:#b7c8dd}video{width:100%;display:block;border-radius:8px;background:#000}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px;border-bottom:1px solid #263b55}th{color:#a9ddec}code{color:#bfeaff}a{color:#8de7f1}ul{margin-bottom:0}
+  </style>
+</head>
+<body>
+<main>
+  <h1>BeatGlint 谱面预览 v66</h1>
+  <p class="muted">Scene v5：独立音符组 + 判定线角色 + onset 边界联合候选。页面资源版本已更新到 v66。</p>
+
+  <section class="card warn">
+    <h2>当前状态：候选验证完成，仍 blocked</h2>
+    <p>三首歌均完成 960×540、30 fps 的完整 Phira AppRun 诊断和 FlowPhi 全曲复核。音频只参与场景边界与动作时机/幅度，不决定音符、线归属、来向或 Hold/Flick 所有权。</p>
+    <p>仍需真人全曲读谱复核；Demonkin、Cristalisia、Distorted Fate 的谱面校验分别有 1、2、1 个短提前量警告。完整 AppRun stderr 仍有已知异步唤醒诊断，公开优化 headless renderer 的同类问题已修复。</p>
+  </section>
+
+  <section class="card"><h2>v6 时钟模式窗口</h2><p>v6 只允许 onset 边界控制场景时钟，当前全混音证据不调制动画幅度。六个窗口由优化 headless Phira renderer 生成，960×540、30fps、每段 2 秒。</p><div class="grid"><article class="video-card"><h3>Demonkin v6 · 10–12 秒</h3><video controls preload="metadata" src="scene-v6-v66/demonkin.v6-10-12.mp4"></video></article><article class="video-card"><h3>Demonkin v6 · 30–32 秒</h3><video controls preload="metadata" src="scene-v6-v66/demonkin.v6-30-32.mp4"></video></article><article class="video-card"><h3>Cristalisia v6 · 10–12 秒</h3><video controls preload="metadata" src="scene-v6-v66/cristalisiaonoken.v6-10-12.mp4"></video></article><article class="video-card"><h3>Cristalisia v6 · 30–32 秒</h3><video controls preload="metadata" src="scene-v6-v66/cristalisiaonoken.v6-30-32.mp4"></video></article><article class="video-card"><h3>Distorted Fate v6 · 10–12 秒</h3><video controls preload="metadata" src="scene-v6-v66/distortedfate.v6-10-12.mp4"></video></article><article class="video-card"><h3>Distorted Fate v6 · 30–32 秒</h3><video controls preload="metadata" src="scene-v6-v66/distortedfate.v6-30-32.mp4"></video></article></div><p><a href="scene-v6-v66/SCENE-V6-REPORT.md">查看 v6 报告</a> · <a href="scene-v6-v66/SCENE-V6-MANIFEST.json">查看窗口 SHA256 清单</a></p></section>
+
+  <section class="card">
+    <h2>v5 关键窗口</h2>
+    <div class="grid">
+      <article class="video-card"><h3>Demonkin v5</h3><video controls preload="metadata" src="scene-v5-v66/demonkin-v5.mp4"></video><p>8 秒窗口；两条角色线，音频边界联合。</p></article>
+      <article class="video-card"><h3>Cristalisia.onoken v5</h3><video controls preload="metadata" src="scene-v5-v66/cristalisia-v5.mp4"></video><p>8 秒窗口；Hold/和弦结构保持。</p></article>
+      <article class="video-card"><h3>Distorted Fate Flick 1</h3><video controls preload="metadata" src="scene-v5-v66/distortedfate-flick1-v5.mp4"></video><p>8 秒窗口；第一个 Flick 的两线会聚候选。</p></article>
+      <article class="video-card"><h3>Distorted Fate Flick 2</h3><video controls preload="metadata" src="scene-v5-v66/distortedfate-flick2-v5.mp4"></video><p>8 秒窗口；第二个 Flick 的两线会聚候选。</p></article>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>自动审计摘要</h2>
+    <table><thead><tr><th>曲目</th><th>音符</th><th>音频绑定</th><th>FlowPhi</th><th>动作</th><th>状态</th></tr></thead>
+    <tbody>
+      <tr><td>Demonkin</td><td>1027</td><td>55/55</td><td>1027/1027，未规划 0</td><td>55</td><td>blocked</td></tr>
+      <tr><td>Cristalisia.onoken</td><td>911</td><td>54/54</td><td>911/911，未规划 0</td><td>54</td><td>blocked</td></tr>
+      <tr><td>Distorted Fate</td><td>911</td><td>63/64</td><td>911/911，未规划 0</td><td>68，含 4 条 Flick 引导</td><td>blocked</td></tr>
+    </tbody></table>
+    <p class="muted">forward 控制在三首歌均为 3/5；反向和置换分数接近，因此音频证据只称为时钟相关候选。</p>
+  </section>
+
+  <section class="card">
+    <h2>来源链核验</h2>
+    <p>三首候选均通过来源链审计：中性基线与候选的音符数组完全相同，动画数组重新生成，未读取官谱动画，未启动训练。该结果只排除硬拟合输入，仍不等于真人可读性通过。</p>
+    <p><a href="scene-v5-v66/SCENE-V5-PROVENANCE-AUDIT.md">查看中文来源审计表</a> · <a href="scene-v5-v66/scene-v5-provenance-audit.json">JSON</a> · <a href="scene-v5-v66/scene-v5-integrity-provenance.json">全局完整性</a></p>
+  </section>
+
+  <section class="card">
+    <h2>提前量分类</h2>
+    <p>当前 4 个低于 0.65 秒阈值的音符全部是各判定线的第一枚音符，并从图表起始帧可见；中段短提前量为 0。首帧构图仍需真人复核。</p>
+    <p><a href="scene-v5-v66/SCENE-V5-PERCEPTUAL-LEAD.md">查看提前量审计表</a> · <a href="scene-v5-v66/scene-v5-perceptual-lead.json">JSON</a></p>
+  </section>
+
+  <section class="card">
+    <h2>证据文件</h2>
+    <ul>
+      <li><a href="scene-v5-v66/scene-v5-manifest.json">Scene v5 candidate manifest</a></li>
+      <li><a href="scene-v5-v66/demonkin-v5-contact.jpg">Demonkin 全曲接触表</a></li>
+      <li><a href="scene-v5-v66/cristalisia-v5-contact.jpg">Cristalisia 全曲接触表</a></li>
+      <li><a href="scene-v5-v66/distortedfate-v5-contact.jpg">Distorted Fate 全曲接触表</a></li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

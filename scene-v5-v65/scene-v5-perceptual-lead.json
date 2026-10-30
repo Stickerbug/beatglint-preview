@@ -1,0 +1,105 @@
+{
+  "format": "beatglint_perceptual_lead_audit_collection_v1",
+  "root": "/workspace/BeatGlint/work/animation-independent-20261030",
+  "minimum_lead_s": 0.65,
+  "rows": [
+    {
+      "format": "beatglint_perceptual_lead_audit_v1",
+      "chart": "/workspace/BeatGlint/work/animation-independent-20261030/cristalisiaonoken/scene-v5-candidate.chart.json",
+      "minimum_lead_s": 0.65,
+      "violations": [
+        {
+          "id": "L0:below:0",
+          "line": 0,
+          "side": "below",
+          "note_index": 0,
+          "type": 1,
+          "hit_s": 0.634195,
+          "lead_s": 0.634195,
+          "first_note_on_line": true,
+          "visible_from_chart_start": true,
+          "classification": "initial_chart_window"
+        },
+        {
+          "id": "L1:above:0",
+          "line": 1,
+          "side": "above",
+          "note_index": 0,
+          "type": 1,
+          "hit_s": 0.413605,
+          "lead_s": 0.413605,
+          "first_note_on_line": true,
+          "visible_from_chart_start": true,
+          "classification": "initial_chart_window"
+        }
+      ],
+      "initial_window_count": 2,
+      "mid_chart_short_lead_count": 0,
+      "status": "pass_initial_window_only",
+      "promotion_ready": false,
+      "limitations": [
+        "Initial-window classification does not prove a good first-frame composition.",
+        "The report does not replace native Phira or human readability review."
+      ],
+      "song": "cristalisiaonoken"
+    },
+    {
+      "format": "beatglint_perceptual_lead_audit_v1",
+      "chart": "/workspace/BeatGlint/work/animation-independent-20261030/demonkin/scene-v5-candidate.chart.json",
+      "minimum_lead_s": 0.65,
+      "violations": [
+        {
+          "id": "L1:above:0",
+          "line": 1,
+          "side": "above",
+          "note_index": 0,
+          "type": 1,
+          "hit_s": 0.587755,
+          "lead_s": 0.587755,
+          "first_note_on_line": true,
+          "visible_from_chart_start": true,
+          "classification": "initial_chart_window"
+        }
+      ],
+      "initial_window_count": 1,
+      "mid_chart_short_lead_count": 0,
+      "status": "pass_initial_window_only",
+      "promotion_ready": false,
+      "limitations": [
+        "Initial-window classification does not prove a good first-frame composition.",
+        "The report does not replace native Phira or human readability review."
+      ],
+      "song": "demonkin"
+    },
+    {
+      "format": "beatglint_perceptual_lead_audit_v1",
+      "chart": "/workspace/BeatGlint/work/animation-independent-20261030/distortedfate/scene-v5-flick-guided.chart.json",
+      "minimum_lead_s": 0.65,
+      "violations": [
+        {
+          "id": "L1:above:0",
+          "line": 1,
+          "side": "above",
+          "note_index": 0,
+          "type": 1,
+          "hit_s": 0.490522,
+          "lead_s": 0.490522,
+          "first_note_on_line": true,
+          "visible_from_chart_start": true,
+          "classification": "initial_chart_window"
+        }
+      ],
+      "initial_window_count": 1,
+      "mid_chart_short_lead_count": 0,
+      "status": "pass_initial_window_only",
+      "promotion_ready": false,
+      "limitations": [
+        "Initial-window classification does not prove a good first-frame composition.",
+        "The report does not replace native Phira or human readability review."
+      ],
+      "song": "distortedfate"
+    }
+  ],
+  "status": "pass",
+  "promotion_ready": false
+}
