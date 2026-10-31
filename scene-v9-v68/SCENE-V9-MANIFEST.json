@@ -1,0 +1,134 @@
+{
+  "format": "beatglint-scene-v9-preview-manifest-v1",
+  "version": "v68",
+  "candidate": "scene-v9-multigameplay-lifecycle-20261031",
+  "renderer": "phira-render-beatglint resident",
+  "resolution": "960x540",
+  "fps": 30,
+  "gameplay_lines": 4,
+  "background_lines": 4,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "files": [
+    {
+      "path": "cristalisiaonoken-02-04.mp4",
+      "sha256": "4d047e640ac80ba4a74290cd3a61ff897a444a3684531c92f2e4ce61d703f2ae",
+      "bytes": 180660
+    },
+    {
+      "path": "cristalisiaonoken-08-10.mp4",
+      "sha256": "08fd70d19915306c435c9582c71ef3eb414943a619af98a64d083bc2510edc9e",
+      "bytes": 679274
+    },
+    {
+      "path": "cristalisiaonoken-15-17.mp4",
+      "sha256": "a4ef798f2e42d92df97b5339b42988b94925170fdb821073d470a8d4a05da381",
+      "bytes": 786292
+    },
+    {
+      "path": "cristalisiaonoken-30-32.mp4",
+      "sha256": "f91f7a318195259c1423e85504d5d2c5328fbbaaa6cd3dfb47fc1df4849a7ceb",
+      "bytes": 671507
+    },
+    {
+      "path": "cristalisiaonoken-contact.jpg",
+      "sha256": "ac4977d6e4812135c9616e5381abde5da9ae8ea6d8fcddbe4b890b08f08418d0",
+      "bytes": 352808
+    },
+    {
+      "path": "cristalisiaonoken-gameplay-audit.json",
+      "sha256": "35b66f1401cb3a132f1da5db8add50be4cd8637d1ffdde16b7e6afb4324d5a7e",
+      "bytes": 8966
+    },
+    {
+      "path": "cristalisiaonoken-multigameplay-audit.json",
+      "sha256": "77a70b8d6b308670eea394f626813c9ca292073791a3fde9074bd9da14681efb",
+      "bytes": 21392
+    },
+    {
+      "path": "cristalisiaonoken-scene-audit.json",
+      "sha256": "360bcc5539519178db05ec61851767280148755474e9304219948473f719c69e",
+      "bytes": 1154
+    },
+    {
+      "path": "demonkin-02-04.mp4",
+      "sha256": "01b078b3cc700d18850bb93bd0bc0d85fcb4d21a61fc8a077737a38a40ae938c",
+      "bytes": 138700
+    },
+    {
+      "path": "demonkin-08-10.mp4",
+      "sha256": "4cc49508d2f0973eff99081a4b283200210720dcffeb6be7bf3fff869b5cc5ef",
+      "bytes": 705280
+    },
+    {
+      "path": "demonkin-15-17.mp4",
+      "sha256": "0ed1ae15cc44d5684cd98de25b525d78c7d51e43517b3559c27d5d848ef11d7b",
+      "bytes": 900513
+    },
+    {
+      "path": "demonkin-30-32.mp4",
+      "sha256": "d066a163db2d4ae41293d2af636c0b9e6d8ad4583f716e86e57dfbeca75db070",
+      "bytes": 750023
+    },
+    {
+      "path": "demonkin-contact.jpg",
+      "sha256": "8c74562b934e92d5d52541afd32cdc0ff3779a7156c9d152c7075ed3351ca01b",
+      "bytes": 355094
+    },
+    {
+      "path": "demonkin-gameplay-audit.json",
+      "sha256": "e144b138753a8e46ec4cda4b2d4bb43f5a32a01456abed72d83f29398cedfbc3",
+      "bytes": 8959
+    },
+    {
+      "path": "demonkin-multigameplay-audit.json",
+      "sha256": "a0750801953ab8d5d9da3fe6ec9aec0f59bbc4810064add9c0540ded8c004023",
+      "bytes": 21532
+    },
+    {
+      "path": "demonkin-scene-audit.json",
+      "sha256": "edc79f54b0ea4d675c08ef2b2c9cf7dfcc02b3ec910a68fbd71509dd4cee8c46",
+      "bytes": 1145
+    },
+    {
+      "path": "distortedfate-02-04.mp4",
+      "sha256": "2c1ec65c3768ace4d08a91c81eb18da3eecbde2db701567e7f32cd3722354d81",
+      "bytes": 201647
+    },
+    {
+      "path": "distortedfate-08-10.mp4",
+      "sha256": "4db5bd179259965b5c8c12180e0b4f2101e964d42bd81ccc5fb515abf88b36e2",
+      "bytes": 596408
+    },
+    {
+      "path": "distortedfate-15-17.mp4",
+      "sha256": "df348b6f1c30b5780cf367ce6a1cd8c7407b7ea3df132d9535ee2fddeb6da505",
+      "bytes": 489275
+    },
+    {
+      "path": "distortedfate-30-32.mp4",
+      "sha256": "684db7697eb2860762033ebb137a10b633a84ef486b951320b0c41bfb27e82e8",
+      "bytes": 588147
+    },
+    {
+      "path": "distortedfate-contact.jpg",
+      "sha256": "3e79664b115752c2fe7469bca1a6b185d1b38715cac41e371e0952eb211ac28a",
+      "bytes": 302143
+    },
+    {
+      "path": "distortedfate-gameplay-audit.json",
+      "sha256": "e77626115e35f729b7703e3309ed86cf105fe8ff21c6decc1a6645d6f22f13c7",
+      "bytes": 8996
+    },
+    {
+      "path": "distortedfate-multigameplay-audit.json",
+      "sha256": "3fc01e5de010a6a72c78a6c22da6777ee380939f9b091f922a173a68da831639",
+      "bytes": 24553
+    },
+    {
+      "path": "distortedfate-scene-audit.json",
+      "sha256": "ac7a31b6b0f37459820248abf7741e0a1e3aaff76898d076be88852473b45e0c",
+      "bytes": 1166
+    }
+  ]
+}

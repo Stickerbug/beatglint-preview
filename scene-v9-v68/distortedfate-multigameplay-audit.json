@@ -1,0 +1,1264 @@
+{
+  "format": "beatglint_multigameplay_scene_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v9-multigameplay-lifecycle-20261031/distortedfate.v9.chart.json",
+  "chart_sha256": "f33ca8526b1aafed579316de471e8514a7be937706650a2f27f1203d64b0d558",
+  "source_chart_sha256": "dd0cbb74a00a2135d9c685ab785b6b0f15e8c5c1d8c994cc7af4a5517817a6c1",
+  "gameplay_line_count": 4,
+  "roles": [
+    "top_main",
+    "bottom_main",
+    "top_secondary",
+    "bottom_secondary"
+  ],
+  "role_note_counts": {
+    "top_main": 376,
+    "bottom_main": 374,
+    "top_secondary": 81,
+    "bottom_secondary": 80
+  },
+  "role_note_fractions": {
+    "top_main": 0.4127332601536773,
+    "bottom_main": 0.4105378704720088,
+    "top_secondary": 0.0889132821075741,
+    "bottom_secondary": 0.08781558726673985
+  },
+  "direction_error_count": 0,
+  "secondary_visibility_error_count": 0,
+  "hit_sample_count": 911,
+  "minimum_gameplay_gap": 0.21999999999999997,
+  "spacing_threshold": 0.2,
+  "spacing_violation_count": 0,
+  "composition_window_count": 81,
+  "nonempty_window_count": 81,
+  "secondary_active_window_count": 58,
+  "secondary_active_window_fraction": 0.7160493827160493,
+  "composition_windows": [
+    {
+      "start_s": 0.2905215419501134,
+      "end_s": 2.2905215419501133,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 2.2905215419501133,
+      "end_s": 4.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 4.290521541950113,
+      "end_s": 6.290521541950113,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 6.290521541950113,
+      "end_s": 8.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 8.290521541950113,
+      "end_s": 10.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 10.290521541950113,
+      "end_s": 12.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 12.290521541950113,
+      "end_s": 14.290521541950113,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 14.290521541950113,
+      "end_s": 16.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 16.290521541950113,
+      "end_s": 18.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 18.290521541950113,
+      "end_s": 20.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 20.290521541950113,
+      "end_s": 22.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 22.290521541950113,
+      "end_s": 24.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 24.290521541950113,
+      "end_s": 26.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 26.290521541950113,
+      "end_s": 28.290521541950113,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 28.290521541950113,
+      "end_s": 30.290521541950113,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 30.290521541950113,
+      "end_s": 32.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 32.29052154195011,
+      "end_s": 34.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 34.29052154195011,
+      "end_s": 36.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 36.29052154195011,
+      "end_s": 38.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 38.29052154195011,
+      "end_s": 40.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 40.29052154195011,
+      "end_s": 42.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 42.29052154195011,
+      "end_s": 44.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 44.29052154195011,
+      "end_s": 46.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 46.29052154195011,
+      "end_s": 48.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 48.29052154195011,
+      "end_s": 50.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 50.29052154195011,
+      "end_s": 52.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 52.29052154195011,
+      "end_s": 54.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 54.29052154195011,
+      "end_s": 56.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 56.29052154195011,
+      "end_s": 58.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 58.29052154195011,
+      "end_s": 60.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 60.29052154195011,
+      "end_s": 62.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 62.29052154195011,
+      "end_s": 64.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 64.29052154195011,
+      "end_s": 66.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 66.29052154195011,
+      "end_s": 68.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 68.29052154195011,
+      "end_s": 70.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 70.29052154195011,
+      "end_s": 72.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 72.29052154195011,
+      "end_s": 74.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 74.29052154195011,
+      "end_s": 76.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 76.29052154195011,
+      "end_s": 78.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 78.29052154195011,
+      "end_s": 80.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 80.29052154195011,
+      "end_s": 82.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 82.29052154195011,
+      "end_s": 84.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 84.29052154195011,
+      "end_s": 86.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 86.29052154195011,
+      "end_s": 88.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 88.29052154195011,
+      "end_s": 90.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 90.29052154195011,
+      "end_s": 92.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 92.29052154195011,
+      "end_s": 94.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 94.29052154195011,
+      "end_s": 96.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 96.29052154195011,
+      "end_s": 98.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 98.29052154195011,
+      "end_s": 100.29052154195011,
+      "active_lines": [
+        1,
+        2
+      ],
+      "active_roles": [
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 100.29052154195011,
+      "end_s": 102.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 102.29052154195011,
+      "end_s": 104.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 104.29052154195011,
+      "end_s": 106.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 106.29052154195011,
+      "end_s": 108.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 108.29052154195011,
+      "end_s": 110.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 110.29052154195011,
+      "end_s": 112.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 112.29052154195011,
+      "end_s": 114.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 114.29052154195011,
+      "end_s": 116.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 116.29052154195011,
+      "end_s": 118.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 118.29052154195011,
+      "end_s": 120.29052154195011,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 120.29052154195011,
+      "end_s": 122.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 122.29052154195011,
+      "end_s": 124.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 124.29052154195011,
+      "end_s": 126.29052154195011,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 126.29052154195011,
+      "end_s": 128.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 128.2905215419501,
+      "end_s": 130.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 130.2905215419501,
+      "end_s": 132.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 132.2905215419501,
+      "end_s": 134.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 134.2905215419501,
+      "end_s": 136.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 136.2905215419501,
+      "end_s": 138.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 138.2905215419501,
+      "end_s": 140.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 140.2905215419501,
+      "end_s": 142.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 142.2905215419501,
+      "end_s": 144.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 144.2905215419501,
+      "end_s": 146.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 146.2905215419501,
+      "end_s": 148.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        2
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 148.2905215419501,
+      "end_s": 150.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 150.2905215419501,
+      "end_s": 152.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 152.2905215419501,
+      "end_s": 154.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 154.2905215419501,
+      "end_s": 156.2905215419501,
+      "active_lines": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main",
+        "top_secondary",
+        "bottom_secondary"
+      ],
+      "secondary_active": true
+    },
+    {
+      "start_s": 156.2905215419501,
+      "end_s": 158.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 158.2905215419501,
+      "end_s": 160.2905215419501,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    },
+    {
+      "start_s": 160.2905215419501,
+      "end_s": 161.5815873015873,
+      "active_lines": [
+        0,
+        1
+      ],
+      "active_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "secondary_active": false
+    }
+  ],
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "status": "pass_structural",
+  "errors": [],
+  "visual_review_required": true,
+  "visual_review_contract": [
+    "Render each selected window with native Phira before promotion.",
+    "Inspect the combined scene for line competition, ambiguous target ownership, and abrupt role handoff.",
+    "A per-line pass or this structural pass cannot substitute for that visual review."
+  ]
+}

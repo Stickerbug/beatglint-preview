@@ -1,0 +1,440 @@
+{
+  "format": "generated_multigameplay_roles_v1",
+  "status": "candidate_multigameplay",
+  "source_chart_sha256": "4fbd554e33a1e6c13955a506e44d262e9c2e7d85cc2547ac91af85ca27ea7fe1",
+  "candidate_chart_sha256": "2693bec9b71cde769dd8a714db7bd382979722c0fcddff7fff44276b3e13fe5c",
+  "gameplay_line_count": 4,
+  "gameplay_line_ids": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "role_specs": [
+    {
+      "id": "top_main",
+      "y": 0.84,
+      "side": "below",
+      "family": "main"
+    },
+    {
+      "id": "bottom_main",
+      "y": 0.16,
+      "side": "above",
+      "family": "main"
+    },
+    {
+      "id": "top_secondary",
+      "y": 0.62,
+      "side": "below",
+      "family": "secondary"
+    },
+    {
+      "id": "bottom_secondary",
+      "y": 0.38,
+      "side": "above",
+      "family": "secondary"
+    }
+  ],
+  "role_note_counts": {
+    "bottom_main": 375,
+    "top_main": 375,
+    "top_secondary": 82,
+    "bottom_secondary": 79
+  },
+  "role_note_fractions": {
+    "top_main": 0.411635565312843,
+    "bottom_main": 0.411635565312843,
+    "top_secondary": 0.09001097694840834,
+    "bottom_secondary": 0.0867178924259056
+  },
+  "assignment_reasons": {
+    "chord_split": 88,
+    "hold_riding": 54,
+    "main_carrier": 750,
+    "phrase_handoff": 19
+  },
+  "group_count": 667,
+  "group_examples": [
+    {
+      "group_index": 0,
+      "hit_s": 0.41360544217687073,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 1,
+      "hit_s": 0.6341950113378684,
+      "note_count": 1,
+      "assigned_roles": [
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 2,
+      "hit_s": 0.8547845804988662,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 3,
+      "hit_s": 1.0753741496598639,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 4,
+      "hit_s": 1.2959637188208615,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 5,
+      "hit_s": 1.5165532879818593,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 6,
+      "hit_s": 1.737142857142857,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 7,
+      "hit_s": 1.9577324263038547,
+      "note_count": 1,
+      "assigned_roles": [
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 8,
+      "hit_s": 2.1783219954648523,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_secondary",
+        "bottom_main"
+      ],
+      "reasons": [
+        "hold_riding",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 9,
+      "hit_s": 2.39891156462585,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 10,
+      "hit_s": 2.619501133786848,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_secondary",
+        "bottom_main"
+      ],
+      "reasons": [
+        "hold_riding",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 11,
+      "hit_s": 2.8400907029478457,
+      "note_count": 2,
+      "assigned_roles": [
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "reasons": [
+        "main_carrier",
+        "chord_split"
+      ]
+    },
+    {
+      "group_index": 12,
+      "hit_s": 3.060680272108843,
+      "note_count": 1,
+      "assigned_roles": [
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 13,
+      "hit_s": 3.281269841269841,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 14,
+      "hit_s": 3.5018594104308387,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 15,
+      "hit_s": 3.7224489795918365,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 16,
+      "hit_s": 3.9430385487528343,
+      "note_count": 1,
+      "assigned_roles": [
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 17,
+      "hit_s": 4.163628117913832,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 18,
+      "hit_s": 4.3842176870748295,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 19,
+      "hit_s": 4.604807256235827,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 20,
+      "hit_s": 4.825396825396825,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 21,
+      "hit_s": 5.045986394557823,
+      "note_count": 1,
+      "assigned_roles": [
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 22,
+      "hit_s": 5.266575963718821,
+      "note_count": 2,
+      "assigned_roles": [
+        "bottom_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 23,
+      "hit_s": 5.487165532879818,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "top_secondary"
+      ],
+      "reasons": [
+        "main_carrier",
+        "chord_split"
+      ]
+    },
+    {
+      "group_index": 24,
+      "hit_s": 5.7077551020408155,
+      "note_count": 2,
+      "assigned_roles": [
+        "bottom_main",
+        "bottom_secondary"
+      ],
+      "reasons": [
+        "main_carrier",
+        "chord_split"
+      ]
+    },
+    {
+      "group_index": 25,
+      "hit_s": 5.928344671201813,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 26,
+      "hit_s": 6.148934240362811,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 27,
+      "hit_s": 6.369523809523809,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 28,
+      "hit_s": 6.590113378684807,
+      "note_count": 2,
+      "assigned_roles": [
+        "top_main",
+        "top_main"
+      ],
+      "reasons": [
+        "main_carrier",
+        "main_carrier"
+      ]
+    },
+    {
+      "group_index": 29,
+      "hit_s": 6.8107029478458045,
+      "note_count": 1,
+      "assigned_roles": [
+        "bottom_main"
+      ],
+      "reasons": [
+        "main_carrier"
+      ]
+    }
+  ],
+  "minimum_role_gap": 0.21999999999999997,
+  "note_count": 911,
+  "note_identity_preserved": true,
+  "source_line_count": 2,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "animation_input": "independent_note_relations_only",
+  "secondary_lifecycle": true,
+  "limitations": [
+    "Four active roles are a conservative IN-like demonstration, not an assertion that every rank needs four lines.",
+    "Role geometry is fixed and intentionally horizontal; richer rotation is a later scene-family decision.",
+    "Native Phira rendering and human readability review are still required."
+  ],
+  "source_chart_file_sha256": "6ede7df638370e6a81f51085b986906793781af4e18d8347228ac656311746c0",
+  "candidate_file_sha256": "4f515d131aa7d0fea723869256d45dd0073a5617f09b7e778e332d66eb7553ee"
+}
