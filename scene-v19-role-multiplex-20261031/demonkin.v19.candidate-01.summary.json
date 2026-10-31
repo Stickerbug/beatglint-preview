@@ -1,0 +1,51 @@
+{
+  "candidate_id": "scene-candidate-01",
+  "candidate_index": 1,
+  "status": "candidate_only",
+  "summary": {
+    "group_count": 755,
+    "operation_counts": {
+      "carrier_pulse": 97,
+      "carrier_rest": 82,
+      "guarded_parallel": 101,
+      "handoff_after_release": 35,
+      "hold_axis": 29,
+      "hold_static": 39,
+      "ribbon_guarded": 41,
+      "safe_handoff": 79,
+      "split": 93,
+      "staggered_entry": 78,
+      "stream_drift": 81
+    },
+    "unique_operation_count": 11,
+    "dual_role_operation_count": 114,
+    "empty_actor_operation_count": 0,
+    "missing_guidance_group_ids": [],
+    "structural_diversity_score": 0.01457
+  },
+  "validation": {
+    "format": "beatglint_scene_role_contract_v1",
+    "status": "pass",
+    "error_count": 0,
+    "errors": [],
+    "operation_count": 755,
+    "dual_role_operation_count": 114,
+    "empty_actor_count": 0,
+    "note_identity_preserved": true,
+    "judgement_ownership_preserved": true
+  },
+  "gates": {
+    "note_identity_preserved": true,
+    "judgement_ownership_preserved": true,
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "screen_space_audit": "required",
+    "first_play_audit": "required",
+    "flowphi_audit": "required",
+    "native_render": "required",
+    "role_contract": "pass"
+  },
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false
+}

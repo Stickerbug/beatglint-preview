@@ -1,0 +1,303 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v19-role-multiplex-20261031/cristalisiaonoken.v19.candidate-01.chart.json",
+  "chart_sha256": "6d4ad471590dc16cb73f08aa04a099605cf00253864befd66e2b30410fa8a836",
+  "gameplay_line_count": 4,
+  "background_line_count": 0,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 911,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 328,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 328,
+  "background_note_target_competition_count": 0,
+  "guidance_expected_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 244,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.8096281176803959,
+  "rapid_transition_count": 666,
+  "rapid_transition_95th_distance": 0.7439094772415482,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 0.8547845804988661,
+        "count": 2,
+        "screen_span": 0.7200413642289617
+      },
+      {
+        "time_s": 1.2959637188208615,
+        "count": 2,
+        "screen_span": 0.34776866807809226
+      },
+      {
+        "time_s": 2.1783219954648523,
+        "count": 2,
+        "screen_span": 0.6768408660851444
+      },
+      {
+        "time_s": 2.619501133786848,
+        "count": 2,
+        "screen_span": 0.7112374386550638
+      },
+      {
+        "time_s": 2.8400907029478453,
+        "count": 2,
+        "screen_span": 0.3394761711771313
+      },
+      {
+        "time_s": 3.281269841269841,
+        "count": 2,
+        "screen_span": 0.1597959954337068
+      },
+      {
+        "time_s": 3.5018594104308387,
+        "count": 2,
+        "screen_span": 0.6103285211907021
+      },
+      {
+        "time_s": 4.163628117913832,
+        "count": 2,
+        "screen_span": 0.7310629144624515
+      },
+      {
+        "time_s": 4.3842176870748295,
+        "count": 2,
+        "screen_span": 0.5662330078583473
+      },
+      {
+        "time_s": 4.604807256235827,
+        "count": 2,
+        "screen_span": 0.5379930710882193
+      },
+      {
+        "time_s": 4.825396825396825,
+        "count": 2,
+        "screen_span": 0.6074365630577789
+      },
+      {
+        "time_s": 5.26657596371882,
+        "count": 2,
+        "screen_span": 0.13068037998324628
+      },
+      {
+        "time_s": 5.487165532879818,
+        "count": 2,
+        "screen_span": 0.3281356491293337
+      },
+      {
+        "time_s": 5.7077551020408155,
+        "count": 2,
+        "screen_span": 0.13369424238555525
+      },
+      {
+        "time_s": 5.928344671201813,
+        "count": 2,
+        "screen_span": 0.4003340461061249
+      },
+      {
+        "time_s": 6.369523809523809,
+        "count": 2,
+        "screen_span": 0.5229870234558818
+      },
+      {
+        "time_s": 6.590113378684807,
+        "count": 2,
+        "screen_span": 0.3832711710488122
+      },
+      {
+        "time_s": 7.1415873015873,
+        "count": 2,
+        "screen_span": 0.4842718163059993
+      },
+      {
+        "time_s": 7.251882086167799,
+        "count": 2,
+        "screen_span": 0.6128097664159452
+      },
+      {
+        "time_s": 7.913650793650793,
+        "count": 2,
+        "screen_span": 0.6742717790541027
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.4136054421768707,
+        "to_s": 0.6341950113378684,
+        "dt_s": 0.2205895691609977,
+        "distance": 0.6713971034604499,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.6341950113378684,
+        "to_s": 0.8547845804988661,
+        "dt_s": 0.2205895691609977,
+        "distance": 0.16182141021771013,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.8547845804988661,
+        "to_s": 1.0753741496598639,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.1407303696360936,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.0753741496598639,
+        "to_s": 1.2959637188208615,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.7800939706876967,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.2959637188208615,
+        "to_s": 1.5165532879818593,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7170628870179044,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.5165532879818593,
+        "to_s": 1.7371428571428569,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.0915821032580545,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.7371428571428569,
+        "to_s": 1.9577324263038547,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7169603812579848,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.9577324263038547,
+        "to_s": 2.1783219954648523,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.3969084115290348,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.1783219954648523,
+        "to_s": 2.39891156462585,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.10752044270651306,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.39891156462585,
+        "to_s": 2.619501133786848,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7115574442135226,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.619501133786848,
+        "to_s": 2.8400907029478453,
+        "dt_s": 0.22058956916099737,
+        "distance": 0.37566020680991874,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.8400907029478453,
+        "to_s": 3.060680272108843,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.6988093929592999,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.060680272108843,
+        "to_s": 3.281269841269841,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.08817820824627919,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.281269841269841,
+        "to_s": 3.5018594104308387,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.4139378655118331,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5018594104308387,
+        "to_s": 3.722448979591836,
+        "dt_s": 0.22058956916099737,
+        "distance": 0.13067266838459912,
+        "from_line": 3,
+        "to_line": 3
+      },
+      {
+        "from_s": 3.722448979591836,
+        "to_s": 3.943038548752834,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5210424650133222,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.943038548752834,
+        "to_s": 4.163628117913832,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.3076195211207721,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.163628117913832,
+        "to_s": 4.3842176870748295,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5616004505671007,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.3842176870748295,
+        "to_s": 4.604807256235827,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5536088295946544,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.604807256235827,
+        "to_s": 4.825396825396825,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.6417766041767927,
+        "from_line": 3,
+        "to_line": 0
+      }
+    ],
+    "guidance_expected": []
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "guidance_plan": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v19-role-multiplex-20261031/cristalisiaonoken.v19.candidate-01.guidance.json"
+}

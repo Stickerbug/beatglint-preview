@@ -1,0 +1,59 @@
+{
+  "format": "beatglint_motion_profile_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v19-role-multiplex-20261031/distortedfate.v19.candidate-01.chart.json",
+  "chart_sha256": "94c61338ecfa6ea3144d948bd8f977223d1942dc00c2cc00f7e8897f640a4516",
+  "line_count": 5,
+  "gated_line_count": 3,
+  "guidance_line_count": 2,
+  "guidance_lines": [
+    1,
+    4
+  ],
+  "finite_event_count": 1820,
+  "max_slope_y_per_s": 0.3757912488226293,
+  "max_displacement": 0.018000000000000016,
+  "guidance_max_slope_y_per_s": 0.9333333333333336,
+  "guidance_max_displacement": 0.14,
+  "guidance_motion_policy": "recycle_offscreen; excluded from gameplay baseline closure/speed gate",
+  "line_ranges": [
+    {
+      "line": 0,
+      "base_y": 0.84,
+      "min_y": 0.822,
+      "max_y": 0.858,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 2,
+      "base_y": 0.6994287106917654,
+      "min_y": 0.6814287106917654,
+      "max_y": 0.7174287106917654,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 3,
+      "base_y": 0.3,
+      "min_y": 0.282,
+      "max_y": 0.318,
+      "max_displacement": 0.018000000000000016
+    }
+  ],
+  "continuity_error_count": 0,
+  "continuity_errors": [],
+  "closure_error_count": 0,
+  "closure_errors": [],
+  "returns_to_baseline": true,
+  "thresholds": {
+    "max_slope_y_per_s": 1.0,
+    "max_displacement": 0.12,
+    "minimum_role_gap": 0.25
+  },
+  "status": "diagnostic_clear",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "limitations": [
+    "Centerline speed is not a perceptual quality score or human playability proof.",
+    "Flick guidance and Hold release still require native and human review."
+  ]
+}
