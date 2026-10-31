@@ -1,0 +1,263 @@
+{
+  "format": "beatglint_scene_candidate_summary_v1",
+  "status": "candidate_search_only",
+  "candidate_seed": 20261031,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "songs": [
+    {
+      "song": "cristalisiaonoken",
+      "source_graph": "cristalisiaonoken.v17.scene-graph.json",
+      "source_graph_sha256": "f8beec2535f838e824ffe63fa760d34bb755e4fb6b37a60a13c431f22948511c",
+      "graph_identity_sha256": "5b25d41d9c8a04f8e63bb0ee2ae11ff675c64532b7506b4e9179f7e4f30f814b",
+      "candidate_file_sha256": "751887e1fdfb2675d19986f446bd232365ff33eb430e6108538f2565389011cf",
+      "candidate_file_bytes": 2243636,
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "candidate_id": "scene-candidate-00",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 3,
+          "operation_counts": {
+            "hold_axis": 145,
+            "split": 244,
+            "stream_drift": 278
+          },
+          "dual_role_operation_count": 0,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-01",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 92,
+            "guarded_parallel": 91,
+            "handoff_after_release": 52,
+            "hold_axis": 53,
+            "ribbon_guarded": 40,
+            "safe_handoff": 95,
+            "split": 83,
+            "staggered_entry": 70,
+            "stream_drift": 91
+          },
+          "dual_role_operation_count": 147,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-02",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 82,
+            "guarded_parallel": 87,
+            "handoff_after_release": 40,
+            "hold_axis": 59,
+            "ribbon_guarded": 46,
+            "safe_handoff": 88,
+            "split": 78,
+            "staggered_entry": 79,
+            "stream_drift": 108
+          },
+          "dual_role_operation_count": 128,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-03",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 103,
+            "guarded_parallel": 85,
+            "handoff_after_release": 49,
+            "hold_axis": 51,
+            "ribbon_guarded": 45,
+            "safe_handoff": 93,
+            "split": 76,
+            "staggered_entry": 83,
+            "stream_drift": 82
+          },
+          "dual_role_operation_count": 142,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        }
+      ]
+    },
+    {
+      "song": "demonkin",
+      "source_graph": "demonkin.v17.scene-graph.json",
+      "source_graph_sha256": "a578e12b90d0737a8ca3f52b4c0fc9c547d5ffea74e0329b48d52d15449c6b6d",
+      "graph_identity_sha256": "dd755fac8d79de6c793d98ca62f232c2a64123d3a79838463277485120e4f503",
+      "candidate_file_sha256": "a1a29ff92c943d21d8cd0e4d07e3812738831f24486340e2950aa03880bff384",
+      "candidate_file_bytes": 2532832,
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "candidate_id": "scene-candidate-00",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 3,
+          "operation_counts": {
+            "hold_axis": 144,
+            "split": 272,
+            "stream_drift": 339
+          },
+          "dual_role_operation_count": 0,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-01",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 115,
+            "guarded_parallel": 101,
+            "handoff_after_release": 53,
+            "hold_axis": 52,
+            "ribbon_guarded": 39,
+            "safe_handoff": 118,
+            "split": 93,
+            "staggered_entry": 78,
+            "stream_drift": 106
+          },
+          "dual_role_operation_count": 171,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-02",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 96,
+            "guarded_parallel": 96,
+            "handoff_after_release": 41,
+            "hold_axis": 56,
+            "ribbon_guarded": 47,
+            "safe_handoff": 111,
+            "split": 86,
+            "staggered_entry": 90,
+            "stream_drift": 132
+          },
+          "dual_role_operation_count": 152,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-03",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 9,
+          "operation_counts": {
+            "carrier_pulse": 120,
+            "guarded_parallel": 96,
+            "handoff_after_release": 54,
+            "hold_axis": 45,
+            "ribbon_guarded": 45,
+            "safe_handoff": 109,
+            "split": 84,
+            "staggered_entry": 92,
+            "stream_drift": 110
+          },
+          "dual_role_operation_count": 163,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        }
+      ]
+    },
+    {
+      "song": "distortedfate",
+      "source_graph": "distortedfate.v17.scene-graph.json",
+      "source_graph_sha256": "6b42ca8e3f937306bb3b7f1c5ec30d849b4d005f672a7938fab485ec66e66168",
+      "graph_identity_sha256": "230bfb9f588a5160679f0da8adaf781f7bb465af0384a4ee54edbd8115d618d2",
+      "candidate_file_sha256": "7e42f742347bd2cea96f1f7a8ce450757e29e8b4845d568f7624331c2b19c6c1",
+      "candidate_file_bytes": 2258022,
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "candidate_id": "scene-candidate-00",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 4,
+          "operation_counts": {
+            "carrier_snap": 2,
+            "hold_axis": 153,
+            "split": 244,
+            "stream_drift": 268
+          },
+          "dual_role_operation_count": 2,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-01",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 11,
+          "operation_counts": {
+            "carrier_pulse": 87,
+            "carrier_snap": 1,
+            "empty_converge": 1,
+            "guarded_parallel": 91,
+            "handoff_after_release": 55,
+            "hold_axis": 53,
+            "ribbon_guarded": 45,
+            "safe_handoff": 91,
+            "split": 83,
+            "staggered_entry": 70,
+            "stream_drift": 90
+          },
+          "dual_role_operation_count": 147,
+          "empty_actor_operation_count": 1,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-02",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 10,
+          "operation_counts": {
+            "carrier_pulse": 82,
+            "empty_converge": 2,
+            "guarded_parallel": 87,
+            "handoff_after_release": 44,
+            "hold_axis": 59,
+            "ribbon_guarded": 50,
+            "safe_handoff": 84,
+            "split": 78,
+            "staggered_entry": 79,
+            "stream_drift": 102
+          },
+          "dual_role_operation_count": 128,
+          "empty_actor_operation_count": 2,
+          "missing_guidance_group_count": 0
+        },
+        {
+          "candidate_id": "scene-candidate-03",
+          "status": "candidate_only",
+          "operation_vocabulary_count": 10,
+          "operation_counts": {
+            "carrier_pulse": 97,
+            "dual_role_pulse": 2,
+            "guarded_parallel": 85,
+            "handoff_after_release": 50,
+            "hold_axis": 52,
+            "ribbon_guarded": 51,
+            "safe_handoff": 90,
+            "split": 76,
+            "staggered_entry": 83,
+            "stream_drift": 81
+          },
+          "dual_role_operation_count": 142,
+          "empty_actor_operation_count": 0,
+          "missing_guidance_group_count": 0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Operation candidates preserve note ownership but do not contain final coordinates or Phigros event arrays.",
+    "Every candidate requires screen-space, first-play, FlowPhi, lifecycle, and native-render review.",
+    "Operation vocabulary count is search-space coverage, not a quality score."
+  ]
+}

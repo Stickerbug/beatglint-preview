@@ -48,7 +48,32 @@
         "8-10",
         "15-17",
         "30-32"
-      ]
+      ],
+      "scene_graph": {
+        "format": "beatglint_scene_graph_v1",
+        "group_count": 755,
+        "multi_actor_group_count": 118,
+        "guidance_required_group_count": 0,
+        "dual_role_candidate_group_count": 416,
+        "topology_signature_sha256": "c9b045bd001b44fde8a0b396d1fc6101c0b258d91daa74d265ad0b9ecbf51162"
+      },
+      "scene_candidate_search": {
+        "candidate_count": 4,
+        "graph_identity_sha256": "dd755fac8d79de6c793d98ca62f232c2a64123d3a79838463277485120e4f503",
+        "operation_vocabulary_counts": [
+          3,
+          9,
+          9,
+          9
+        ],
+        "missing_guidance_group_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "candidate_search_only"
+      }
     },
     {
       "song": "cristalisiaonoken",
@@ -78,7 +103,32 @@
         "8-10",
         "15-17",
         "30-32"
-      ]
+      ],
+      "scene_graph": {
+        "format": "beatglint_scene_graph_v1",
+        "group_count": 667,
+        "multi_actor_group_count": 100,
+        "guidance_required_group_count": 0,
+        "dual_role_candidate_group_count": 389,
+        "topology_signature_sha256": "5e08b9b1ee0ec12d17d2f7e50bf5f6852b9e817b2631dfb3a513c7dde7037f55"
+      },
+      "scene_candidate_search": {
+        "candidate_count": 4,
+        "graph_identity_sha256": "5b25d41d9c8a04f8e63bb0ee2ae11ff675c64532b7506b4e9179f7e4f30f814b",
+        "operation_vocabulary_counts": [
+          3,
+          9,
+          9,
+          9
+        ],
+        "missing_guidance_group_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "candidate_search_only"
+      }
     },
     {
       "song": "distortedfate",
@@ -110,10 +160,40 @@
         "15-17",
         "25.7-26.9",
         "30-32"
-      ]
+      ],
+      "scene_graph": {
+        "format": "beatglint_scene_graph_v1",
+        "group_count": 667,
+        "multi_actor_group_count": 120,
+        "guidance_required_group_count": 2,
+        "dual_role_candidate_group_count": 399,
+        "topology_signature_sha256": "1bbd9166c99bfa36ee7d97e4adab03c70c4fff2c2964b506b86cee2c54ae6e36"
+      },
+      "scene_candidate_search": {
+        "candidate_count": 4,
+        "graph_identity_sha256": "230bfb9f588a5160679f0da8adaf781f7bb465af0384a4ee54edbd8115d618d2",
+        "operation_vocabulary_counts": [
+          4,
+          11,
+          10,
+          10
+        ],
+        "missing_guidance_group_counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "status": "candidate_search_only"
+      }
     }
   ],
   "files": [
+    {
+      "path": "SCENE-V17-CANDIDATE-SUMMARY.json",
+      "sha256": "d734f450f0ca1ed646ac0645b8e6bf8c131aa1b217f8cf6058ad217384051b51",
+      "bytes": 9067
+    },
     {
       "path": "cristalisiaonoken.v17-15-17.mp4",
       "sha256": "9c9656846c4ef1e12208f6d390017e3ae6da249e15e46ce89b881be2266dcb46",
@@ -158,6 +238,11 @@
       "path": "cristalisiaonoken.v17.role.audit.json",
       "sha256": "7f9a6b1e92d9b720a9dcf26c34d1927e1c157e4d46cc0422a3bf8edb58f04020",
       "bytes": 2788
+    },
+    {
+      "path": "cristalisiaonoken.v17.scene-graph.json",
+      "sha256": "f8beec2535f838e824ffe63fa760d34bb755e4fb6b37a60a13c431f22948511c",
+      "bytes": 922371
     },
     {
       "path": "cristalisiaonoken.v17.scene.audit.json",
@@ -208,6 +293,11 @@
       "path": "demonkin.v17.role.audit.json",
       "sha256": "0e1ba229930a0596cd4ef6089be6f7a788a43737a0e5a469be1ed0ec7228f0b4",
       "bytes": 2780
+    },
+    {
+      "path": "demonkin.v17.scene-graph.json",
+      "sha256": "a578e12b90d0737a8ca3f52b4c0fc9c547d5ffea74e0329b48d52d15449c6b6d",
+      "bytes": 1042786
     },
     {
       "path": "demonkin.v17.scene.audit.json",
@@ -270,9 +360,24 @@
       "bytes": 2954
     },
     {
+      "path": "distortedfate.v17.scene-graph.json",
+      "sha256": "6b42ca8e3f937306bb3b7f1c5ec30d849b4d005f672a7938fab485ec66e66168",
+      "bytes": 925225
+    },
+    {
       "path": "distortedfate.v17.scene.audit.json",
       "sha256": "6520eec2e4a6c9c0d1a8413c9b02696f89c9862d05f0d75f2405dbede422906f",
       "bytes": 22221
     }
-  ]
+  ],
+  "scene_candidate_search": {
+    "format": "beatglint_scene_candidate_summary_v1",
+    "status": "candidate_search_only",
+    "candidate_count": 4,
+    "seed": 20261031,
+    "summary_path": "SCENE-V17-CANDIDATE-SUMMARY.json",
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false
+  }
 }
