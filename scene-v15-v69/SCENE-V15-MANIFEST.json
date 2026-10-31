@@ -1,0 +1,127 @@
+{
+  "format": "beatglint-scene-v15-preview-manifest-v1",
+  "version": "v69",
+  "candidate": "scene-v15-side-exclusive-shallow-20261031",
+  "renderer": "phira-render-beatglint resident",
+  "resolution": "960x540",
+  "fps": 30,
+  "gameplay_lines": 4,
+  "background_lines": 2,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "side_exclusive": true,
+  "readability_gate": {
+    "visible_parallel_competition": 0,
+    "same_side_target_competition": 0,
+    "background_target_competition": 0,
+    "rendered_gameplay_line_crossings": 0,
+    "late_secondary_visibility": 0
+  },
+  "files": [
+    {
+      "path": "cristalisiaonoken-08-10.mp4",
+      "sha256": "bfb72210f7d625d01b6a8a23baee66fcf5e7651acdffac939961518dac46f11b",
+      "bytes": 674229
+    },
+    {
+      "path": "cristalisiaonoken-15-17.mp4",
+      "sha256": "cb900b2482d82518f19a5f46d1c62fe18a6ae5964c33b49afe5b51f6267057cf",
+      "bytes": 706109
+    },
+    {
+      "path": "cristalisiaonoken-30-32.mp4",
+      "sha256": "0ffeb359331cbdc985964f4b7336ef64fb59793220d1fb4595cdf6a8678932ac",
+      "bytes": 665165
+    },
+    {
+      "path": "cristalisiaonoken-choreography.json",
+      "sha256": "13147783854044005ada6441fe7786e162fb3024506a2ac407d34cabc18bb7b4",
+      "bytes": 29545
+    },
+    {
+      "path": "cristalisiaonoken-contact.jpg",
+      "sha256": "589f1cc7040fc1f0b8888f9c10fd71b9823390417431de67f37befe6842c00c0",
+      "bytes": 292890
+    },
+    {
+      "path": "cristalisiaonoken-player-audit.json",
+      "sha256": "29c40eb3d275bc31696ea1e8b02eef9e52a5d9ebc0abdecee035a3a4f0ec2ee0",
+      "bytes": 7904
+    },
+    {
+      "path": "cristalisiaonoken-scene-audit.json",
+      "sha256": "49ae7b021e6456200da5551f48b7de8e0ad4470af5fb8d5f82e581caced45c5d",
+      "bytes": 19360
+    },
+    {
+      "path": "demonkin-08-10.mp4",
+      "sha256": "95212f22485628d84e8931c84570fc08a5ccb4530d2c95d12e42408d8b509c2c",
+      "bytes": 699946
+    },
+    {
+      "path": "demonkin-15-17.mp4",
+      "sha256": "460e4d42de9c2c77be3bf8eeaa4d4e2b9f02ade4b1b9dffd13feccda9e1210ee",
+      "bytes": 847789
+    },
+    {
+      "path": "demonkin-30-32.mp4",
+      "sha256": "465d82b8be941614ed26ed14283094ad8baaccbf6cf04d775469dd972be2a42d",
+      "bytes": 733536
+    },
+    {
+      "path": "demonkin-choreography.json",
+      "sha256": "af20b0cdef626cd88987359ff2588c8bf09612455d651238b5935a837cca3d0c",
+      "bytes": 30307
+    },
+    {
+      "path": "demonkin-contact.jpg",
+      "sha256": "420303145129ae30df243ba1991ac27bc4b9e1d8c743ec5c53857e8a2ce3a69d",
+      "bytes": 319916
+    },
+    {
+      "path": "demonkin-player-audit.json",
+      "sha256": "4c26c413a7e8404975f205f2b57b66d67037e0e8d7946e46651ba38213598a18",
+      "bytes": 7909
+    },
+    {
+      "path": "demonkin-scene-audit.json",
+      "sha256": "0e071dc362134ccb51482c190c1b038c4e734634308535825fe813b368c12631",
+      "bytes": 19188
+    },
+    {
+      "path": "distortedfate-08-10.mp4",
+      "sha256": "6d5ea334bb39e42a67680134fc8f55415ebb29566a3782b4253b84521f3b5de0",
+      "bytes": 594018
+    },
+    {
+      "path": "distortedfate-15-17.mp4",
+      "sha256": "3d42338b2d11979154e9d0e7f6dbf40b1116b80cf4d7edaa843cf939f79ad3ab",
+      "bytes": 522555
+    },
+    {
+      "path": "distortedfate-30-32.mp4",
+      "sha256": "d981a3b82db9f6cdbe6ae4ee301a861e5483c0d422a98cb59111644c0d4433aa",
+      "bytes": 625089
+    },
+    {
+      "path": "distortedfate-choreography.json",
+      "sha256": "ed0c0635d5babd5d6231f1698bb916f8d5f1d2333f84e0994304a1feed05439b",
+      "bytes": 34620
+    },
+    {
+      "path": "distortedfate-contact.jpg",
+      "sha256": "4e260d6cbcaec7d93a79af968d75507e0e60b3a94a6406282dc96250f58b5ea0",
+      "bytes": 225407
+    },
+    {
+      "path": "distortedfate-player-audit.json",
+      "sha256": "f4238153d8a01ba817e5bf4ed578e3ab5d7e5b1114d5f4d2d3a103bb09349010",
+      "bytes": 7916
+    },
+    {
+      "path": "distortedfate-scene-audit.json",
+      "sha256": "2d26b141329b631b6847ca6f2e0f28b7579ba754d7a6ca5aab646a9084b7e207",
+      "bytes": 22163
+    }
+  ]
+}

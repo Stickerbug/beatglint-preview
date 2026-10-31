@@ -1,0 +1,1407 @@
+{
+  "format": "scene_choreography_v1",
+  "status": "candidate_only",
+  "source_chart_sha256": "4921294eecdb37937efc1f5173150a5231a127c419d6d7a3ce0e7406cbd98d9e",
+  "candidate_chart_sha256": "8b1a6cc97002d8a3977705cbba2a8270cb615c2c6371aa93eb8b2b22a1ee03f5",
+  "scene_plan_sha256": "d5b54a04e162e393e4eb10f07384ddda1594733e785e751b4a6d739133791649",
+  "audio_plan_sha256": "d5b54a04e162e393e4eb10f07384ddda1594733e785e751b4a6d739133791649",
+  "gameplay_line_ids": [
+    "L0",
+    "L1",
+    "L2",
+    "L3"
+  ],
+  "background_line_ids": [
+    "L4",
+    "L5"
+  ],
+  "gameplay_line_count": 4,
+  "background_line_count": 2,
+  "background_note_count": 0,
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "audio_influence": "cue_time_only",
+  "amplitude_modulation_allowed": false,
+  "scene_family_counts": {
+    "orbit": 24,
+    "pulse": 18,
+    "ribbon": 40,
+    "snap": 1,
+    "split": 2
+  },
+  "scene_action_count": 85,
+  "max_background_alpha": 0.08,
+  "max_background_rotation_deg": 9.0,
+  "background_layers_return_to_baseline": true,
+  "style_seed": 49867342591976,
+  "styles": [
+    {
+      "scene_id": "segment-000",
+      "scene_index": 0,
+      "scene_kind": "chord",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        0.14961449999999998,
+        0.7696145
+      ],
+      "audio_cue_id": null,
+      "audio_influence": "scene_clock_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-001",
+      "scene_index": 1,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        1.0384579999999999,
+        2.388458
+      ],
+      "audio_cue_id": "cue-000",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-002",
+      "scene_index": 2,
+      "scene_kind": "flick",
+      "family": "snap",
+      "layer_id": "L2",
+      "interval_s": [
+        3.685533,
+        5.035533
+      ],
+      "audio_cue_id": "cue-001",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-003",
+      "scene_index": 3,
+      "scene_kind": "chord",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        8.468843999999999,
+        9.818843999999999
+      ],
+      "audio_cue_id": "cue-002",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-004",
+      "scene_index": 4,
+      "scene_kind": "chord",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        13.879093,
+        15.134827999999999
+      ],
+      "audio_cue_id": "cue-003",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-004",
+      "scene_index": 4,
+      "scene_kind": "chord",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        13.879093,
+        15.134827999999999
+      ],
+      "audio_cue_id": "cue-003",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-005",
+      "scene_index": 5,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        16.293968,
+        17.643968
+      ],
+      "audio_cue_id": "cue-004",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-005",
+      "scene_index": 5,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        16.293968,
+        17.643968
+      ],
+      "audio_cue_id": "cue-004",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-006",
+      "scene_index": 6,
+      "scene_kind": "flick",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        19.289341999999998,
+        20.639342
+      ],
+      "audio_cue_id": "cue-005",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-007",
+      "scene_index": 7,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        22.888434999999998,
+        23.81816224
+      ],
+      "audio_cue_id": "cue-006",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-008",
+      "scene_index": 8,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        24.676372,
+        25.46120644
+      ],
+      "audio_cue_id": "cue-007",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-008",
+      "scene_index": 8,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        24.676372,
+        25.46120644
+      ],
+      "audio_cue_id": "cue-007",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-009",
+      "scene_index": 9,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        26.185669,
+        27.535669000000002
+      ],
+      "audio_cue_id": "cue-008",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-010",
+      "scene_index": 10,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        31.897778,
+        32.82750472
+      ],
+      "audio_cue_id": "cue-009",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-011",
+      "scene_index": 11,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        33.685714,
+        34.92937512
+      ],
+      "audio_cue_id": "cue-010",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-011",
+      "scene_index": 11,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        33.685714,
+        34.92937512
+      ],
+      "audio_cue_id": "cue-010",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-012",
+      "scene_index": 12,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        36.07737,
+        36.86220444
+      ],
+      "audio_cue_id": "cue-011",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-013",
+      "scene_index": 13,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        37.586667,
+        38.600914519999996
+      ],
+      "audio_cue_id": "cue-012",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-014",
+      "scene_index": 14,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        39.537143,
+        40.44272092
+      ],
+      "audio_cue_id": "cue-013",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-014",
+      "scene_index": 14,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        39.537143,
+        40.44272092
+      ],
+      "audio_cue_id": "cue-013",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-015",
+      "scene_index": 15,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        41.278639,
+        42.628639
+      ],
+      "audio_cue_id": "cue-014",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-016",
+      "scene_index": 16,
+      "scene_kind": "chord",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        44.297233999999996,
+        45.226960719999994
+      ],
+      "audio_cue_id": "cue-015",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-016",
+      "scene_index": 16,
+      "scene_kind": "chord",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        44.297233999999996,
+        45.226960719999994
+      ],
+      "audio_cue_id": "cue-015",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-017",
+      "scene_index": 17,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        46.08517,
+        46.91830204
+      ],
+      "audio_cue_id": "cue-016",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-017",
+      "scene_index": 17,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        46.08517,
+        46.91830204
+      ],
+      "audio_cue_id": "cue-016",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-018",
+      "scene_index": 18,
+      "scene_kind": "chord",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        47.687347,
+        48.52047904
+      ],
+      "audio_cue_id": "cue-017",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-019",
+      "scene_index": 19,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        49.289524,
+        50.5935566
+      ],
+      "audio_cue_id": "cue-018",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-020",
+      "scene_index": 20,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        51.797278999999996,
+        53.147279
+      ],
+      "audio_cue_id": "cue-019",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-020",
+      "scene_index": 20,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        51.797278999999996,
+        53.147279
+      ],
+      "audio_cue_id": "cue-019",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-021",
+      "scene_index": 21,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        54.885533,
+        55.82733412
+      ],
+      "audio_cue_id": "cue-020",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-022",
+      "scene_index": 22,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        56.696689,
+        57.57811864
+      ],
+      "audio_cue_id": "cue-021",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-023",
+      "scene_index": 23,
+      "scene_kind": "chord",
+      "family": "split",
+      "layer_id": "L3",
+      "interval_s": [
+        58.391746,
+        59.236952439999996
+      ],
+      "audio_cue_id": "cue-022",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-024",
+      "scene_index": 24,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        60.017143,
+        60.83820064
+      ],
+      "audio_cue_id": "cue-023",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-025",
+      "scene_index": 25,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        61.5961,
+        62.9461
+      ],
+      "audio_cue_id": "cue-024",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-026",
+      "scene_index": 26,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        64.21995500000001,
+        65.27042572
+      ],
+      "audio_cue_id": "cue-025",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-026",
+      "scene_index": 26,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        64.21995500000001,
+        65.27042572
+      ],
+      "audio_cue_id": "cue-025",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-027",
+      "scene_index": 27,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        66.240091,
+        67.4113052
+      ],
+      "audio_cue_id": "cue-026",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-028",
+      "scene_index": 28,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        68.49242600000001,
+        69.842426
+      ],
+      "audio_cue_id": "cue-027",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-029",
+      "scene_index": 29,
+      "scene_kind": "chord",
+      "family": "split",
+      "layer_id": "L3",
+      "interval_s": [
+        73.298957,
+        74.6392128
+      ],
+      "audio_cue_id": "cue-028",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-030",
+      "scene_index": 30,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        75.876372,
+        76.81817312
+      ],
+      "audio_cue_id": "cue-029",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-031",
+      "scene_index": 31,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        77.687528,
+        78.52066004000001
+      ],
+      "audio_cue_id": "cue-030",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-032",
+      "scene_index": 32,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        79.28970500000001,
+        80.639705
+      ],
+      "audio_cue_id": "cue-031",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-032",
+      "scene_index": 32,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        79.28970500000001,
+        80.639705
+      ],
+      "audio_cue_id": "cue-031",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-033",
+      "scene_index": 33,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        82.49405900000001,
+        83.31511664000001
+      ],
+      "audio_cue_id": "cue-032",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-034",
+      "scene_index": 34,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        84.07301600000001,
+        84.85785044
+      ],
+      "audio_cue_id": "cue-033",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-035",
+      "scene_index": 35,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        85.582313,
+        86.53618852
+      ],
+      "audio_cue_id": "cue-034",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-035",
+      "scene_index": 35,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        85.582313,
+        86.53618852
+      ],
+      "audio_cue_id": "cue-034",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-036",
+      "scene_index": 36,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        87.416689,
+        88.24982104
+      ],
+      "audio_cue_id": "cue-035",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-037",
+      "scene_index": 37,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        89.018866,
+        89.98481644
+      ],
+      "audio_cue_id": "cue-036",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-038",
+      "scene_index": 38,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        90.876463,
+        92.226463
+      ],
+      "audio_cue_id": "cue-037",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-038",
+      "scene_index": 38,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        90.876463,
+        92.226463
+      ],
+      "audio_cue_id": "cue-037",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-039",
+      "scene_index": 39,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        94.10403600000001,
+        95.454036
+      ],
+      "audio_cue_id": "cue-038",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-040",
+      "scene_index": 40,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        100.489524,
+        101.839524
+      ],
+      "audio_cue_id": "cue-039",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-041",
+      "scene_index": 41,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        106.875011,
+        107.70814304000001
+      ],
+      "audio_cue_id": "cue-040",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-041",
+      "scene_index": 41,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        106.875011,
+        107.70814304000001
+      ],
+      "audio_cue_id": "cue-040",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-042",
+      "scene_index": 42,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        108.47718800000001,
+        109.31032004000001
+      ],
+      "audio_cue_id": "cue-041",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-043",
+      "scene_index": 43,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        110.07936500000001,
+        111.429365
+      ],
+      "audio_cue_id": "cue-042",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-044",
+      "scene_index": 44,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        113.00507900000001,
+        113.98310384000001
+      ],
+      "audio_cue_id": "cue-043",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-044",
+      "scene_index": 44,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        113.00507900000001,
+        113.98310384000001
+      ],
+      "audio_cue_id": "cue-043",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-045",
+      "scene_index": 45,
+      "scene_kind": "chord",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        114.885896,
+        115.71902804
+      ],
+      "audio_cue_id": "cue-044",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-046",
+      "scene_index": 46,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        116.488073,
+        117.838073
+      ],
+      "audio_cue_id": "cue-045",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-047",
+      "scene_index": 47,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        120.48190500000001,
+        121.31503704
+      ],
+      "audio_cue_id": "cue-046",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-047",
+      "scene_index": 47,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        120.48190500000001,
+        121.31503704
+      ],
+      "audio_cue_id": "cue-046",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-048",
+      "scene_index": 48,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        122.08408200000001,
+        122.92928792000001
+      ],
+      "audio_cue_id": "cue-047",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-049",
+      "scene_index": 49,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        123.709478,
+        124.95313912
+      ],
+      "audio_cue_id": "cue-048",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-050",
+      "scene_index": 50,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        126.101134,
+        127.44138980000001
+      ],
+      "audio_cue_id": "cue-049",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-050",
+      "scene_index": 50,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        126.101134,
+        127.44138980000001
+      ],
+      "audio_cue_id": "cue-049",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-051",
+      "scene_index": 51,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        128.678549,
+        129.62035011999998
+      ],
+      "audio_cue_id": "cue-050",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-052",
+      "scene_index": 52,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        130.489705,
+        131.41943224
+      ],
+      "audio_cue_id": "cue-051",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-053",
+      "scene_index": 53,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        132.277642,
+        133.21944312
+      ],
+      "audio_cue_id": "cue-052",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-053",
+      "scene_index": 53,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        132.277642,
+        133.21944312
+      ],
+      "audio_cue_id": "cue-052",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-054",
+      "scene_index": 54,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        134.088798,
+        134.92193003999998
+      ],
+      "audio_cue_id": "cue-053",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-055",
+      "scene_index": 55,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        135.69097499999998,
+        137.04097499999997
+      ],
+      "audio_cue_id": "cue-054",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-056",
+      "scene_index": 56,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        138.29161,
+        139.22133671999998
+      ],
+      "audio_cue_id": "cue-055",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-056",
+      "scene_index": 56,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        138.29161,
+        139.22133671999998
+      ],
+      "audio_cue_id": "cue-055",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-057",
+      "scene_index": 57,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        140.079546,
+        141.05757084
+      ],
+      "audio_cue_id": "cue-056",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-058",
+      "scene_index": 58,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        141.960363,
+        142.79349503999998
+      ],
+      "audio_cue_id": "cue-057",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-059",
+      "scene_index": 59,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        143.56253999999998,
+        144.45604351999998
+      ],
+      "audio_cue_id": "cue-058",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-059",
+      "scene_index": 59,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        143.56253999999998,
+        144.45604351999998
+      ],
+      "audio_cue_id": "cue-058",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-060",
+      "scene_index": 60,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L2",
+      "interval_s": [
+        145.280816,
+        146.42788191999998
+      ],
+      "audio_cue_id": "cue-059",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-061",
+      "scene_index": 61,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L3",
+      "interval_s": [
+        147.48671199999998,
+        148.83671199999998
+      ],
+      "audio_cue_id": "cue-060",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-062",
+      "scene_index": 62,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L2",
+      "interval_s": [
+        152.47900199999998,
+        153.31213404
+      ],
+      "audio_cue_id": "cue-061",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.0010000000000000009
+    },
+    {
+      "scene_id": "segment-062",
+      "scene_index": 62,
+      "scene_kind": "hold",
+      "family": "ribbon",
+      "layer_id": "L3",
+      "interval_s": [
+        152.47900199999998,
+        153.31213404
+      ],
+      "audio_cue_id": "cue-061",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-063",
+      "scene_index": 63,
+      "scene_kind": "hold",
+      "family": "pulse",
+      "layer_id": "L3",
+      "interval_s": [
+        154.081179,
+        155.22824491999998
+      ],
+      "audio_cue_id": "cue-062",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.06,
+      "angle_max_deg": 6.0,
+      "displacement_y": 0.001
+    },
+    {
+      "scene_id": "segment-064",
+      "scene_index": 64,
+      "scene_kind": "hold",
+      "family": "orbit",
+      "layer_id": "L2",
+      "interval_s": [
+        156.287075,
+        157.63707499999998
+      ],
+      "audio_cue_id": "cue-063",
+      "audio_influence": "cue_time_only",
+      "alpha_max": 0.08,
+      "angle_max_deg": 9.0,
+      "displacement_y": 0.0010000000000000009
+    }
+  ],
+  "limitations": [
+    "Empty judge lines are visual background actors; they never own notes.",
+    "Cue timing is accepted only as a bounded scene clock; audio amplitude is disabled by the current control gate.",
+    "Native Phira rendering and human readability review are still required before promotion."
+  ],
+  "promotion_ready": false
+}
