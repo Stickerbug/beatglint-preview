@@ -1,0 +1,64 @@
+{
+  "candidate_id": "scene-candidate-01",
+  "candidate_index": 1,
+  "status": "candidate_only",
+  "summary": {
+    "group_count": 667,
+    "operation_counts": {
+      "carrier_pulse": 69,
+      "carrier_rest": 56,
+      "guarded_parallel": 59,
+      "handoff_after_release": 44,
+      "hold_axis": 29,
+      "hold_static": 34,
+      "ribbon_guarded": 38,
+      "safe_handoff": 96,
+      "split": 85,
+      "staggered_entry": 100,
+      "stream_drift": 57
+    },
+    "unique_operation_count": 11,
+    "dual_role_operation_count": 140,
+    "empty_actor_operation_count": 0,
+    "missing_guidance_group_ids": [],
+    "structural_diversity_score": 0.016492
+  },
+  "validation": {
+    "format": "beatglint_scene_role_contract_v1",
+    "status": "pass",
+    "error_count": 0,
+    "errors": [],
+    "operation_count": 667,
+    "dual_role_operation_count": 140,
+    "empty_actor_count": 0,
+    "note_identity_preserved": true,
+    "judgement_ownership_preserved": true
+  },
+  "graph_summary": {
+    "note_count": 911,
+    "group_count": 667,
+    "actor_count": 4,
+    "group_kind_counts": {
+      "chord": 244,
+      "hold_follow": 73,
+      "hold_start": 72,
+      "single_stream": 278
+    },
+    "relation_tag_counts": {
+      "chord_continuation": 37,
+      "continuation": 130,
+      "handoff": 343,
+      "hold_continuity": 9,
+      "merge": 78,
+      "split": 78
+    },
+    "multi_actor_group_count": 100,
+    "guidance_required_group_count": 0,
+    "dual_role_candidate_group_count": 389,
+    "unique_group_signature_count": 9,
+    "topology_signature_sha256": "5e08b9b1ee0ec12d17d2f7e50bf5f6852b9e817b2631dfb3a513c7dde7037f55"
+  },
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false
+}

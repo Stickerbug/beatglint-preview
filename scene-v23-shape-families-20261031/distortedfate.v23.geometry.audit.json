@@ -1,0 +1,87 @@
+{
+  "format": "beatglint_scene_geometry_candidate_v1",
+  "status": "candidate_only",
+  "source_chart_sha256": "6802f444315ba87a5947ddb970d5a4a6e9fc2a2bc54f612f5f08e471f6ca1204",
+  "candidate_chart_sha256": "792b6b85a461b8a5b9af68526d8d2765a7f7636e329a36e1ffaed0ab00f4680e",
+  "event_plan_sha256": "7c82a475a6d49b7e2a97ed9364d21bd2cbd3df0136278f3be6c3681db9d85124",
+  "gameplay_line_count": 4,
+  "background_line_count": 1,
+  "background_line_ids": [
+    "E:guide:G00015"
+  ],
+  "guidance_plan": {
+    "format": "beatglint_flick_guidance_lines_v1",
+    "source_chart_sha256": "6802f444315ba87a5947ddb970d5a4a6e9fc2a2bc54f612f5f08e471f6ca1204",
+    "gameplay_line_count": 4,
+    "guidance_line_count": 2,
+    "guidance_line_ids": [
+      1,
+      4
+    ],
+    "flick_count": 2,
+    "guided_count": 2,
+    "fallback_count": 0,
+    "flick_guidance": [
+      {
+        "note_id": "L1:above:11",
+        "target_line": 1,
+        "guidance_line": 4,
+        "guidance_mode": "empty_actor",
+        "separate_visual_actor": true,
+        "guidance_slot": 0,
+        "hit_s": 3.810975,
+        "interval_s": [
+          3.360975,
+          3.990975
+        ],
+        "lead_s": 0.45,
+        "tail_s": 0.18,
+        "kind": "flick_convergence",
+        "status": "candidate_only"
+      },
+      {
+        "note_id": "L1:above:50",
+        "target_line": 1,
+        "guidance_line": 1,
+        "guidance_mode": "dual_role",
+        "separate_visual_actor": false,
+        "guidance_slot": 1,
+        "hit_s": 22.828118,
+        "interval_s": [
+          22.378118,
+          23.008118
+        ],
+        "lead_s": 0.45,
+        "tail_s": 0.18,
+        "kind": "flick_convergence",
+        "status": "candidate_only"
+      }
+    ],
+    "dual_role_count": 1,
+    "empty_actor_count": 1,
+    "fallbacks": [],
+    "note_identity_preserved": true,
+    "official_chart_used": false,
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false,
+    "status": "candidate_only"
+  },
+  "note_identity_preserved": true,
+  "max_gameplay_y_amplitude": 0.018,
+  "max_gameplay_x_amplitude": 0.014,
+  "max_gameplay_angle_deg": 2.0,
+  "max_background_alpha": 0.12,
+  "readability_gap_threshold": 0.08,
+  "geometry_event_count": 2958,
+  "official_animation_arrays_read": false,
+  "source_motion_arrays_used": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "errors": [],
+  "limitations": [
+    "This compiler uses bounded envelopes and does not infer authored animation intent.",
+    "The parallel gate samples event boundaries; native Phira and human first-play review remain required.",
+    "A candidate pass is not a playability or aesthetic verdict."
+  ]
+}

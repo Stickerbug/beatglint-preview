@@ -1,0 +1,63 @@
+{
+  "format": "beatglint_motion_profile_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v23-shape-families-20261031/cristalisiaonoken.v23.chart.json",
+  "chart_sha256": "79275483508f3705971ab176930beb809b3f326e6749f226f61831625c51518d",
+  "line_count": 4,
+  "gated_line_count": 4,
+  "guidance_line_count": 0,
+  "guidance_lines": [],
+  "finite_event_count": 2928,
+  "max_slope_y_per_s": 0.29837082593195324,
+  "max_displacement": 0.018000000000000016,
+  "guidance_max_slope_y_per_s": 0.0,
+  "guidance_max_displacement": 0.0,
+  "guidance_motion_policy": "recycle_offscreen; excluded from gameplay baseline closure/speed gate",
+  "line_ranges": [
+    {
+      "line": 0,
+      "base_y": 0.834888444208461,
+      "min_y": 0.816888444208461,
+      "max_y": 0.852888444208461,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 1,
+      "base_y": 0.16,
+      "min_y": 0.14200000000000002,
+      "max_y": 0.178,
+      "max_displacement": 0.017999999999999988
+    },
+    {
+      "line": 2,
+      "base_y": 0.7,
+      "min_y": 0.6819999999999999,
+      "max_y": 0.718,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 3,
+      "base_y": 0.2990858566651911,
+      "min_y": 0.2810858566651911,
+      "max_y": 0.3170858566651911,
+      "max_displacement": 0.018000000000000016
+    }
+  ],
+  "continuity_error_count": 0,
+  "continuity_errors": [],
+  "closure_error_count": 0,
+  "closure_errors": [],
+  "returns_to_baseline": true,
+  "thresholds": {
+    "max_slope_y_per_s": 1.0,
+    "max_displacement": 0.12,
+    "minimum_role_gap": 0.25
+  },
+  "status": "diagnostic_clear",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "limitations": [
+    "Centerline speed is not a perceptual quality score or human playability proof.",
+    "Flick guidance and Hold release still require native and human review."
+  ]
+}

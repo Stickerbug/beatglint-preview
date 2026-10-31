@@ -1,0 +1,303 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v23-shape-families-20261031/demonkin.v23.chart.json",
+  "chart_sha256": "b74d625cc1595bdd2a806130260e61beb89220b9e57af248769a3ed23cf461bb",
+  "gameplay_line_count": 4,
+  "background_line_count": 0,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 1027,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 392,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 392,
+  "background_note_target_competition_count": 0,
+  "guidance_expected_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 272,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.8193562773034425,
+  "rapid_transition_count": 754,
+  "rapid_transition_95th_distance": 0.7652348892934357,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 1.2146938775510203,
+        "count": 2,
+        "screen_span": 0.7141659224739566
+      },
+      {
+        "time_s": 1.5281632653061223,
+        "count": 2,
+        "screen_span": 0.3477686675736398
+      },
+      {
+        "time_s": 2.1551020408163266,
+        "count": 2,
+        "screen_span": 0.68682069908826
+      },
+      {
+        "time_s": 2.7820408163265307,
+        "count": 2,
+        "screen_span": 0.7149143189873991
+      },
+      {
+        "time_s": 3.0955102040816325,
+        "count": 2,
+        "screen_span": 0.3393420037284149
+      },
+      {
+        "time_s": 3.4089795918367347,
+        "count": 2,
+        "screen_span": 0.6892711074871403
+      },
+      {
+        "time_s": 3.5657142857142854,
+        "count": 2,
+        "screen_span": 0.6847334982202333
+      },
+      {
+        "time_s": 4.035918367346938,
+        "count": 2,
+        "screen_span": 0.8073752114871797
+      },
+      {
+        "time_s": 4.192653061224489,
+        "count": 2,
+        "screen_span": 0.7161006006542702
+      },
+      {
+        "time_s": 4.349387755102041,
+        "count": 2,
+        "screen_span": 0.6834504958087878
+      },
+      {
+        "time_s": 4.506122448979592,
+        "count": 2,
+        "screen_span": 0.7027720390990175
+      },
+      {
+        "time_s": 4.819591836734694,
+        "count": 2,
+        "screen_span": 0.12929364740278967
+      },
+      {
+        "time_s": 4.976326530612245,
+        "count": 2,
+        "screen_span": 0.3280306200880795
+      },
+      {
+        "time_s": 5.133061224489795,
+        "count": 2,
+        "screen_span": 0.1296697870335734
+      },
+      {
+        "time_s": 5.289795918367346,
+        "count": 2,
+        "screen_span": 0.40033404671152395
+      },
+      {
+        "time_s": 5.603265306122449,
+        "count": 2,
+        "screen_span": 0.6761758461159602
+      },
+      {
+        "time_s": 5.76,
+        "count": 2,
+        "screen_span": 0.38327117272720673
+      },
+      {
+        "time_s": 6.386938775510203,
+        "count": 2,
+        "screen_span": 0.6816176689578315
+      },
+      {
+        "time_s": 6.5436734693877545,
+        "count": 2,
+        "screen_span": 0.6994509368237077
+      },
+      {
+        "time_s": 7.013877551020408,
+        "count": 2,
+        "screen_span": 0.7792818474713734
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.5877551020408163,
+        "to_s": 0.9012244897959183,
+        "dt_s": 0.313469387755102,
+        "distance": 0.6739325181115685,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.9012244897959183,
+        "to_s": 1.2146938775510203,
+        "dt_s": 0.313469387755102,
+        "distance": 0.1562980332740493,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.2146938775510203,
+        "to_s": 1.3714285714285714,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.12494835926818579,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.3714285714285714,
+        "to_s": 1.5281632653061223,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.785551174541817,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.5281632653061223,
+        "to_s": 1.6848979591836735,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7286816395241102,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.6848979591836735,
+        "to_s": 1.8416326530612244,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.10445402535740499,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.8416326530612244,
+        "to_s": 1.9983673469387755,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7373640317344083,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.9983673469387755,
+        "to_s": 2.1551020408163266,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.4049875605718841,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.1551020408163266,
+        "to_s": 2.4685714285714284,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.11923398447503249,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.4685714285714284,
+        "to_s": 2.7820408163265307,
+        "dt_s": 0.31346938775510225,
+        "distance": 0.6995202693710244,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.7820408163265307,
+        "to_s": 3.0955102040816325,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.8058415429137443,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.0955102040816325,
+        "to_s": 3.2522448979591836,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7067079483494713,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.2522448979591836,
+        "to_s": 3.4089795918367347,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7217782703503015,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.4089795918367347,
+        "to_s": 3.5657142857142854,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.7172655287725578,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5657142857142854,
+        "to_s": 3.7224489795918365,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.13226354458455666,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.7224489795918365,
+        "to_s": 3.8791836734693876,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6939418323890622,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.8791836734693876,
+        "to_s": 4.035918367346938,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.29545670151927583,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.035918367346938,
+        "to_s": 4.192653061224489,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7138765565806158,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.192653061224489,
+        "to_s": 4.349387755102041,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6911162765658436,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.349387755102041,
+        "to_s": 4.506122448979592,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7402135617386246,
+        "from_line": 1,
+        "to_line": 0
+      }
+    ],
+    "guidance_expected": []
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "guidance_plan": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v23-shape-families-20261031/demonkin.v23.guidance.json"
+}

@@ -1,0 +1,198 @@
+{
+  "format": "beatglint_scene_v23_shape_families_manifest_v1",
+  "version": "v77",
+  "source_summary": {
+    "format": "beatglint_scene_v23_shape_families_summary_v1",
+    "candidates": [
+      {
+        "name": "demonkin",
+        "ops": 11,
+        "geometry_status": "candidate_only",
+        "geometry_errors": 0,
+        "guided": 0
+      },
+      {
+        "name": "cristalisiaonoken",
+        "ops": 11,
+        "geometry_status": "candidate_only",
+        "geometry_errors": 0,
+        "guided": 0
+      },
+      {
+        "name": "distortedfate",
+        "ops": 13,
+        "geometry_status": "candidate_only",
+        "geometry_errors": 0,
+        "guided": 2
+      }
+    ],
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false
+  },
+  "renderer": {
+    "path": "/workspace/work/phira-render-beatglint/upstream/headless-render/target/release/phira-render-headless",
+    "sha256": "e08d2aefecdcd8c30f78a77f0eed8d2de3c02b0b7ea411aa2fcc0ce11d80740b"
+  },
+  "skin": {
+    "path": "/workspace/BeatGlint/resources/phira-render/高仿官谱v6.4.zip",
+    "sha256": null
+  },
+  "render": {
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "candidate_index": 1,
+    "native_phira": true
+  },
+  "constraints": {
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "note_identity_preserved": true,
+    "promotion_ready": false
+  },
+  "files": [
+    {
+      "path": "cristalisiaonoken.v23.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "a6adfa872fbdc5b4dc89ea321e93abc4a19c9537754a22271639906ab9ebb2eb"
+    },
+    {
+      "path": "cristalisiaonoken.v23.guidance.json",
+      "bytes": 582,
+      "sha256": "0b4660a75b3a7964bd50a73b6d41ef768bcda58b72238c3ee84cceb8c38ea7d7"
+    },
+    {
+      "path": "cristalisiaonoken.v23.motion.audit.json",
+      "bytes": 1938,
+      "sha256": "c30908aa81e0af67166236b3fde5fa25a288e2be4e5bfb127d1fd5611d55a971"
+    },
+    {
+      "path": "cristalisiaonoken.v23.multigameplay.audit.json",
+      "bytes": 19318,
+      "sha256": "e28755e08f07dcf9fe65335b42f1a996a9cf46958cbc25698e2979979023aa8f"
+    },
+    {
+      "path": "cristalisiaonoken.v23.player.audit.json",
+      "bytes": 8162,
+      "sha256": "043d43c4e689760b1c0fab419f5b808d2dc8ce788db72e6e29c5ca0139bf2087"
+    },
+    {
+      "path": "cristalisiaonoken.v23.role.audit.json",
+      "bytes": 2438,
+      "sha256": "cf1f746e5f17418628795584f398c6a2f17bc61f21e090a996eb57cebbcc6ae4"
+    },
+    {
+      "path": "cristalisiaonoken.v23.summary.json",
+      "bytes": 1733,
+      "sha256": "cc2909ab87ae5da4e920e577b4815deaaf70e7813fafc307b05a51d7f61a480b"
+    },
+    {
+      "path": "cristalisiaonoken.v23c1-8-10.mp4",
+      "bytes": 695313,
+      "sha256": "3dc391368812d3b29ade0fe099acd8af432f2c9ee2b0540612ebc95791188c9c"
+    },
+    {
+      "path": "cristalisiaonoken.v23c1-contact.jpg",
+      "bytes": 81716,
+      "sha256": "def989cbec836f795c2b2b17c2847752dc4415c61026a6e48a882f886ca64110"
+    },
+    {
+      "path": "demonkin.v23.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "4f83ff783e485651b148b6044dd483d3d76c000debe71e8c3661b8bb22599f8e"
+    },
+    {
+      "path": "demonkin.v23.guidance.json",
+      "bytes": 582,
+      "sha256": "0ece46bdb67e7745bec8a7d6102d2ca85d9277df6c33ead2fc7f7bcc6b9e8a37"
+    },
+    {
+      "path": "demonkin.v23.motion.audit.json",
+      "bytes": 1951,
+      "sha256": "a6df51e14b9a4226c2eef58a31f2772c4c2d31fd939600bcd14ea48139acf2fa"
+    },
+    {
+      "path": "demonkin.v23.multigameplay.audit.json",
+      "bytes": 19142,
+      "sha256": "34488e182523c964f5389ea70bbc7126243160507916d0c98b90ad4ad3612614"
+    },
+    {
+      "path": "demonkin.v23.player.audit.json",
+      "bytes": 8155,
+      "sha256": "ce835154af700f89a1882eee0d65bb08f13d76e4de4ad8c7eaad0bd031703cfe"
+    },
+    {
+      "path": "demonkin.v23.role.audit.json",
+      "bytes": 2458,
+      "sha256": "cc2736ecf7083e498531719808db4d5aa04fa209776925448406a18af571157d"
+    },
+    {
+      "path": "demonkin.v23.summary.json",
+      "bytes": 1706,
+      "sha256": "4f8e5e0f417d970cfade15df19d2df732a90a0b3b961355a539097df9118d874"
+    },
+    {
+      "path": "demonkin.v23c1-8-10.mp4",
+      "bytes": 727909,
+      "sha256": "3fe0b3c720a98b9763f93db26db44d1355db6d7a4968e3018c29e394244192be"
+    },
+    {
+      "path": "demonkin.v23c1-contact.jpg",
+      "bytes": 88867,
+      "sha256": "8222b3fe96193890607269b115251a4b6ad9eac9556ae7a9a6c356b2b6a3cfa3"
+    },
+    {
+      "path": "distortedfate.v23.flick.audit.json",
+      "bytes": 4024,
+      "sha256": "6bb1b27aecea0fae1100fc065aa8d8ac3d3580b1527a6ba73baacad98dad3d1d"
+    },
+    {
+      "path": "distortedfate.v23.geometry.audit.json",
+      "bytes": 2697,
+      "sha256": "21f31aaecfaa4bf940d66d4d60665887d904e323697850adbc365177bf08623f"
+    },
+    {
+      "path": "distortedfate.v23.guidance.json",
+      "bytes": 1400,
+      "sha256": "634bf9c03a8b535cd69dec1af96f60e28656083f0dbd8f6105ff843cfe93d0a7"
+    },
+    {
+      "path": "distortedfate.v23.motion.audit.json",
+      "bytes": 1758,
+      "sha256": "168103a12f9a86e8b22dad7c41c55b668a59a889e7f4fc81c89d791a20478194"
+    },
+    {
+      "path": "distortedfate.v23.multigameplay.audit.json",
+      "bytes": 22223,
+      "sha256": "5678b5d384a5e6795ea0d24dc9d606e97646f3787fe37db6125e349ac82ac1f8"
+    },
+    {
+      "path": "distortedfate.v23.player.audit.json",
+      "bytes": 8164,
+      "sha256": "f92e56ec2a28668de1d25a0dc2763a5861dee618a1b420b479a1cffda11920ff"
+    },
+    {
+      "path": "distortedfate.v23.role.audit.json",
+      "bytes": 2624,
+      "sha256": "b4501a10c7a19a02758e76dac01029bf00636c09fc3d2bb5c8becad2b2784a88"
+    },
+    {
+      "path": "distortedfate.v23.summary.json",
+      "bytes": 1842,
+      "sha256": "3df103100b6a3df21c54bdd1f646c37ee211d2b5bc1cdd1fc1cd63936e2b46ff"
+    },
+    {
+      "path": "distortedfate.v23c1-6.7-8.1.mp4",
+      "bytes": 402630,
+      "sha256": "f6456cbea45068d435bdda5df26bfa8748d970eb8ee3047e79c06ffbb27550ca"
+    },
+    {
+      "path": "distortedfate.v23c1-contact.jpg",
+      "bytes": 72030,
+      "sha256": "e0d77393769164f0eefa101d6c603745638487fd902abe85f8b8889582f6cdc7"
+    }
+  ]
+}
