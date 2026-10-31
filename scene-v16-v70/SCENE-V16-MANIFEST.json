@@ -1,0 +1,129 @@
+{
+  "format": "beatglint-scene-v16-preview-manifest-v1",
+  "version": "v70",
+  "candidate": "scene-v16-side-exclusive-hold-safe-20261031",
+  "renderer": "phira-render-beatglint resident",
+  "resolution": "960x540",
+  "fps": 30,
+  "gameplay_lines": 4,
+  "background_lines": 2,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "side_exclusive": true,
+  "readability_gate": {
+    "visible_parallel_competition": 0,
+    "same_side_target_competition": 0,
+    "same_side_visible_overlap": 0,
+    "background_target_competition": 0,
+    "rendered_gameplay_line_crossings": 0,
+    "hold_visibility_errors": 0,
+    "late_secondary_visibility": 0
+  },
+  "files": [
+    {
+      "path": "cristalisiaonoken-08-10.mp4",
+      "sha256": "bfb72210f7d625d01b6a8a23baee66fcf5e7651acdffac939961518dac46f11b",
+      "bytes": 674229
+    },
+    {
+      "path": "cristalisiaonoken-15-17.mp4",
+      "sha256": "9c9656846c4ef1e12208f6d390017e3ae6da249e15e46ce89b881be2266dcb46",
+      "bytes": 711392
+    },
+    {
+      "path": "cristalisiaonoken-30-32.mp4",
+      "sha256": "7c381d6b5b56d080cabefe726bc53844cfa3f7c1e0cceab8e1481c8d409331c8",
+      "bytes": 663112
+    },
+    {
+      "path": "cristalisiaonoken-choreography.json",
+      "sha256": "0702bf6c7c24c4ec7b2f0ef313984eacf984523c42cbde2e36b6e871ade81fc8",
+      "bytes": 29545
+    },
+    {
+      "path": "cristalisiaonoken-contact.jpg",
+      "sha256": "53821efc5e7a72b2b63aad46d241351b17b724a881ee7f7fe324ebbcf0bdf02e",
+      "bytes": 310738
+    },
+    {
+      "path": "cristalisiaonoken-player-audit.json",
+      "sha256": "c2d2d175a47f754f04b5213cb80a0957a1dd3228ef56891f97544a13eb5cb547",
+      "bytes": 7945
+    },
+    {
+      "path": "cristalisiaonoken-scene-audit.json",
+      "sha256": "8dfc191832786aaf317805c7cd27e93b2868065a1d0230998a29c913e81470a8",
+      "bytes": 19326
+    },
+    {
+      "path": "demonkin-08-10.mp4",
+      "sha256": "95212f22485628d84e8931c84570fc08a5ccb4530d2c95d12e42408d8b509c2c",
+      "bytes": 699946
+    },
+    {
+      "path": "demonkin-15-17.mp4",
+      "sha256": "460e4d42de9c2c77be3bf8eeaa4d4e2b9f02ade4b1b9dffd13feccda9e1210ee",
+      "bytes": 847789
+    },
+    {
+      "path": "demonkin-30-32.mp4",
+      "sha256": "45271b974a4139fabdcf4d5925935557d45198b5e0a08dc6e1464df71cc20b9e",
+      "bytes": 735099
+    },
+    {
+      "path": "demonkin-choreography.json",
+      "sha256": "3cc4d02db606fd95f5fa734432c0e6b68f9beae440398580acc0fea64f9f9446",
+      "bytes": 30307
+    },
+    {
+      "path": "demonkin-contact.jpg",
+      "sha256": "be417e96d49ef1bbd3a156f53f5dfc43fa98523b6d51a2587a0d0138cb9155bc",
+      "bytes": 319904
+    },
+    {
+      "path": "demonkin-player-audit.json",
+      "sha256": "37638f226d6d7abe8502e83de0484a3403b833216833d713016fedfd8f15a47f",
+      "bytes": 7951
+    },
+    {
+      "path": "demonkin-scene-audit.json",
+      "sha256": "54e37bf9430827a80c3b4d85042e5c6015b56c783669719c73d31c92daba8759",
+      "bytes": 19151
+    },
+    {
+      "path": "distortedfate-08-10.mp4",
+      "sha256": "6d5ea334bb39e42a67680134fc8f55415ebb29566a3782b4253b84521f3b5de0",
+      "bytes": 594018
+    },
+    {
+      "path": "distortedfate-15-17.mp4",
+      "sha256": "3d42338b2d11979154e9d0e7f6dbf40b1116b80cf4d7edaa843cf939f79ad3ab",
+      "bytes": 522555
+    },
+    {
+      "path": "distortedfate-30-32.mp4",
+      "sha256": "b3a6bff3af00ba9804209196afe8d771cd40b55ba123d75476a40f998e3f61b3",
+      "bytes": 621332
+    },
+    {
+      "path": "distortedfate-choreography.json",
+      "sha256": "ccd029a1a3244b9a0ba9972a402786e7770f55124b6f5800b732012f34e40ce9",
+      "bytes": 34620
+    },
+    {
+      "path": "distortedfate-contact.jpg",
+      "sha256": "9091f1ae91e1999c31fe7af74bd10c5c07d9eea00cd00750e2118bc6303928ae",
+      "bytes": 225416
+    },
+    {
+      "path": "distortedfate-player-audit.json",
+      "sha256": "a355463e9d384edcf858a5b2abe880852de8a2a8217494a9ffc84b9f273e0c9b",
+      "bytes": 7957
+    },
+    {
+      "path": "distortedfate-scene-audit.json",
+      "sha256": "7779d0400426e5c43346a112340cdc1285c702c672f7e3cdcd004239795ec930",
+      "bytes": 22231
+    }
+  ]
+}

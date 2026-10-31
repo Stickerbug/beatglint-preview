@@ -1,0 +1,300 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v16-side-exclusive-hold-safe-20261031/demonkin.v16.chart.json",
+  "chart_sha256": "f53a33aedb70a318bd39f4b02e1bb272d2c27938832c625e52aec14758d43561",
+  "gameplay_line_count": 4,
+  "background_line_count": 2,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 1027,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 391,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 391,
+  "background_note_target_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 272,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.7946666397189294,
+  "rapid_transition_count": 754,
+  "rapid_transition_95th_distance": 0.7721516059341524,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 1.2146938775510203,
+        "count": 2,
+        "screen_span": 0.6849551013400277
+      },
+      {
+        "time_s": 1.5281632653061223,
+        "count": 2,
+        "screen_span": 0.3473120060120547
+      },
+      {
+        "time_s": 2.1551020408163266,
+        "count": 2,
+        "screen_span": 0.6880559500359845
+      },
+      {
+        "time_s": 2.7820408163265307,
+        "count": 2,
+        "screen_span": 0.6859341539413074
+      },
+      {
+        "time_s": 3.0955102040816325,
+        "count": 2,
+        "screen_span": 0.33903039883550135
+      },
+      {
+        "time_s": 3.4089795918367347,
+        "count": 2,
+        "screen_span": 0.6984752992365562
+      },
+      {
+        "time_s": 3.5657142857142854,
+        "count": 2,
+        "screen_span": 0.6880091060545119
+      },
+      {
+        "time_s": 4.035918367346938,
+        "count": 2,
+        "screen_span": 0.7946666397189294
+      },
+      {
+        "time_s": 4.192653061224489,
+        "count": 2,
+        "screen_span": 0.71132160463401
+      },
+      {
+        "time_s": 4.349387755102041,
+        "count": 2,
+        "screen_span": 0.6929946661583233
+      },
+      {
+        "time_s": 4.506122448979592,
+        "count": 2,
+        "screen_span": 0.6891246088223245
+      },
+      {
+        "time_s": 4.819591836734694,
+        "count": 2,
+        "screen_span": 0.12916474162927605
+      },
+      {
+        "time_s": 4.976326530612245,
+        "count": 2,
+        "screen_span": 0.3277047674894742
+      },
+      {
+        "time_s": 5.133061224489795,
+        "count": 2,
+        "screen_span": 0.12954121375764105
+      },
+      {
+        "time_s": 5.289795918367346,
+        "count": 2,
+        "screen_span": 0.3998083590184924
+      },
+      {
+        "time_s": 5.603265306122449,
+        "count": 2,
+        "screen_span": 0.689661730579521
+      },
+      {
+        "time_s": 5.76,
+        "count": 2,
+        "screen_span": 0.3827678906799976
+      },
+      {
+        "time_s": 6.386938775510203,
+        "count": 2,
+        "screen_span": 0.6899781500622262
+      },
+      {
+        "time_s": 6.5436734693877545,
+        "count": 2,
+        "screen_span": 0.6891805024278748
+      },
+      {
+        "time_s": 7.013877551020408,
+        "count": 2,
+        "screen_span": 0.7793140132632763
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.5877551020408163,
+        "to_s": 0.9012244897959183,
+        "dt_s": 0.313469387755102,
+        "distance": 0.6862127740442217,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.9012244897959183,
+        "to_s": 1.2146938775510203,
+        "dt_s": 0.313469387755102,
+        "distance": 0.13671928123233978,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.2146938775510203,
+        "to_s": 1.3714285714285714,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.12459036152712277,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.3714285714285714,
+        "to_s": 1.5281632653061223,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.7850474030548638,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.5281632653061223,
+        "to_s": 1.6848979591836735,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.714864929579431,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.6848979591836735,
+        "to_s": 1.8416326530612244,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.10329104052034843,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.8416326530612244,
+        "to_s": 1.9983673469387755,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6919676758667197,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.9983673469387755,
+        "to_s": 2.1551020408163266,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.4070630738010068,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.1551020408163266,
+        "to_s": 2.4685714285714284,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.11615276202320812,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.4685714285714284,
+        "to_s": 2.7820408163265307,
+        "dt_s": 0.31346938775510225,
+        "distance": 0.6900808366650842,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.7820408163265307,
+        "to_s": 3.0955102040816325,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.7824610971167933,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.0955102040816325,
+        "to_s": 3.2522448979591836,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7109503415419558,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.2522448979591836,
+        "to_s": 3.4089795918367347,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7255143629142117,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.4089795918367347,
+        "to_s": 3.5657142857142854,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.7303552903717552,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5657142857142854,
+        "to_s": 3.7224489795918365,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.12477798983929023,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.7224489795918365,
+        "to_s": 3.8791836734693876,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6899976559015973,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.8791836734693876,
+        "to_s": 4.035918367346938,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.3076335567130024,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.035918367346938,
+        "to_s": 4.192653061224489,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6832071807393875,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.192653061224489,
+        "to_s": 4.349387755102041,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6897941932562357,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.349387755102041,
+        "to_s": 4.506122448979592,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7537109982643855,
+        "from_line": 1,
+        "to_line": 0
+      }
+    ]
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false
+}
