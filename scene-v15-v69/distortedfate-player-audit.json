@@ -17,6 +17,7 @@
   "same_side_note_target_competition_count": 0,
   "opposite_side_crossing_count": 375,
   "background_note_target_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
   "late_secondary_visibility_count": 0,
   "minimum_observed_line_gap": 1.0,
   "chord_group_count": 244,
