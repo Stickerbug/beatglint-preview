@@ -1,0 +1,58 @@
+{
+  "format": "beatglint_flick_guidance_lines_v1",
+  "source_chart_sha256": "6802f444315ba87a5947ddb970d5a4a6e9fc2a2bc54f612f5f08e471f6ca1204",
+  "gameplay_line_count": 4,
+  "guidance_line_count": 2,
+  "guidance_line_ids": [
+    1,
+    4
+  ],
+  "flick_count": 2,
+  "guided_count": 2,
+  "fallback_count": 0,
+  "flick_guidance": [
+    {
+      "note_id": "L1:above:11",
+      "target_line": 1,
+      "guidance_line": 4,
+      "guidance_mode": "empty_actor",
+      "separate_visual_actor": true,
+      "guidance_slot": 0,
+      "hit_s": 3.810975,
+      "interval_s": [
+        3.360975,
+        3.990975
+      ],
+      "lead_s": 0.45,
+      "tail_s": 0.18,
+      "kind": "flick_convergence",
+      "status": "candidate_only"
+    },
+    {
+      "note_id": "L1:above:50",
+      "target_line": 1,
+      "guidance_line": 1,
+      "guidance_mode": "dual_role",
+      "separate_visual_actor": false,
+      "guidance_slot": 1,
+      "hit_s": 22.828118,
+      "interval_s": [
+        22.378118,
+        23.008118
+      ],
+      "lead_s": 0.45,
+      "tail_s": 0.18,
+      "kind": "flick_convergence",
+      "status": "candidate_only"
+    }
+  ],
+  "dual_role_count": 1,
+  "empty_actor_count": 1,
+  "fallbacks": [],
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "status": "candidate_only"
+}

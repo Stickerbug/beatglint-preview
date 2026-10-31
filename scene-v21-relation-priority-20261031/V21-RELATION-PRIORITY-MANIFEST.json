@@ -1,0 +1,248 @@
+{
+  "format": "beatglint_scene_v21_relation_priority_manifest_v1",
+  "version": "v75",
+  "source_summary": {
+    "format": "beatglint_scene_v21_relation_priority_summary_v1",
+    "candidates": [
+      {
+        "name": "demonkin",
+        "operations": 11,
+        "operation_counts": {
+          "carrier_pulse": 82,
+          "carrier_rest": 70,
+          "guarded_parallel": 70,
+          "handoff_after_release": 47,
+          "hold_axis": 24,
+          "hold_static": 34,
+          "ribbon_guarded": 39,
+          "safe_handoff": 121,
+          "split": 87,
+          "staggered_entry": 115,
+          "stream_drift": 66
+        },
+        "status": "candidate_only",
+        "role_contract": "pass",
+        "guided": 0,
+        "dual_role": 0,
+        "empty_actor": 0,
+        "geometry_errors": 0
+      },
+      {
+        "name": "cristalisiaonoken",
+        "operations": 11,
+        "operation_counts": {
+          "carrier_pulse": 69,
+          "carrier_rest": 56,
+          "guarded_parallel": 59,
+          "handoff_after_release": 44,
+          "hold_axis": 29,
+          "hold_static": 34,
+          "ribbon_guarded": 38,
+          "safe_handoff": 96,
+          "split": 85,
+          "staggered_entry": 100,
+          "stream_drift": 57
+        },
+        "status": "candidate_only",
+        "role_contract": "pass",
+        "guided": 0,
+        "dual_role": 0,
+        "empty_actor": 0,
+        "geometry_errors": 0
+      },
+      {
+        "name": "distortedfate",
+        "operations": 13,
+        "operation_counts": {
+          "carrier_pulse": 62,
+          "carrier_rest": 50,
+          "carrier_snap": 1,
+          "empty_converge": 1,
+          "guarded_parallel": 62,
+          "handoff_after_release": 50,
+          "hold_axis": 35,
+          "hold_static": 34,
+          "ribbon_guarded": 34,
+          "safe_handoff": 103,
+          "split": 82,
+          "staggered_entry": 100,
+          "stream_drift": 53
+        },
+        "status": "candidate_only",
+        "role_contract": "pass",
+        "guided": 2,
+        "dual_role": 1,
+        "empty_actor": 1,
+        "geometry_errors": 0
+      }
+    ],
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false
+  },
+  "renderer": {
+    "path": "/workspace/work/phira-render-beatglint/upstream/headless-render/target/release/phira-render-headless",
+    "sha256": "e08d2aefecdcd8c30f78a77f0eed8d2de3c02b0b7ea411aa2fcc0ce11d80740b"
+  },
+  "skin": {
+    "path": "/workspace/BeatGlint/resources/phira-render/高仿官谱v6.4.zip",
+    "sha256": null
+  },
+  "render": {
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "candidate_index": 1,
+    "native_phira": true
+  },
+  "constraints": {
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "note_identity_preserved": true,
+    "promotion_ready": false
+  },
+  "files": [
+    {
+      "path": "cristalisiaonoken.v21.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "17eefc6e7c82aa71e2c879cfaac537bf2a1d67772aaf650580f4816f48664776"
+    },
+    {
+      "path": "cristalisiaonoken.v21.guidance.json",
+      "bytes": 582,
+      "sha256": "0b4660a75b3a7964bd50a73b6d41ef768bcda58b72238c3ee84cceb8c38ea7d7"
+    },
+    {
+      "path": "cristalisiaonoken.v21.motion.audit.json",
+      "bytes": 1941,
+      "sha256": "d848befdd35e314c3605ceede57faf11179eadc614930fefcbbe70b8eef36f3a"
+    },
+    {
+      "path": "cristalisiaonoken.v21.multigameplay.audit.json",
+      "bytes": 19320,
+      "sha256": "6d407cc78b77935b60ce0e9783393fc9ed90c7ddb816b7750610515a7abc2db3"
+    },
+    {
+      "path": "cristalisiaonoken.v21.player.audit.json",
+      "bytes": 8168,
+      "sha256": "f7ffa9c6ac62d67f1cc920f055b1b67db3c7bd11f79bbbfce385afbf729d7a08"
+    },
+    {
+      "path": "cristalisiaonoken.v21.role.audit.json",
+      "bytes": 2469,
+      "sha256": "dff39e77874246b4c7b6ab5b68e40e52a0ecaa45fd02202a01bdb66b44e399c3"
+    },
+    {
+      "path": "cristalisiaonoken.v21.summary.json",
+      "bytes": 1733,
+      "sha256": "cc2909ab87ae5da4e920e577b4815deaaf70e7813fafc307b05a51d7f61a480b"
+    },
+    {
+      "path": "cristalisiaonoken.v21c1-8-10.mp4",
+      "bytes": 702368,
+      "sha256": "7f04017fd4735c96ecfce56ae1639340153a259eb518787d3ddac1a19745afb3"
+    },
+    {
+      "path": "cristalisiaonoken.v21c1-contact.jpg",
+      "bytes": 81386,
+      "sha256": "78bab5afefc1c3625991c9a8ab351434b5c1131c3f93821cb9a898c2b0445809"
+    },
+    {
+      "path": "demonkin.v21.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "8c628d6e16fa0388b7220c74711d5171cf5d8f9dee7ef3118e5ab3546b603c82"
+    },
+    {
+      "path": "demonkin.v21.guidance.json",
+      "bytes": 582,
+      "sha256": "0ece46bdb67e7745bec8a7d6102d2ca85d9277df6c33ead2fc7f7bcc6b9e8a37"
+    },
+    {
+      "path": "demonkin.v21.motion.audit.json",
+      "bytes": 1953,
+      "sha256": "c39852210f12d452145ee7bc6d138710898bdf0b8777379f43c44f7706b96624"
+    },
+    {
+      "path": "demonkin.v21.multigameplay.audit.json",
+      "bytes": 19146,
+      "sha256": "3a63a4ac9dfeb1a86f27f90d5adc97206944958e8e4243e2e617940100716dce"
+    },
+    {
+      "path": "demonkin.v21.player.audit.json",
+      "bytes": 8156,
+      "sha256": "9141e9291ea49b243fde5bef4bd0e8fb3637ce7de1d95bb5b686e657e47264f1"
+    },
+    {
+      "path": "demonkin.v21.role.audit.json",
+      "bytes": 2449,
+      "sha256": "84baadbe283af50897f91011c9eeac98ce2c6d84875c63b94dc3e716cba6344b"
+    },
+    {
+      "path": "demonkin.v21.summary.json",
+      "bytes": 1706,
+      "sha256": "4f8e5e0f417d970cfade15df19d2df732a90a0b3b961355a539097df9118d874"
+    },
+    {
+      "path": "demonkin.v21c1-8-10.mp4",
+      "bytes": 736665,
+      "sha256": "592865fc7f0bf1ce99b871ae4d9d8fa8d5eb91cea669735cf374f4b5efa2de47"
+    },
+    {
+      "path": "demonkin.v21c1-contact.jpg",
+      "bytes": 90164,
+      "sha256": "af30a8399a86a0a8702b366b477e4403e4d15e0796a36ff0f66a7b9e9ccd3647"
+    },
+    {
+      "path": "distortedfate.v21.flick.audit.json",
+      "bytes": 4027,
+      "sha256": "143acdc591bd16d959b15cae6fad9b67f3b4296041cfa73441e2014cd8ed594a"
+    },
+    {
+      "path": "distortedfate.v21.geometry.audit.json",
+      "bytes": 2697,
+      "sha256": "f7c0d4ef70c77b0e649cceaea6baf40ea1dace7387dd4da2d3ec5264512261df"
+    },
+    {
+      "path": "distortedfate.v21.guidance.json",
+      "bytes": 1400,
+      "sha256": "634bf9c03a8b535cd69dec1af96f60e28656083f0dbd8f6105ff843cfe93d0a7"
+    },
+    {
+      "path": "distortedfate.v21.motion.audit.json",
+      "bytes": 1761,
+      "sha256": "880a8b17cda8016ca706be787ee3000ae8a8fcadc6067310047a5e7be6d6f739"
+    },
+    {
+      "path": "distortedfate.v21.multigameplay.audit.json",
+      "bytes": 22226,
+      "sha256": "ae8ef0dc61dcdd9ca8697ea78df12854cdc6cd4d9f066324a4a69fe2a9b1eb0c"
+    },
+    {
+      "path": "distortedfate.v21.player.audit.json",
+      "bytes": 8172,
+      "sha256": "dfcc38d985f343d62d953f9e7849298b1e26e8e66037d0d1d236c32b264224a4"
+    },
+    {
+      "path": "distortedfate.v21.role.audit.json",
+      "bytes": 2630,
+      "sha256": "4e6def77fa279ecde5db86566ebf14d350ccac28dc9da8f1a25da591b02d786b"
+    },
+    {
+      "path": "distortedfate.v21.summary.json",
+      "bytes": 1842,
+      "sha256": "3df103100b6a3df21c54bdd1f646c37ee211d2b5bc1cdd1fc1cd63936e2b46ff"
+    },
+    {
+      "path": "distortedfate.v21c1-6.7-8.1.mp4",
+      "bytes": 396595,
+      "sha256": "3422cce09863f7a1725db19cd04d1a6c42d23e06d6fc1f26af3acc5823a9413f"
+    },
+    {
+      "path": "distortedfate.v21c1-contact.jpg",
+      "bytes": 71635,
+      "sha256": "5f09f2f0c938f9e9b8eb505c5318bf4b36d8303d3a6b199a49c12aab321726af"
+    }
+  ]
+}

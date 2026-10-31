@@ -1,0 +1,303 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v21-relation-priority-20261031/demonkin.v21.chart.json",
+  "chart_sha256": "60a6fb928d109b06be9a86d7905c0a36df46c7e1242111a4fa2c43d807b9bc68",
+  "gameplay_line_count": 4,
+  "background_line_count": 0,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 1027,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 389,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 389,
+  "background_note_target_competition_count": 0,
+  "guidance_expected_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 272,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.8245912738202746,
+  "rapid_transition_count": 754,
+  "rapid_transition_95th_distance": 0.7716207897533929,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 1.2146938775510203,
+        "count": 2,
+        "screen_span": 0.7247244256528169
+      },
+      {
+        "time_s": 1.5281632653061223,
+        "count": 2,
+        "screen_span": 0.3477686675736398
+      },
+      {
+        "time_s": 2.1551020408163266,
+        "count": 2,
+        "screen_span": 0.6810447761077223
+      },
+      {
+        "time_s": 2.7820408163265307,
+        "count": 2,
+        "screen_span": 0.7386062093578601
+      },
+      {
+        "time_s": 3.0955102040816325,
+        "count": 2,
+        "screen_span": 0.3394761726774215
+      },
+      {
+        "time_s": 3.4089795918367347,
+        "count": 2,
+        "screen_span": 0.696799279503943
+      },
+      {
+        "time_s": 3.5657142857142854,
+        "count": 2,
+        "screen_span": 0.6995322012558094
+      },
+      {
+        "time_s": 4.035918367346938,
+        "count": 2,
+        "screen_span": 0.813055181901994
+      },
+      {
+        "time_s": 4.192653061224489,
+        "count": 2,
+        "screen_span": 0.760342121738807
+      },
+      {
+        "time_s": 4.349387755102041,
+        "count": 2,
+        "screen_span": 0.68431926529646
+      },
+      {
+        "time_s": 4.506122448979592,
+        "count": 2,
+        "screen_span": 0.6958414618433947
+      },
+      {
+        "time_s": 4.819591836734694,
+        "count": 2,
+        "screen_span": 0.12933457378389832
+      },
+      {
+        "time_s": 4.976326530612245,
+        "count": 2,
+        "screen_span": 0.32813564983430554
+      },
+      {
+        "time_s": 5.133061224489795,
+        "count": 2,
+        "screen_span": 0.12971154078442224
+      },
+      {
+        "time_s": 5.289795918367346,
+        "count": 2,
+        "screen_span": 0.40033404671152406
+      },
+      {
+        "time_s": 5.603265306122449,
+        "count": 2,
+        "screen_span": 0.6410984190107237
+      },
+      {
+        "time_s": 5.76,
+        "count": 2,
+        "screen_span": 0.38327117272720673
+      },
+      {
+        "time_s": 6.386938775510203,
+        "count": 2,
+        "screen_span": 0.6822860419260152
+      },
+      {
+        "time_s": 6.5436734693877545,
+        "count": 2,
+        "screen_span": 0.6887869100617595
+      },
+      {
+        "time_s": 7.013877551020408,
+        "count": 2,
+        "screen_span": 0.7603268191177023
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.5877551020408163,
+        "to_s": 0.9012244897959183,
+        "dt_s": 0.313469387755102,
+        "distance": 0.6735524873910717,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.9012244897959183,
+        "to_s": 1.2146938775510203,
+        "dt_s": 0.313469387755102,
+        "distance": 0.1651602898825154,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.2146938775510203,
+        "to_s": 1.3714285714285714,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.12475417906181861,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.3714285714285714,
+        "to_s": 1.5281632653061223,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.8057326624795083,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.5281632653061223,
+        "to_s": 1.6848979591836735,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7524879993550594,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.6848979591836735,
+        "to_s": 1.8416326530612244,
+        "dt_s": 0.1567346938775509,
+        "distance": 0.1009225707914036,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.8416326530612244,
+        "to_s": 1.9983673469387755,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7451581078733341,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.9983673469387755,
+        "to_s": 2.1551020408163266,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.4068717669391538,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.1551020408163266,
+        "to_s": 2.4685714285714284,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.10886748717821239,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.4685714285714284,
+        "to_s": 2.7820408163265307,
+        "dt_s": 0.31346938775510225,
+        "distance": 0.7069838497861253,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.7820408163265307,
+        "to_s": 3.0955102040816325,
+        "dt_s": 0.3134693877551018,
+        "distance": 0.8022545731869725,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.0955102040816325,
+        "to_s": 3.2522448979591836,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6997918722927006,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.2522448979591836,
+        "to_s": 3.4089795918367347,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7184530975876555,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.4089795918367347,
+        "to_s": 3.5657142857142854,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.7451138415745061,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5657142857142854,
+        "to_s": 3.7224489795918365,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.1338587238696369,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.7224489795918365,
+        "to_s": 3.8791836734693876,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.6775630392572063,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.8791836734693876,
+        "to_s": 4.035918367346938,
+        "dt_s": 0.15673469387755068,
+        "distance": 0.2948262918661426,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.035918367346938,
+        "to_s": 4.192653061224489,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.74111361809413,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.192653061224489,
+        "to_s": 4.349387755102041,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7312808077470982,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.349387755102041,
+        "to_s": 4.506122448979592,
+        "dt_s": 0.15673469387755112,
+        "distance": 0.7349937380528927,
+        "from_line": 1,
+        "to_line": 0
+      }
+    ],
+    "guidance_expected": []
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "guidance_plan": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v21-relation-priority-20261031/demonkin.v21.guidance.json"
+}

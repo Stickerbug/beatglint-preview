@@ -1,0 +1,139 @@
+{
+  "format": "beatglint_flick_guidance_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v21-relation-priority-20261031/distortedfate.v21.chart.json",
+  "chart_sha256": "9d690fe8d135e5403bdbf63e7c7abb42425ef2210b2cc97c185243c1157b24bb",
+  "guidance_plan_sha256": "634bf9c03a8b535cd69dec1af96f60e28656083f0dbd8f6105ff843cfe93d0a7",
+  "gameplay_line_count": 4,
+  "flick_count": 2,
+  "planned_count": 2,
+  "guidance_row_count": 2,
+  "dual_role_count": 1,
+  "empty_actor_count": 1,
+  "checks": [
+    {
+      "note_id": "L1:above:11",
+      "target_line": 1,
+      "guidance_line": 4,
+      "guidance_mode": "empty_actor",
+      "samples": [
+        {
+          "time_s": 3.360975,
+          "gap": 0.1275180558352369,
+          "carrier_alpha": 0.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.02,
+          "target_y": 0.1475180558352369
+        },
+        {
+          "time_s": 3.460975,
+          "gap": 0.11884229556556207,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.027305349794238692,
+          "target_y": 0.14614764535980077
+        },
+        {
+          "time_s": 3.710975,
+          "gap": 0.08107949355165675,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.06666666666666607,
+          "target_y": 0.14774616021832282
+        },
+        {
+          "time_s": 3.810975,
+          "gap": 0.0009713732230222649,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.15902862677697774
+        },
+        {
+          "time_s": 3.890975,
+          "gap": 0.06222222222222218,
+          "carrier_alpha": 0.06666666666666671,
+          "target_alpha": 1.0,
+          "carrier_y": 0.09777777777777782,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.990975,
+          "gap": 0.14,
+          "carrier_alpha": 1.3877787807814457e-17,
+          "target_alpha": 1.0,
+          "carrier_y": 0.01999999999999999,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    },
+    {
+      "note_id": "L1:above:50",
+      "target_line": 1,
+      "guidance_line": 1,
+      "guidance_mode": "dual_role",
+      "samples": [
+        {
+          "time_s": 22.378118,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.14414648110666153,
+          "target_y": 0.14414648110666153
+        },
+        {
+          "time_s": 22.478118000000002,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.14200000000000002,
+          "target_y": 0.14200000000000002
+        },
+        {
+          "time_s": 22.728118,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.14200000000000002,
+          "target_y": 0.14200000000000002
+        },
+        {
+          "time_s": 22.828118,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.14200000000000002,
+          "target_y": 0.14200000000000002
+        },
+        {
+          "time_s": 22.908117999999998,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.14999999999999958,
+          "target_y": 0.14999999999999958
+        },
+        {
+          "time_s": 23.008118,
+          "gap": 0.0,
+          "carrier_alpha": 1.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    }
+  ],
+  "errors": [],
+  "error_count": 0,
+  "status": "pass",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "limitations": [
+    "The carrier is a visual cue and never creates a judgement.",
+    "Screen-space sprite extent, human timing and native Phira effects still require visual review."
+  ]
+}
