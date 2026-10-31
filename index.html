@@ -2,17 +2,29 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
-  <meta name="beatglint-asset-version" content="v75">
+  <meta name="beatglint-asset-version" content="v76">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>BeatGlint 谱面预览 v75</title>
+  <title>BeatGlint 谱面预览 v76</title>
   <style>
     :root{color-scheme:dark}body{margin:0;background:#080d17;color:#e8f0fb;font:15px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1120px;margin:auto;padding:28px 18px 56px}h1,h2{line-height:1.25}h1{font-size:30px}h2{font-size:21px;margin-top:0}.muted{color:#a9bbd2}.card{border:1px solid #35506f;border-radius:14px;background:#101a2a;padding:20px;margin:18px 0}.card.warn{border-color:#9d713b}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:14px}.video-card{border:1px solid #2b405d;border-radius:12px;background:#0c1422;padding:12px}.video-card h3{margin:4px 0 8px;font-size:17px}.video-card p{margin:4px 0;color:#b7c8dd}video{width:100%;display:block;border-radius:8px;background:#000}table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px;border-bottom:1px solid #263b55}th{color:#a9ddec}code{color:#bfeaff}a{color:#8de7f1}ul{margin-bottom:0}
   </style>
 </head>
 <body>
 <main>
-  <h1>BeatGlint 谱面预览 v75</h1>
-  <p class="muted">Scene v18 可组合场景原生候选、v17 Flick 引导候选、v16、v5、v7 与 v9 多层联合候选。页面资源版本已更新到 v75。</p>
+  <h1>BeatGlint 谱面预览 v76</h1>
+  <p class="muted">Scene v18 可组合场景原生候选、v17 Flick 引导候选、v16、v5、v7 与 v9 多层联合候选。页面资源版本已更新到 v76。</p>
+
+  <section class="card warn">
+    <h2>v22 Flick 命中时刻曲线（v76）</h2>
+    <p>双角色 Flick 载体现在命中前单调靠近、命中达到峰值、命中后衰减；空演员会聚继续使用延迟关键帧。这样引导时机和判定时刻一致，不会从片段开头悬停。</p>
+    <div class="grid">
+      <article class="video-card"><h3>Demonkin · 8–10 秒</h3><video controls preload="metadata" src="scene-v22-flick-hit-20261031/demonkin.v22c1-8-10.mp4?v=76"></video></article>
+      <article class="video-card"><h3>Cristalisia.onoken · 8–10 秒</h3><video controls preload="metadata" src="scene-v22-flick-hit-20261031/cristalisiaonoken.v22c1-8-10.mp4?v=76"></video></article>
+      <article class="video-card"><h3>Distorted Fate · 两个 Flick · 6.7–8.1 秒</h3><video controls preload="metadata" src="scene-v22-flick-hit-20261031/distortedfate.v22c1-6.7-8.1.mp4?v=76"></video></article>
+    </div>
+    <p>Distorted Fate 的 Flick 引导门为 2/2、错误 0（dual_role 1、empty_actor 1）。候选仍是 <code>candidate_only</code>，需要真人验收。</p>
+    <p><a href="scene-v22-flick-hit-20261031/SCENE-V22-FLICK-HIT-REPORT.md">查看 v22 报告</a> · <a href="scene-v22-flick-hit-20261031/V22-FLICK-HIT-MANIFEST.json">SHA256 清单</a> · <a href="scene-v22-flick-hit-20261031/distortedfate.v22c1-contact.jpg">Distorted Fate 接触图</a></p>
+  </section>
 
   <section class="card warn">
     <h2>v21 结构关系优先候选（v75）</h2>

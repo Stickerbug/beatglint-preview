@@ -1,0 +1,141 @@
+{
+  "format": "beatglint_scene_v22_flick_hit_manifest_v1",
+  "version": "v76",
+  "source_summary": {
+    "format": "beatglint_scene_v22_flick_hit_summary_v1",
+    "candidates": [
+      {
+        "name": "demonkin",
+        "ops": 11,
+        "guided": 0,
+        "dual_role": 0,
+        "empty_actor": 0,
+        "geometry_errors": 0
+      },
+      {
+        "name": "cristalisiaonoken",
+        "ops": 11,
+        "guided": 0,
+        "dual_role": 0,
+        "empty_actor": 0,
+        "geometry_errors": 0
+      },
+      {
+        "name": "distortedfate",
+        "ops": 13,
+        "guided": 2,
+        "dual_role": 1,
+        "empty_actor": 1,
+        "geometry_errors": 0
+      }
+    ],
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false
+  },
+  "renderer": {
+    "path": "/workspace/work/phira-render-beatglint/upstream/headless-render/target/release/phira-render-headless",
+    "sha256": "e08d2aefecdcd8c30f78a77f0eed8d2de3c02b0b7ea411aa2fcc0ce11d80740b"
+  },
+  "skin": {
+    "path": "/workspace/BeatGlint/resources/phira-render/高仿官谱v6.4.zip",
+    "sha256": null
+  },
+  "render": {
+    "resolution": [
+      960,
+      540
+    ],
+    "fps": 30,
+    "candidate_index": 1,
+    "native_phira": true
+  },
+  "constraints": {
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "note_identity_preserved": true,
+    "promotion_ready": false
+  },
+  "files": [
+    {
+      "path": "cristalisiaonoken.v22.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "fd05671b7b5aa437fca730309bcfde263837772495c3b0fbbe4fa1f502dac437"
+    },
+    {
+      "path": "cristalisiaonoken.v22.guidance.json",
+      "bytes": 582,
+      "sha256": "0b4660a75b3a7964bd50a73b6d41ef768bcda58b72238c3ee84cceb8c38ea7d7"
+    },
+    {
+      "path": "cristalisiaonoken.v22.summary.json",
+      "bytes": 1733,
+      "sha256": "cc2909ab87ae5da4e920e577b4815deaaf70e7813fafc307b05a51d7f61a480b"
+    },
+    {
+      "path": "cristalisiaonoken.v22c1-8-10.mp4",
+      "bytes": 702368,
+      "sha256": "7f04017fd4735c96ecfce56ae1639340153a259eb518787d3ddac1a19745afb3"
+    },
+    {
+      "path": "cristalisiaonoken.v22c1-contact.jpg",
+      "bytes": 81386,
+      "sha256": "78bab5afefc1c3625991c9a8ab351434b5c1131c3f93821cb9a898c2b0445809"
+    },
+    {
+      "path": "demonkin.v22.geometry.audit.json",
+      "bytes": 1779,
+      "sha256": "871b015730c5fa829978a674be0e5adb91c238ba47305fbd09502d4ab194bf14"
+    },
+    {
+      "path": "demonkin.v22.guidance.json",
+      "bytes": 582,
+      "sha256": "0ece46bdb67e7745bec8a7d6102d2ca85d9277df6c33ead2fc7f7bcc6b9e8a37"
+    },
+    {
+      "path": "demonkin.v22.summary.json",
+      "bytes": 1706,
+      "sha256": "4f8e5e0f417d970cfade15df19d2df732a90a0b3b961355a539097df9118d874"
+    },
+    {
+      "path": "demonkin.v22c1-8-10.mp4",
+      "bytes": 736665,
+      "sha256": "592865fc7f0bf1ce99b871ae4d9d8fa8d5eb91cea669735cf374f4b5efa2de47"
+    },
+    {
+      "path": "demonkin.v22c1-contact.jpg",
+      "bytes": 90164,
+      "sha256": "af30a8399a86a0a8702b366b477e4403e4d15e0796a36ff0f66a7b9e9ccd3647"
+    },
+    {
+      "path": "distortedfate.v22.flick.audit.json",
+      "bytes": 4019,
+      "sha256": "aa5e71095e2a25f55845006fabf4415e5f319bdb2bb06760cb461ac0d9293648"
+    },
+    {
+      "path": "distortedfate.v22.geometry.audit.json",
+      "bytes": 2697,
+      "sha256": "b3e31ece6b64085601c400518a540c5708f2e70cd895aa0b0f56ceed4ac65eb5"
+    },
+    {
+      "path": "distortedfate.v22.guidance.json",
+      "bytes": 1400,
+      "sha256": "634bf9c03a8b535cd69dec1af96f60e28656083f0dbd8f6105ff843cfe93d0a7"
+    },
+    {
+      "path": "distortedfate.v22.summary.json",
+      "bytes": 1842,
+      "sha256": "3df103100b6a3df21c54bdd1f646c37ee211d2b5bc1cdd1fc1cd63936e2b46ff"
+    },
+    {
+      "path": "distortedfate.v22c1-6.7-8.1.mp4",
+      "bytes": 396595,
+      "sha256": "3422cce09863f7a1725db19cd04d1a6c42d23e06d6fc1f26af3acc5823a9413f"
+    },
+    {
+      "path": "distortedfate.v22c1-contact.jpg",
+      "bytes": 71635,
+      "sha256": "5f09f2f0c938f9e9b8eb505c5318bf4b36d8303d3a6b199a49c12aab321726af"
+    }
+  ]
+}
