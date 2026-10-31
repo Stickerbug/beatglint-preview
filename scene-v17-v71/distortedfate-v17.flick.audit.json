@@ -1,0 +1,135 @@
+{
+  "format": "beatglint_flick_guidance_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/distortedfate.v17.chart.json",
+  "chart_sha256": "adf29f893100691658667b496c83e39675b4835f767f0a6006ea63cc8bb2dca2",
+  "guidance_plan_sha256": "73eb7b0dd5480d540a83a016ff72c19351d56613af95bd0caec3611c14c71e6e",
+  "gameplay_line_count": 4,
+  "flick_count": 2,
+  "planned_count": 2,
+  "guidance_row_count": 2,
+  "checks": [
+    {
+      "note_id": "L1:above:11",
+      "target_line": 1,
+      "guidance_line": 6,
+      "samples": [
+        {
+          "time_s": 3.3609750566893424,
+          "gap": 1.84,
+          "carrier_alpha": 0.3,
+          "target_alpha": 1.0,
+          "carrier_y": 2.0,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.4609750566893425,
+          "gap": 0.4312499999999998,
+          "carrier_alpha": 0.3209302325581396,
+          "target_alpha": 1.0,
+          "carrier_y": 0.5912499999999998,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.7109750566893425,
+          "gap": 0.07187500000000077,
+          "carrier_alpha": 0.5825581395348833,
+          "target_alpha": 1.0,
+          "carrier_y": 0.23187500000000077,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.8109750566893426,
+          "gap": 0.0,
+          "carrier_alpha": 0.687209302325581,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.8909750566893426,
+          "gap": 0.19333333333333505,
+          "carrier_alpha": 0.6749999999999994,
+          "target_alpha": 1.0,
+          "carrier_y": -0.03333333333333505,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.9909750566893427,
+          "gap": 1.16,
+          "carrier_alpha": 0.3,
+          "target_alpha": 1.0,
+          "carrier_y": -0.9999999999999999,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    },
+    {
+      "note_id": "L1:above:50",
+      "target_line": 1,
+      "guidance_line": 6,
+      "samples": [
+        {
+          "time_s": 22.378117913832202,
+          "gap": 1.16,
+          "carrier_alpha": 0.3,
+          "target_alpha": 1.0,
+          "carrier_y": -1.0,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.478117913832204,
+          "gap": 0.4312499999999988,
+          "carrier_alpha": 0.3209302325581401,
+          "target_alpha": 1.0,
+          "carrier_y": 0.5912499999999988,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.7281179138322,
+          "gap": 0.07187499999999677,
+          "carrier_alpha": 0.5825581395348832,
+          "target_alpha": 1.0,
+          "carrier_y": 0.23187499999999678,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.8281179138322,
+          "gap": 0.0,
+          "carrier_alpha": 0.6872093023255795,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.9081179138322,
+          "gap": 0.19333333333329877,
+          "carrier_alpha": 0.6750000000000134,
+          "target_alpha": 1.0,
+          "carrier_y": -0.03333333333329877,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 23.0081179138322,
+          "gap": 1.16,
+          "carrier_alpha": 0.3,
+          "target_alpha": 1.0,
+          "carrier_y": -0.9999999999999999,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    }
+  ],
+  "errors": [],
+  "error_count": 0,
+  "status": "pass",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "limitations": [
+    "The carrier is a visual cue and never creates a judgement.",
+    "Screen-space sprite extent, human timing and native Phira effects still require visual review."
+  ]
+}

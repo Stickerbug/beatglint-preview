@@ -1,0 +1,305 @@
+{
+  "format": "beatglint-scene-v17-flick-guidance-preview-manifest-v1",
+  "candidate": "scene-v17-flick-guidance-20261031",
+  "renderer": "phira-render-beatglint resident",
+  "resolution": "960x540",
+  "fps": 30,
+  "gameplay_lines": 4,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "status": "candidate_only",
+  "guidance_policy": {
+    "visual_only_empty_carrier": true,
+    "lead_s": 0.45,
+    "arrival_before_hit_s": 0.05,
+    "tail_s": 0.18,
+    "max_guidance_lines": 4,
+    "unrelated_competition_blocks": true,
+    "native_render_required": true
+  },
+  "songs": [
+    {
+      "song": "demonkin",
+      "note_count": 1027,
+      "gameplay_lines": 4,
+      "total_lines": 6,
+      "guidance_lines": 0,
+      "flick_count": 0,
+      "guided_count": 0,
+      "fallback_count": 0,
+      "plan_status": "candidate_only",
+      "flick_lifecycle_audit": "pass",
+      "player_audit": "pass_structural",
+      "player_visible_parallel_competition": 0,
+      "player_background_line_competition": 0,
+      "player_background_target_competition": 0,
+      "player_same_side_target_competition": 0,
+      "player_late_secondary_visibility": 0,
+      "player_guidance_expected_competition": 0,
+      "role_audit": "diagnostic_clear",
+      "role_reverse_side": 0,
+      "role_direction_mismatch": 0,
+      "role_min_gap": 0.39999999999999997,
+      "scene_audit": "pass_structural",
+      "scene_errors": 0,
+      "render_windows": [
+        "8-10",
+        "15-17",
+        "30-32"
+      ],
+      "motion_audit": "diagnostic_clear",
+      "gameplay_max_slope_y_per_s": 0.007529092035169305,
+      "guidance_max_slope_y_per_s": 0.0,
+      "guidance_max_displacement": 0.0
+    },
+    {
+      "song": "cristalisiaonoken",
+      "note_count": 911,
+      "gameplay_lines": 4,
+      "total_lines": 6,
+      "guidance_lines": 0,
+      "flick_count": 0,
+      "guided_count": 0,
+      "fallback_count": 0,
+      "plan_status": "candidate_only",
+      "flick_lifecycle_audit": "pass",
+      "player_audit": "pass_structural",
+      "player_visible_parallel_competition": 0,
+      "player_background_line_competition": 0,
+      "player_background_target_competition": 0,
+      "player_same_side_target_competition": 0,
+      "player_late_secondary_visibility": 0,
+      "player_guidance_expected_competition": 0,
+      "role_audit": "diagnostic_clear",
+      "role_reverse_side": 0,
+      "role_direction_mismatch": 0,
+      "role_min_gap": 0.39999999999999997,
+      "scene_audit": "pass_structural",
+      "scene_errors": 0,
+      "render_windows": [
+        "8-10",
+        "15-17",
+        "30-32"
+      ],
+      "motion_audit": "diagnostic_clear",
+      "gameplay_max_slope_y_per_s": 0.007307652359193027,
+      "guidance_max_slope_y_per_s": 0.0,
+      "guidance_max_displacement": 0.0
+    },
+    {
+      "song": "distortedfate",
+      "note_count": 911,
+      "gameplay_lines": 4,
+      "total_lines": 7,
+      "guidance_lines": 1,
+      "flick_count": 2,
+      "guided_count": 2,
+      "fallback_count": 0,
+      "plan_status": "candidate_only",
+      "flick_lifecycle_audit": "pass",
+      "player_audit": "pass_structural",
+      "player_visible_parallel_competition": 0,
+      "player_background_line_competition": 0,
+      "player_background_target_competition": 0,
+      "player_same_side_target_competition": 0,
+      "player_late_secondary_visibility": 0,
+      "player_guidance_expected_competition": 7,
+      "role_audit": "diagnostic_clear",
+      "role_reverse_side": 0,
+      "role_direction_mismatch": 0,
+      "role_min_gap": 0.0,
+      "scene_audit": "pass_structural",
+      "scene_errors": 0,
+      "render_windows": [
+        "6.7-7.9",
+        "8-10",
+        "15-17",
+        "25.7-26.9",
+        "30-32"
+      ],
+      "motion_audit": "diagnostic_clear",
+      "gameplay_max_slope_y_per_s": 0.009677419354838719,
+      "guidance_max_slope_y_per_s": 20.25000000000042,
+      "guidance_max_displacement": 3.0
+    }
+  ],
+  "files": [
+    {
+      "path": "cristalisiaonoken.v17-15-17.mp4",
+      "sha256": "9c9656846c4ef1e12208f6d390017e3ae6da249e15e46ce89b881be2266dcb46",
+      "bytes": 711392
+    },
+    {
+      "path": "cristalisiaonoken.v17-30-32.mp4",
+      "sha256": "7c381d6b5b56d080cabefe726bc53844cfa3f7c1e0cceab8e1481c8d409331c8",
+      "bytes": 663112
+    },
+    {
+      "path": "cristalisiaonoken.v17-8-10.mp4",
+      "sha256": "bfb72210f7d625d01b6a8a23baee66fcf5e7651acdffac939961518dac46f11b",
+      "bytes": 674229
+    },
+    {
+      "path": "cristalisiaonoken.v17-contact.jpg",
+      "sha256": "5eb1ea296108382f27038fbf2faa5aa6809b4a02d9fe1196e607b0f1638b19dd",
+      "bytes": 46218
+    },
+    {
+      "path": "cristalisiaonoken.v17.chart.json",
+      "sha256": "c1931f66f3c10501820fc01e42c178129a8b48df302e5a19622b30be627dab63",
+      "bytes": 387673
+    },
+    {
+      "path": "cristalisiaonoken.v17.flick-guidance.json",
+      "sha256": "d1fca6aa8df0bfba13a546ea1c19314d7d98cb77f65d6a665fc7f98e0648459a",
+      "bytes": 971
+    },
+    {
+      "path": "cristalisiaonoken.v17.flick.audit.json",
+      "sha256": "ee74c2c2a62e07849db340c867e1fa83214154469723fa30e61d71b86a553548",
+      "bytes": 862
+    },
+    {
+      "path": "cristalisiaonoken.v17.motion.audit.json",
+      "sha256": "76492de3be079b1530ac1103378626f27c97a737522ce5cf9a8d0547a9527308",
+      "bytes": 1538
+    },
+    {
+      "path": "cristalisiaonoken.v17.player.audit.json",
+      "sha256": "0ea91309f4302e479be4326c2d7ed494944008c488f592e0fb51002ee01d0f43",
+      "bytes": 8163
+    },
+    {
+      "path": "cristalisiaonoken.v17.role.audit.json",
+      "sha256": "7f9a6b1e92d9b720a9dcf26c34d1927e1c157e4d46cc0422a3bf8edb58f04020",
+      "bytes": 2788
+    },
+    {
+      "path": "cristalisiaonoken.v17.scene.audit.json",
+      "sha256": "a988b1d5e3309b47682845e3e5ae5852f1a3675ce6184a3826af1097675d3642",
+      "bytes": 19316
+    },
+    {
+      "path": "demonkin.v17-15-17.mp4",
+      "sha256": "7a8ab3f522984d29c7eac5443bec852ca18ae68ed286eb8700207b8a1deb7ec9",
+      "bytes": 847795
+    },
+    {
+      "path": "demonkin.v17-30-32.mp4",
+      "sha256": "45271b974a4139fabdcf4d5925935557d45198b5e0a08dc6e1464df71cc20b9e",
+      "bytes": 735099
+    },
+    {
+      "path": "demonkin.v17-8-10.mp4",
+      "sha256": "95212f22485628d84e8931c84570fc08a5ccb4530d2c95d12e42408d8b509c2c",
+      "bytes": 699946
+    },
+    {
+      "path": "demonkin.v17-contact.jpg",
+      "sha256": "ee50c51d6590da47e15d917059a24453100d2d95d0937c5c9f8aaf8026639ba4",
+      "bytes": 47801
+    },
+    {
+      "path": "demonkin.v17.chart.json",
+      "sha256": "f53a33aedb70a318bd39f4b02e1bb272d2c27938832c625e52aec14758d43561",
+      "bytes": 376119
+    },
+    {
+      "path": "demonkin.v17.flick-guidance.json",
+      "sha256": "40a99ea483a7cb9d63d5d6b4b02f63691c0aa3ba0c7a6908278bf8bb0800208d",
+      "bytes": 971
+    },
+    {
+      "path": "demonkin.v17.flick.audit.json",
+      "sha256": "b490076586e6db8f24319242bc99a806851d8af7c57014d801edadb2f0706ff4",
+      "bytes": 853
+    },
+    {
+      "path": "demonkin.v17.motion.audit.json",
+      "sha256": "fa691e09d1e5e603b6ef018aaed68c1a20d690766acb31790ef8b08e7647cbf0",
+      "bytes": 1529
+    },
+    {
+      "path": "demonkin.v17.player.audit.json",
+      "sha256": "4be2cd854cca188def7485958bab950fb2569015dcb7aa2ae86ee1a3c1bfef11",
+      "bytes": 8160
+    },
+    {
+      "path": "demonkin.v17.role.audit.json",
+      "sha256": "0e1ba229930a0596cd4ef6089be6f7a788a43737a0e5a469be1ed0ec7228f0b4",
+      "bytes": 2780
+    },
+    {
+      "path": "demonkin.v17.scene.audit.json",
+      "sha256": "e569b3090229161df7cc52c58b7370f9edc6858c6e5659d25838ac88b37afbac",
+      "bytes": 19141
+    },
+    {
+      "path": "distortedfate.v17-15-17.mp4",
+      "sha256": "3d42338b2d11979154e9d0e7f6dbf40b1116b80cf4d7edaa843cf939f79ad3ab",
+      "bytes": 522555
+    },
+    {
+      "path": "distortedfate.v17-25.7-26.9.mp4",
+      "sha256": "f7d902483b4d6dd382c8f26b5cf0541d459492c22b997fa2798729a959832ff7",
+      "bytes": 262029
+    },
+    {
+      "path": "distortedfate.v17-30-32.mp4",
+      "sha256": "b3a6bff3af00ba9804209196afe8d771cd40b55ba123d75476a40f998e3f61b3",
+      "bytes": 621332
+    },
+    {
+      "path": "distortedfate.v17-6.7-7.9.mp4",
+      "sha256": "56c3dd00568289ac3d5ece5fb84516817921f6e855ecf70512d7c11389e2bc73",
+      "bytes": 342101
+    },
+    {
+      "path": "distortedfate.v17-8-10.mp4",
+      "sha256": "6d5ea334bb39e42a67680134fc8f55415ebb29566a3782b4253b84521f3b5de0",
+      "bytes": 594018
+    },
+    {
+      "path": "distortedfate.v17-contact.jpg",
+      "sha256": "23fad0731ca1c2543a5e680dbff93f425697d40981161ee9c7f1bce2e9696386",
+      "bytes": 61672
+    },
+    {
+      "path": "distortedfate.v17.chart.json",
+      "sha256": "adf29f893100691658667b496c83e39675b4835f767f0a6006ea63cc8bb2dca2",
+      "bytes": 412091
+    },
+    {
+      "path": "distortedfate.v17.flick-guidance.json",
+      "sha256": "73eb7b0dd5480d540a83a016ff72c19351d56613af95bd0caec3611c14c71e6e",
+      "bytes": 1696
+    },
+    {
+      "path": "distortedfate.v17.flick.audit.json",
+      "sha256": "a0a04c7ddd1ece5b2ebbfb4659989edbac8c451f58df3b0bf539b54c953535c0",
+      "bytes": 3934
+    },
+    {
+      "path": "distortedfate.v17.motion.audit.json",
+      "sha256": "591884965969b55fbc2d09fefaa1dda7b3d476d7740ae17906e03731c99523e5",
+      "bytes": 1557
+    },
+    {
+      "path": "distortedfate.v17.player.audit.json",
+      "sha256": "efa5a68a6164d3521904b17b7243cc95683544667fdd97ef91f9bf09c32f5da1",
+      "bytes": 10037
+    },
+    {
+      "path": "distortedfate.v17.role.audit.json",
+      "sha256": "a0fdf4a09cad60022ed9d3fb5c502bcb06891f1e69647367f6eb2faa3e41a6ee",
+      "bytes": 2954
+    },
+    {
+      "path": "distortedfate.v17.scene.audit.json",
+      "sha256": "6520eec2e4a6c9c0d1a8413c9b02696f89c9862d05f0d75f2405dbede422906f",
+      "bytes": 22221
+    }
+  ]
+}

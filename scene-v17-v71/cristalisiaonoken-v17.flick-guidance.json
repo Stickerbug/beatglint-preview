@@ -1,0 +1,25 @@
+{
+  "format": "beatglint_flick_guidance_lines_v1",
+  "source_chart_sha256": "f121b857e7108cc656dbe62f85974cfd143d7d6d587416c756d45fc9111cde14",
+  "gameplay_line_count": 4,
+  "guidance_line_count": 0,
+  "guidance_line_ids": [],
+  "flick_count": 0,
+  "guided_count": 0,
+  "fallback_count": 0,
+  "flick_guidance": [],
+  "fallbacks": [],
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "status": "candidate_only",
+  "limitations": [
+    "Guidance lines are empty visual actors and never add a judgement.",
+    "Overlapping requests beyond the bounded line pool are explicit fallbacks.",
+    "Native Phira rendering and first-play review remain required."
+  ],
+  "source_chart_file_sha256": "c1931f66f3c10501820fc01e42c178129a8b48df302e5a19622b30be627dab63",
+  "candidate_file_sha256": "c1931f66f3c10501820fc01e42c178129a8b48df302e5a19622b30be627dab63"
+}

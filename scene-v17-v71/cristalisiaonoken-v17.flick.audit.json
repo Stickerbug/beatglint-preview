@@ -1,0 +1,22 @@
+{
+  "format": "beatglint_flick_guidance_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/cristalisiaonoken.v17.chart.json",
+  "chart_sha256": "c1931f66f3c10501820fc01e42c178129a8b48df302e5a19622b30be627dab63",
+  "guidance_plan_sha256": "d1fca6aa8df0bfba13a546ea1c19314d7d98cb77f65d6a665fc7f98e0648459a",
+  "gameplay_line_count": 4,
+  "flick_count": 0,
+  "planned_count": 0,
+  "guidance_row_count": 0,
+  "checks": [],
+  "errors": [],
+  "error_count": 0,
+  "status": "pass",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "limitations": [
+    "The carrier is a visual cue and never creates a judgement.",
+    "Screen-space sprite extent, human timing and native Phira effects still require visual review."
+  ]
+}

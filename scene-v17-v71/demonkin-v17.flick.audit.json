@@ -1,0 +1,22 @@
+{
+  "format": "beatglint_flick_guidance_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/demonkin.v17.chart.json",
+  "chart_sha256": "f53a33aedb70a318bd39f4b02e1bb272d2c27938832c625e52aec14758d43561",
+  "guidance_plan_sha256": "40a99ea483a7cb9d63d5d6b4b02f63691c0aa3ba0c7a6908278bf8bb0800208d",
+  "gameplay_line_count": 4,
+  "flick_count": 0,
+  "planned_count": 0,
+  "guidance_row_count": 0,
+  "checks": [],
+  "errors": [],
+  "error_count": 0,
+  "status": "pass",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "limitations": [
+    "The carrier is a visual cue and never creates a judgement.",
+    "Screen-space sprite extent, human timing and native Phira effects still require visual review."
+  ]
+}

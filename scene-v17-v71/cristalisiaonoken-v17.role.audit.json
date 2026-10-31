@@ -1,0 +1,103 @@
+{
+  "format": "beatglint_role_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/cristalisiaonoken.v17.chart.json",
+  "chart_sha256": "c1931f66f3c10501820fc01e42c178129a8b48df302e5a19622b30be627dab63",
+  "roles": [
+    {
+      "line_id": "L0",
+      "role": "top",
+      "median_y": 0.84,
+      "expected_side": "below",
+      "expected_count": 292,
+      "reverse_count": 0,
+      "note_count": 292
+    },
+    {
+      "line_id": "L1",
+      "role": "bottom",
+      "median_y": 0.16,
+      "expected_side": "above",
+      "expected_count": 213,
+      "reverse_count": 0,
+      "note_count": 213
+    },
+    {
+      "line_id": "L2",
+      "role": "top",
+      "median_y": 0.7,
+      "expected_side": "below",
+      "expected_count": 165,
+      "reverse_count": 0,
+      "note_count": 165
+    },
+    {
+      "line_id": "L3",
+      "role": "bottom",
+      "median_y": 0.3,
+      "expected_side": "above",
+      "expected_count": 241,
+      "reverse_count": 0,
+      "note_count": 241
+    },
+    {
+      "line_id": "L4",
+      "role": "top",
+      "median_y": 0.998,
+      "expected_side": "below",
+      "expected_count": 0,
+      "reverse_count": 0,
+      "note_count": 0
+    },
+    {
+      "line_id": "L5",
+      "role": "bottom",
+      "median_y": 0.002,
+      "expected_side": "above",
+      "expected_count": 0,
+      "reverse_count": 0,
+      "note_count": 0
+    }
+  ],
+  "reverse_side_notes": [],
+  "reverse_side_count": 0,
+  "reverse_side_fraction": 0.0,
+  "direction_geometry": {
+    "note_count": 911,
+    "matched_count": 911,
+    "mismatch_count": 0,
+    "uncertain_count": 0,
+    "mismatch_examples": [],
+    "convention": "screen y down; top expects negative dy, bottom expects positive dy"
+  },
+  "line_spacing": {
+    "sample_count": 786,
+    "minimum_normalized_gap": 0.39999999999999997,
+    "close_gap_sample_count": 0,
+    "guidance_expected_close_sample_count": 0,
+    "threshold": 0.15,
+    "unexpected_examples": []
+  },
+  "flick_guidance": {
+    "flick_count": 0,
+    "planned_count": 0,
+    "missing_note_ids": [],
+    "guidance_line_count": 0,
+    "guidance_error_count": 0,
+    "guidance_errors": []
+  },
+  "hold_lifecycle": {
+    "hold_count": 120,
+    "chart_end_s": 136.07619047619045,
+    "release_overrun_count": 0,
+    "release_overruns": []
+  },
+  "status": "diagnostic_clear",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "limitations": [
+    "Reverse-side notes may be authored exceptions, but this report does not infer a valid visual cue.",
+    "Line spacing is a centerline diagnostic; sprite extent, occlusion and hand motion are not modeled.",
+    "A clear diagnostic is not a human AP or playability proof."
+  ]
+}
