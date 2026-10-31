@@ -59,12 +59,12 @@
       },
       "scene_candidate_search": {
         "candidate_count": 4,
-        "graph_identity_sha256": "dd755fac8d79de6c793d98ca62f232c2a64123d3a79838463277485120e4f503",
+        "graph_identity_sha256": "1db059d6f88b3bf4a89c1e2a2856f69067eeb7143c4476f89eec1217c54a49f4",
         "operation_vocabulary_counts": [
           3,
-          9,
-          9,
-          9
+          11,
+          11,
+          11
         ],
         "missing_guidance_group_counts": [
           0,
@@ -77,8 +77,8 @@
       "scene_event_plan": {
         "candidate_id": "scene-candidate-01",
         "status": "lowered_candidate_only",
-        "event_count": 1917,
-        "dual_role_event_count": 171,
+        "event_count": 1739,
+        "dual_role_event_count": 114,
         "empty_actor_event_count": 0,
         "finite_lifecycle": true,
         "error_count": 0
@@ -123,12 +123,12 @@
       },
       "scene_candidate_search": {
         "candidate_count": 4,
-        "graph_identity_sha256": "5b25d41d9c8a04f8e63bb0ee2ae11ff675c64532b7506b4e9179f7e4f30f814b",
+        "graph_identity_sha256": "d052d8bc8f46e7ed09ed462e536aa109c24ef27339cf4663b4f6d6537521a746",
         "operation_vocabulary_counts": [
           3,
-          9,
-          9,
-          9
+          11,
+          11,
+          11
         ],
         "missing_guidance_group_counts": [
           0,
@@ -141,8 +141,8 @@
       "scene_event_plan": {
         "candidate_id": "scene-candidate-01",
         "status": "lowered_candidate_only",
-        "event_count": 1681,
-        "dual_role_event_count": 147,
+        "event_count": 1534,
+        "dual_role_event_count": 104,
         "empty_actor_event_count": 0,
         "finite_lifecycle": true,
         "error_count": 0
@@ -189,12 +189,12 @@
       },
       "scene_candidate_search": {
         "candidate_count": 4,
-        "graph_identity_sha256": "230bfb9f588a5160679f0da8adaf781f7bb465af0384a4ee54edbd8115d618d2",
+        "graph_identity_sha256": "6af277a738fddc34a0822c0ff73c023d0d79a18a748e4f6db61c2d8afdf6c04a",
         "operation_vocabulary_counts": [
           4,
-          11,
-          10,
-          10
+          13,
+          12,
+          12
         ],
         "missing_guidance_group_counts": [
           0,
@@ -207,8 +207,8 @@
       "scene_event_plan": {
         "candidate_id": "scene-candidate-01",
         "status": "lowered_candidate_only",
-        "event_count": 1722,
-        "dual_role_event_count": 147,
+        "event_count": 1576,
+        "dual_role_event_count": 105,
         "empty_actor_event_count": 2,
         "finite_lifecycle": true,
         "error_count": 0
@@ -218,8 +218,8 @@
   "files": [
     {
       "path": "SCENE-V17-CANDIDATE-SUMMARY.json",
-      "sha256": "817af5c19f2d61d3e5aa5d3194bae836d1e197e62984916792f2c12b9f9033c9",
-      "bytes": 10806
+      "sha256": "7f1f4efa7cb6b21705b30c507e4392e0200169ea2559c3de0c1b9c770f162223",
+      "bytes": 11372
     },
     {
       "path": "cristalisiaonoken.v17-15-17.mp4",
@@ -268,8 +268,8 @@
     },
     {
       "path": "cristalisiaonoken.v17.scene-graph.json",
-      "sha256": "f8beec2535f838e824ffe63fa760d34bb755e4fb6b37a60a13c431f22948511c",
-      "bytes": 922371
+      "sha256": "1291f60da05ef18a244c8d0865dd8bf068ab41c41fb7f9ace58f44c7ebfc098c",
+      "bytes": 932228
     },
     {
       "path": "cristalisiaonoken.v17.scene.audit.json",
@@ -323,8 +323,8 @@
     },
     {
       "path": "demonkin.v17.scene-graph.json",
-      "sha256": "a578e12b90d0737a8ca3f52b4c0fc9c547d5ffea74e0329b48d52d15449c6b6d",
-      "bytes": 1042786
+      "sha256": "a5b614c1e048bb8daf2630d3e32d1853354441f89485a67c1903e8a50fd7ae50",
+      "bytes": 1054084
     },
     {
       "path": "demonkin.v17.scene.audit.json",
@@ -388,8 +388,8 @@
     },
     {
       "path": "distortedfate.v17.scene-graph.json",
-      "sha256": "6b42ca8e3f937306bb3b7f1c5ec30d849b4d005f672a7938fab485ec66e66168",
-      "bytes": 925225
+      "sha256": "157e073f8c70d00dbf12c4abd252f2e1eae7b90d115b2ab075870aa92276e6bf",
+      "bytes": 935026
     },
     {
       "path": "distortedfate.v17.scene.audit.json",
@@ -403,9 +403,9 @@
     "candidate_count": 4,
     "seed": 20261031,
     "summary_path": "SCENE-V17-CANDIDATE-SUMMARY.json",
+    "event_plan_layer": "coordinate_free_finite_lifecycle",
     "official_animation_arrays_read": false,
     "training_started": false,
-    "promotion_ready": false,
-    "event_plan_layer": "coordinate_free_finite_lifecycle"
+    "promotion_ready": false
   }
 }

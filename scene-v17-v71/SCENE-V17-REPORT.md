@@ -42,7 +42,10 @@
 
 | 曲目 | 候选数 | 每个候选的操作词汇数 | 缺失 Flick 引导组 | 状态 |
 |---|---:|---:|---:|---|
-| cristalisiaonoken | 4 | 3/9/9/9 | 0/0/0/0 | `candidate_search_only` |\n| demonkin | 4 | 3/9/9/9 | 0/0/0/0 | `candidate_search_only` |\n| distortedfate | 4 | 4/11/10/10 | 0/0/0/0 | `candidate_search_only` |\n
+| cristalisiaonoken | 4 | 3/11/11/11 | 0/0/0/0 | `candidate_search_only` |
+| demonkin | 4 | 3/11/11/11 | 0/0/0/0 | `candidate_search_only` |
+| distortedfate | 4 | 4/13/12/12 | 0/0/0/0 | `candidate_search_only` |
+
 操作词汇数是搜索空间覆盖量，不是质量评分；所有候选仍需要真实 Phira 渲染、屏幕空间、首次游玩、FlowPhi 和回收审计。
 
 - [组合候选摘要](SCENE-V17-CANDIDATE-SUMMARY.json)
@@ -53,7 +56,10 @@
 
 | 曲目 | 事件数 | 引导事件 | 双重角色引导 | 空演员事件 | 回收生命周期 | 状态 |
 |---|---:|---:|---:|---:|---|---|
-| cristalisiaonoken | 1681 | 147 | 147 | 0 | 通过 | `lowered_candidate_only` |\n| demonkin | 1917 | 171 | 171 | 0 | 通过 | `lowered_candidate_only` |\n| distortedfate | 1722 | 148 | 147 | 2 | 通过 | `lowered_candidate_only` |\n
+| cristalisiaonoken | 1534 | 104 | 104 | 0 | 通过 | `lowered_candidate_only` |
+| demonkin | 1739 | 114 | 114 | 0 | 通过 | `lowered_candidate_only` |
+| distortedfate | 1576 | 106 | 105 | 2 | 通过 | `lowered_candidate_only` |
+
 事件计划仍使用 `deferred_screen_space`，没有最终坐标或 Phigros 动画数组；它必须经过屏幕空间、首次游玩、FlowPhi 和真实渲染门。
 
 ## 运动门
