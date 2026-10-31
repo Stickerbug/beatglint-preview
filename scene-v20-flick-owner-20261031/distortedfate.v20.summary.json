@@ -1,0 +1,68 @@
+{
+  "candidate_id": "scene-candidate-01",
+  "candidate_index": 1,
+  "status": "candidate_only",
+  "summary": {
+    "group_count": 667,
+    "operation_counts": {
+      "carrier_pulse": 80,
+      "carrier_rest": 63,
+      "carrier_snap": 1,
+      "empty_converge": 1,
+      "guarded_parallel": 91,
+      "handoff_after_release": 39,
+      "hold_axis": 33,
+      "hold_static": 41,
+      "ribbon_guarded": 40,
+      "safe_handoff": 65,
+      "split": 83,
+      "staggered_entry": 70,
+      "stream_drift": 60
+    },
+    "unique_operation_count": 13,
+    "dual_role_operation_count": 105,
+    "empty_actor_operation_count": 1,
+    "missing_guidance_group_ids": [],
+    "structural_diversity_score": 0.01949
+  },
+  "validation": {
+    "format": "beatglint_scene_role_contract_v1",
+    "status": "pass",
+    "error_count": 0,
+    "errors": [],
+    "operation_count": 667,
+    "dual_role_operation_count": 105,
+    "empty_actor_count": 1,
+    "note_identity_preserved": true,
+    "judgement_ownership_preserved": true
+  },
+  "graph_summary": {
+    "note_count": 911,
+    "group_count": 667,
+    "actor_count": 4,
+    "group_kind_counts": {
+      "chord": 244,
+      "flick": 2,
+      "hold_follow": 83,
+      "hold_start": 70,
+      "single_stream": 268
+    },
+    "relation_tag_counts": {
+      "chord_continuation": 39,
+      "continuation": 130,
+      "flick_guidance_candidate": 2,
+      "handoff": 327,
+      "hold_continuity": 35,
+      "merge": 85,
+      "split": 85
+    },
+    "multi_actor_group_count": 120,
+    "guidance_required_group_count": 2,
+    "dual_role_candidate_group_count": 399,
+    "unique_group_signature_count": 10,
+    "topology_signature_sha256": "1bbd9166c99bfa36ee7d97e4adab03c70c4fff2c2964b506b86cee2c54ae6e36"
+  },
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false
+}
