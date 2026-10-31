@@ -15,7 +15,8 @@
     "same_side_target_competition": 0,
     "background_target_competition": 0,
     "rendered_gameplay_line_crossings": 0,
-    "late_secondary_visibility": 0
+    "late_secondary_visibility": 0,
+    "same_side_visible_overlap": 0
   },
   "files": [
     {
