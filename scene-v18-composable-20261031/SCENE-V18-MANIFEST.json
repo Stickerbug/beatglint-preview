@@ -1,0 +1,257 @@
+{
+  "format": "beatglint-scene-v18-composable-render-manifest-v1",
+  "candidate": "scene-v18-composable-20261031",
+  "candidate_index": 2,
+  "renderer": "phira-render-beatglint resident",
+  "skin": "高仿官皮v6.4",
+  "resolution": "960x540",
+  "fps": 30,
+  "source": "note-owned scene graph -> deterministic scene candidate -> finite event plan -> bounded screen-space compiler",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "status": "candidate_only",
+  "constraints": {
+    "gameplay_y_amplitude_max": 0.018,
+    "gameplay_angle_max_deg": 2.0,
+    "background_alpha_max": 0.12,
+    "flick_delayed_convergence": true,
+    "all_temporary_actors_recycle": true
+  },
+  "songs": [
+    {
+      "song": "demonkin",
+      "video": "demonkin-v18c-8-10.mp4",
+      "window": "8–10 秒",
+      "video_sha256": "1c1230d73a76a7310d7c505d2404f4a917a5f4dadce4a38d407e658608020e92",
+      "video_bytes": 724984,
+      "note_count": 1027,
+      "line_count": 4,
+      "background_line_count": 0,
+      "geometry_status": "candidate_only",
+      "geometry_event_count": 3293,
+      "multigameplay_status": "pass_structural",
+      "minimum_gameplay_gap": 0.4450401702678435,
+      "line_crossings": 0,
+      "player_status": "pass_structural",
+      "visible_parallel_competition": 0,
+      "same_side_target_competition": 0,
+      "background_target_competition": 0,
+      "role_status": "diagnostic_clear",
+      "reverse_side_count": 0,
+      "direction_mismatch_count": 0,
+      "flick_status": "pass",
+      "flick_count": 0,
+      "flick_guided_count": 0,
+      "flick_errors": 0,
+      "motion_status": "diagnostic_clear",
+      "motion_max_slope_y_per_s": 0.40393818460270636,
+      "motion_max_displacement": 0.018000000000000016,
+      "guidance_line_ids": [],
+      "graph_identity_sha256": "c9b045bd001b44fde8a0b396d1fc6101c0b258d91daa74d265ad0b9ecbf51162"
+    },
+    {
+      "song": "cristalisiaonoken",
+      "video": "cristalisiaonoken-v18c-8-10.mp4",
+      "window": "8–10 秒",
+      "video_sha256": "4d4f7201445e2f5f3aec0b5b47cfa7ee1385b0bf33b5d4898d290443cbb677cf",
+      "video_bytes": 697633,
+      "note_count": 911,
+      "line_count": 4,
+      "background_line_count": 0,
+      "geometry_status": "candidate_only",
+      "geometry_event_count": 2898,
+      "multigameplay_status": "pass_structural",
+      "minimum_gameplay_gap": 0.4460640341038458,
+      "line_crossings": 0,
+      "player_status": "pass_structural",
+      "visible_parallel_competition": 0,
+      "same_side_target_competition": 0,
+      "background_target_competition": 0,
+      "role_status": "diagnostic_clear",
+      "reverse_side_count": 0,
+      "direction_mismatch_count": 0,
+      "flick_status": "pass",
+      "flick_count": 0,
+      "flick_guided_count": 0,
+      "flick_errors": 0,
+      "motion_status": "diagnostic_clear",
+      "motion_max_slope_y_per_s": 0.36957605533291865,
+      "motion_max_displacement": 0.018000000000000016,
+      "guidance_line_ids": [],
+      "graph_identity_sha256": "5e08b9b1ee0ec12d17d2f7e50bf5f6852b9e817b2631dfb3a513c7dde7037f55"
+    },
+    {
+      "song": "distortedfate",
+      "video": "distortedfate-v18c-6.7-8.1.mp4",
+      "window": "Flick 窗口 6.7–8.1 秒",
+      "video_sha256": "54278d3d8fa956c823553ca48a5e37a39bb20d9eb085f0517d053d8a987ca48b",
+      "video_bytes": 393230,
+      "note_count": 911,
+      "line_count": 6,
+      "background_line_count": 2,
+      "geometry_status": "candidate_only",
+      "geometry_event_count": 2918,
+      "multigameplay_status": "pass_structural",
+      "minimum_gameplay_gap": 0.4496528769124922,
+      "line_crossings": 0,
+      "player_status": "pass_structural",
+      "visible_parallel_competition": 0,
+      "same_side_target_competition": 0,
+      "background_target_competition": 0,
+      "role_status": "diagnostic_clear",
+      "reverse_side_count": 0,
+      "direction_mismatch_count": 0,
+      "flick_status": "pass",
+      "flick_count": 2,
+      "flick_guided_count": 2,
+      "flick_errors": 0,
+      "motion_status": "diagnostic_clear",
+      "motion_max_slope_y_per_s": 0.3723466430329608,
+      "motion_max_displacement": 0.018000000000000016,
+      "guidance_line_ids": [
+        4,
+        5
+      ],
+      "graph_identity_sha256": "1bbd9166c99bfa36ee7d97e4adab03c70c4fff2c2964b506b86cee2c54ae6e36"
+    }
+  ],
+  "files": [
+    {
+      "path": "cristalisiaonoken-v18c-8-10.mp4",
+      "sha256": "4d4f7201445e2f5f3aec0b5b47cfa7ee1385b0bf33b5d4898d290443cbb677cf",
+      "bytes": 697633
+    },
+    {
+      "path": "cristalisiaonoken.v18c.flick.audit.json",
+      "sha256": "8787ffef3eca2f6331223c24d7fdbe94404aae82440bc8720da68fb2aaa0d209",
+      "bytes": 876
+    },
+    {
+      "path": "cristalisiaonoken.v18c.geometry.audit.json",
+      "sha256": "d5ba5c51a4989c38b1af50693f19ed4819ba7b7e08c1f32a4f46bb34a7acb146",
+      "bytes": 1687
+    },
+    {
+      "path": "cristalisiaonoken.v18c.guidance.json",
+      "sha256": "bb08f5959c9bd68887ada7dec9ead1aedb27c7ce6a5c5ebd0ae2307e93b53407",
+      "bytes": 532
+    },
+    {
+      "path": "cristalisiaonoken.v18c.motion.audit.json",
+      "sha256": "669d76ae3c01f31762ea8874a44137977f945de0ebd5fdcfc8b1c9206be80c6a",
+      "bytes": 1874
+    },
+    {
+      "path": "cristalisiaonoken.v18c.multigameplay.audit.json",
+      "sha256": "6062495aaccdface3c5f325762c6cf4d23c239061337b91239fe59476b00a707",
+      "bytes": 19331
+    },
+    {
+      "path": "cristalisiaonoken.v18c.player.audit.json",
+      "sha256": "7ae13c6eb015eb51c10e01e7233c0f7656bff66e779317ebb3a6784658168879",
+      "bytes": 8189
+    },
+    {
+      "path": "cristalisiaonoken.v18c.role.audit.json",
+      "sha256": "af0bddd4e59041488fd15a2bbfe1d21b0a842a0d10b7288da88cc93e1e753149",
+      "bytes": 2450
+    },
+    {
+      "path": "demonkin-v18c-8-10.mp4",
+      "sha256": "1c1230d73a76a7310d7c505d2404f4a917a5f4dadce4a38d407e658608020e92",
+      "bytes": 724984
+    },
+    {
+      "path": "demonkin.v18c.flick.audit.json",
+      "sha256": "dfd3c2339fbfbd623d00d714c4f658102f6a630e786e7b3e6284b3f3403ac9b0",
+      "bytes": 867
+    },
+    {
+      "path": "demonkin.v18c.geometry.audit.json",
+      "sha256": "afdc6bafcb536b1f15178163b7bf7beb88ed9a4ce30ccb6ce6a841f43accb3ec",
+      "bytes": 1687
+    },
+    {
+      "path": "demonkin.v18c.guidance.json",
+      "sha256": "21c8e76778318024a008d10c33f0dc4a6eb755fa4c3d3c99fda6475ac57a785d",
+      "bytes": 532
+    },
+    {
+      "path": "demonkin.v18c.motion.audit.json",
+      "sha256": "e4c38eb30b46971028166b1915d05b95077ca89f4bb7475904aaa1e3fab86c2a",
+      "bytes": 1865
+    },
+    {
+      "path": "demonkin.v18c.multigameplay.audit.json",
+      "sha256": "85c13927d72fa9ad9e3edb2cc9c87368d03309eecc75a1940d90f384768325be",
+      "bytes": 19156
+    },
+    {
+      "path": "demonkin.v18c.player.audit.json",
+      "sha256": "2521f5d2f8fc2c29d262e449143e463a9b3bcb3f404d6ca3fb4c62b1d90c76c2",
+      "bytes": 8182
+    },
+    {
+      "path": "demonkin.v18c.role.audit.json",
+      "sha256": "bb674bb17fd42a29449fee4d0e5b4af7319b38d89b954b162b0e035d4b65d00a",
+      "bytes": 2460
+    },
+    {
+      "path": "distortedfate-v18c-6.7-8.1.mp4",
+      "sha256": "54278d3d8fa956c823553ca48a5e37a39bb20d9eb085f0517d053d8a987ca48b",
+      "bytes": 393230
+    },
+    {
+      "path": "distortedfate-v18c-dense-grid.jpg",
+      "sha256": "dbae055209d8f42e4cfe2459332cc1c990918157d963016d9cfb6d60dda391c5",
+      "bytes": 152516
+    },
+    {
+      "path": "distortedfate.v18c.flick.audit.json",
+      "sha256": "6a0ca53a05ab2c6de3176bad86d73944fdf3e6eee8e9d0bed4154b9671e38a66",
+      "bytes": 3955
+    },
+    {
+      "path": "distortedfate.v18c.geometry.audit.json",
+      "sha256": "e3e38c954f5c7e43c97d2d22463358b1fc7cf0e795bc7f6e23c43e7df66eb8ae",
+      "bytes": 2470
+    },
+    {
+      "path": "distortedfate.v18c.guidance.json",
+      "sha256": "3be1c36089511e16782235545b01bdd0e471e58dc18fa5b2499f58aeba7e0872",
+      "bytes": 1201
+    },
+    {
+      "path": "distortedfate.v18c.motion.audit.json",
+      "sha256": "2b3c63515d1145116a16f392c54325c3d6ba717e2d9cb2a8ed0e4bd554d17dbe",
+      "bytes": 1901
+    },
+    {
+      "path": "distortedfate.v18c.multigameplay.audit.json",
+      "sha256": "e1c05a2f15417a58bf45b0a4fb639485c559ba96fb6a29a44ecbe9c87753fb28",
+      "bytes": 22236
+    },
+    {
+      "path": "distortedfate.v18c.player.audit.json",
+      "sha256": "6098cf3f52d40413e40409424fb382ee1874709cd48ad619ea5280a2398f4fe4",
+      "bytes": 8197
+    },
+    {
+      "path": "distortedfate.v18c.role.audit.json",
+      "sha256": "f66a650ff17258112e86b0dd33cc8ef565c369e550c5f5a2f8eb76377e78e35a",
+      "bytes": 2817
+    },
+    {
+      "path": "v18c-contact-grid.jpg",
+      "sha256": "bf09f4381673b48bdd8e2b8a1f3fcf8f6ce4452f8e8691f6c8cb9b4b893e11ed",
+      "bytes": 83800
+    }
+  ],
+  "limitations": [
+    "视频是新组合器的真实原生渲染窗口，不代表整曲 promotion-ready。",
+    "事件计划和坐标编译仍需更多未参与设计的歌曲、整曲首玩和真人审查。",
+    "两条空载体只用于 Distorted Fate 的 Flick 引导，不拥有判定。"
+  ]
+}

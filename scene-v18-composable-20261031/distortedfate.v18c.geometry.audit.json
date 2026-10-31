@@ -1,0 +1,81 @@
+{
+  "format": "beatglint_scene_geometry_candidate_v1",
+  "status": "candidate_only",
+  "source_chart_sha256": "6802f444315ba87a5947ddb970d5a4a6e9fc2a2bc54f612f5f08e471f6ca1204",
+  "candidate_chart_sha256": "d51496b8161f30ceb0f71fbcbfbf26ee30c584800b965c9e940839ce8e620d43",
+  "event_plan_sha256": "65fe36d07647ebaa2b2965c2c2460d8ab108ed28871cbff6e8ac39e7c6d56a5e",
+  "gameplay_line_count": 4,
+  "background_line_count": 2,
+  "background_line_ids": [
+    "E:guide:G00015",
+    "E:guide:G00078"
+  ],
+  "guidance_plan": {
+    "format": "beatglint_flick_guidance_lines_v1",
+    "source_chart_sha256": "6802f444315ba87a5947ddb970d5a4a6e9fc2a2bc54f612f5f08e471f6ca1204",
+    "gameplay_line_count": 4,
+    "guidance_line_count": 2,
+    "guidance_line_ids": [
+      4,
+      5
+    ],
+    "flick_count": 2,
+    "guided_count": 2,
+    "fallback_count": 0,
+    "flick_guidance": [
+      {
+        "note_id": "L1:above:11",
+        "target_line": 1,
+        "guidance_line": 4,
+        "guidance_slot": 0,
+        "hit_s": 3.810975,
+        "interval_s": [
+          3.360975,
+          3.990975
+        ],
+        "lead_s": 0.45,
+        "tail_s": 0.18,
+        "kind": "flick_convergence",
+        "status": "candidate_only"
+      },
+      {
+        "note_id": "L1:above:50",
+        "target_line": 1,
+        "guidance_line": 5,
+        "guidance_slot": 1,
+        "hit_s": 22.828118,
+        "interval_s": [
+          22.378118,
+          23.008118
+        ],
+        "lead_s": 0.45,
+        "tail_s": 0.18,
+        "kind": "flick_convergence",
+        "status": "candidate_only"
+      }
+    ],
+    "fallbacks": [],
+    "note_identity_preserved": true,
+    "official_chart_used": false,
+    "official_animation_arrays_read": false,
+    "training_started": false,
+    "promotion_ready": false,
+    "status": "candidate_only"
+  },
+  "note_identity_preserved": true,
+  "max_gameplay_y_amplitude": 0.018,
+  "max_gameplay_x_amplitude": 0.014,
+  "max_gameplay_angle_deg": 2.0,
+  "max_background_alpha": 0.12,
+  "readability_gap_threshold": 0.08,
+  "geometry_event_count": 2918,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "errors": [],
+  "limitations": [
+    "This compiler uses bounded envelopes and does not infer authored animation intent.",
+    "The parallel gate samples event boundaries; native Phira and human first-play review remain required.",
+    "A candidate pass is not a playability or aesthetic verdict."
+  ]
+}

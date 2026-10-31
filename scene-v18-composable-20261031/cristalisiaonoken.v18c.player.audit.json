@@ -1,0 +1,303 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/cristalisiaonoken.v17.composable-c2.chart.json",
+  "chart_sha256": "9f6027207344b7845dc9c52c0421849a9a8a7f9506a57a95a1796399b011cc55",
+  "gameplay_line_count": 4,
+  "background_line_count": 0,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 911,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 339,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 339,
+  "background_note_target_competition_count": 0,
+  "guidance_expected_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 244,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.8145895332121048,
+  "rapid_transition_count": 666,
+  "rapid_transition_95th_distance": 0.7506427692464249,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 0.8547845804988661,
+        "count": 2,
+        "screen_span": 0.7251385470803855
+      },
+      {
+        "time_s": 1.2959637188208615,
+        "count": 2,
+        "screen_span": 0.34776866846863835
+      },
+      {
+        "time_s": 2.1783219954648523,
+        "count": 2,
+        "screen_span": 0.6816097003806115
+      },
+      {
+        "time_s": 2.619501133786848,
+        "count": 2,
+        "screen_span": 0.7278961572083019
+      },
+      {
+        "time_s": 2.8400907029478453,
+        "count": 2,
+        "screen_span": 0.3390534276514618
+      },
+      {
+        "time_s": 3.281269841269841,
+        "count": 2,
+        "screen_span": 0.15969270270007846
+      },
+      {
+        "time_s": 3.5018594104308387,
+        "count": 2,
+        "screen_span": 0.6159600926128382
+      },
+      {
+        "time_s": 4.163628117913832,
+        "count": 2,
+        "screen_span": 0.7340423539694723
+      },
+      {
+        "time_s": 4.3842176870748295,
+        "count": 2,
+        "screen_span": 0.5703797921902194
+      },
+      {
+        "time_s": 4.604807256235827,
+        "count": 2,
+        "screen_span": 0.5410029024883674
+      },
+      {
+        "time_s": 4.825396825396825,
+        "count": 2,
+        "screen_span": 0.6117397842510554
+      },
+      {
+        "time_s": 5.26657596371882,
+        "count": 2,
+        "screen_span": 0.1306803798987484
+      },
+      {
+        "time_s": 5.487165532879818,
+        "count": 2,
+        "screen_span": 0.32813564851715143
+      },
+      {
+        "time_s": 5.7077551020408155,
+        "count": 2,
+        "screen_span": 0.133694242731704
+      },
+      {
+        "time_s": 5.928344671201813,
+        "count": 2,
+        "screen_span": 0.4003340461061249
+      },
+      {
+        "time_s": 6.369523809523809,
+        "count": 2,
+        "screen_span": 0.5248485223589587
+      },
+      {
+        "time_s": 6.590113378684807,
+        "count": 2,
+        "screen_span": 0.3832711710488122
+      },
+      {
+        "time_s": 7.1415873015873,
+        "count": 2,
+        "screen_span": 0.5135993455090799
+      },
+      {
+        "time_s": 7.251882086167799,
+        "count": 2,
+        "screen_span": 0.6235737323695513
+      },
+      {
+        "time_s": 7.913650793650793,
+        "count": 2,
+        "screen_span": 0.6778234728885482
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.4136054421768707,
+        "to_s": 0.6341950113378684,
+        "dt_s": 0.2205895691609977,
+        "distance": 0.6720439309704057,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.6341950113378684,
+        "to_s": 0.8547845804988661,
+        "dt_s": 0.2205895691609977,
+        "distance": 0.15509138781714654,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.8547845804988661,
+        "to_s": 1.0753741496598639,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.12479218533868539,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.0753741496598639,
+        "to_s": 1.2959637188208615,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.8072709507357013,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.2959637188208615,
+        "to_s": 1.5165532879818593,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7460737663125238,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.5165532879818593,
+        "to_s": 1.7371428571428569,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.10329104052034843,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.7371428571428569,
+        "to_s": 1.9577324263038547,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.722640313052765,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.9577324263038547,
+        "to_s": 2.1783219954648523,
+        "dt_s": 0.2205895691609976,
+        "distance": 0.4016162451429427,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.1783219954648523,
+        "to_s": 2.39891156462585,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.11284760304446799,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.39891156462585,
+        "to_s": 2.619501133786848,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7015531294489814,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.619501133786848,
+        "to_s": 2.8400907029478453,
+        "dt_s": 0.22058956916099737,
+        "distance": 0.38210476222938383,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.8400907029478453,
+        "to_s": 3.060680272108843,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.7062203200853533,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.060680272108843,
+        "to_s": 3.281269841269841,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.09284935852551084,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.281269841269841,
+        "to_s": 3.5018594104308387,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.41052254713485264,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5018594104308387,
+        "to_s": 3.722448979591836,
+        "dt_s": 0.22058956916099737,
+        "distance": 0.137699057650208,
+        "from_line": 3,
+        "to_line": 3
+      },
+      {
+        "from_s": 3.722448979591836,
+        "to_s": 3.943038548752834,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5251935459171055,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.943038548752834,
+        "to_s": 4.163628117913832,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.3007242263082495,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.163628117913832,
+        "to_s": 4.3842176870748295,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5580813963182277,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.3842176870748295,
+        "to_s": 4.604807256235827,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.5578060808877607,
+        "from_line": 3,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.604807256235827,
+        "to_s": 4.825396825396825,
+        "dt_s": 0.2205895691609978,
+        "distance": 0.6426339051266474,
+        "from_line": 3,
+        "to_line": 0
+      }
+    ],
+    "guidance_expected": []
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "guidance_plan": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/cristalisiaonoken.v17.composable-c2.guidance.json"
+}

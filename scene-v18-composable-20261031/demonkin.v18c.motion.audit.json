@@ -1,0 +1,63 @@
+{
+  "format": "beatglint_motion_profile_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/demonkin.v17.composable-c2.chart.json",
+  "chart_sha256": "69eca558a5c0fb5ef8328a9a9bf23b07f1d4f1ec0621eed7edb5c735d8953623",
+  "line_count": 4,
+  "gated_line_count": 4,
+  "guidance_line_count": 0,
+  "guidance_lines": [],
+  "finite_event_count": 3289,
+  "max_slope_y_per_s": 0.40393818460270636,
+  "max_displacement": 0.018000000000000016,
+  "guidance_max_slope_y_per_s": 0.0,
+  "guidance_max_displacement": 0.0,
+  "guidance_motion_policy": "recycle_offscreen; excluded from gameplay baseline closure/speed gate",
+  "line_ranges": [
+    {
+      "line": 0,
+      "base_y": 0.84,
+      "min_y": 0.822,
+      "max_y": 0.858,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 1,
+      "base_y": 0.16,
+      "min_y": 0.14200000000000002,
+      "max_y": 0.178,
+      "max_displacement": 0.017999999999999988
+    },
+    {
+      "line": 2,
+      "base_y": 0.7,
+      "min_y": 0.6819999999999999,
+      "max_y": 0.718,
+      "max_displacement": 0.018000000000000016
+    },
+    {
+      "line": 3,
+      "base_y": 0.3,
+      "min_y": 0.282,
+      "max_y": 0.318,
+      "max_displacement": 0.018000000000000016
+    }
+  ],
+  "continuity_error_count": 0,
+  "continuity_errors": [],
+  "closure_error_count": 0,
+  "closure_errors": [],
+  "returns_to_baseline": true,
+  "thresholds": {
+    "max_slope_y_per_s": 1.0,
+    "max_displacement": 0.12,
+    "minimum_role_gap": 0.25
+  },
+  "status": "diagnostic_clear",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "limitations": [
+    "Centerline speed is not a perceptual quality score or human playability proof.",
+    "Flick guidance and Hold release still require native and human review."
+  ]
+}

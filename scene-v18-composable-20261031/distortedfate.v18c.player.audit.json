@@ -1,0 +1,303 @@
+{
+  "format": "beatglint_first_play_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/distortedfate.v17.composable-c2.chart.json",
+  "chart_sha256": "25d337ca9ae603348813b6b10584e1e369111aff2b5a891c03254d3e15fd983a",
+  "gameplay_line_count": 4,
+  "background_line_count": 2,
+  "assumption": "first play with 250ms reaction and no future ownership knowledge",
+  "parameters": {
+    "visible_alpha": 0.12,
+    "near_gap": 0.15,
+    "reaction_s": 0.25
+  },
+  "note_count": 911,
+  "visible_parallel_competition_count": 0,
+  "background_line_competition_count": 0,
+  "note_target_competition_count": 370,
+  "same_side_note_target_competition_count": 0,
+  "opposite_side_crossing_count": 370,
+  "background_note_target_competition_count": 0,
+  "guidance_expected_competition_count": 0,
+  "same_side_visible_overlap_count": 0,
+  "late_secondary_visibility_count": 0,
+  "minimum_observed_line_gap": 1.0,
+  "chord_group_count": 244,
+  "max_simultaneous_targets": 2,
+  "max_chord_screen_span": 0.8182192364971044,
+  "rapid_transition_count": 666,
+  "rapid_transition_95th_distance": 0.7696217699892208,
+  "status": "pass_structural",
+  "errors": [],
+  "pressure_examples": {
+    "chords": [
+      {
+        "time_s": 0.943310657596372,
+        "count": 2,
+        "screen_span": 0.7251385109643252
+      },
+      {
+        "time_s": 1.3960997732426306,
+        "count": 2,
+        "screen_span": 0.3477686685556852
+      },
+      {
+        "time_s": 2.6035374149659867,
+        "count": 2,
+        "screen_span": 0.6816097003804579
+      },
+      {
+        "time_s": 3.056326530612245,
+        "count": 2,
+        "screen_span": 0.717743465152294
+      },
+      {
+        "time_s": 3.2072562358276646,
+        "count": 2,
+        "screen_span": 0.3390409773191983
+      },
+      {
+        "time_s": 3.5091156462585036,
+        "count": 2,
+        "screen_span": 0.15973101029985254
+      },
+      {
+        "time_s": 3.660045351473923,
+        "count": 2,
+        "screen_span": 0.6996312268567925
+      },
+      {
+        "time_s": 4.414693877551021,
+        "count": 2,
+        "screen_span": 0.8182192364971044
+      },
+      {
+        "time_s": 4.71655328798186,
+        "count": 2,
+        "screen_span": 0.7599121953889921
+      },
+      {
+        "time_s": 5.018412698412699,
+        "count": 2,
+        "screen_span": 0.6848487523198131
+      },
+      {
+        "time_s": 5.320272108843538,
+        "count": 2,
+        "screen_span": 0.6959574178987562
+      },
+      {
+        "time_s": 5.923990929705216,
+        "count": 2,
+        "screen_span": 0.12933457376127225
+      },
+      {
+        "time_s": 6.225850340136055,
+        "count": 2,
+        "screen_span": 0.328135648207608
+      },
+      {
+        "time_s": 6.527709750566894,
+        "count": 2,
+        "screen_span": 0.12971154083581288
+      },
+      {
+        "time_s": 6.829569160997733,
+        "count": 2,
+        "screen_span": 0.40033404577214005
+      },
+      {
+        "time_s": 7.433287981859411,
+        "count": 2,
+        "screen_span": 0.6534955900673749
+      },
+      {
+        "time_s": 7.73514739229025,
+        "count": 2,
+        "screen_span": 0.8013444219630084
+      },
+      {
+        "time_s": 8.640725623582767,
+        "count": 2,
+        "screen_span": 0.6971164032706202
+      },
+      {
+        "time_s": 8.942585034013605,
+        "count": 2,
+        "screen_span": 0.6823227868494457
+      },
+      {
+        "time_s": 9.848163265306123,
+        "count": 2,
+        "screen_span": 0.7998966521639729
+      }
+    ],
+    "rapid_transitions": [
+      {
+        "from_s": 0.49052154195011344,
+        "to_s": 0.7923809523809524,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.6742083300212244,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.7923809523809524,
+        "to_s": 0.943310657596372,
+        "dt_s": 0.1509297052154196,
+        "distance": 0.14784310638312181,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 0.943310657596372,
+        "to_s": 1.0942403628117914,
+        "dt_s": 0.15092970521541937,
+        "distance": 0.12475421071730712,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.0942403628117914,
+        "to_s": 1.3960997732426306,
+        "dt_s": 0.3018594104308392,
+        "distance": 0.807253706329744,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 1.3960997732426306,
+        "to_s": 1.6979591836734695,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.7460737706562092,
+        "from_line": 0,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.6979591836734695,
+        "to_s": 1.9998185941043085,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.10329104052034843,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 1.9998185941043085,
+        "to_s": 2.3016780045351477,
+        "dt_s": 0.3018594104308392,
+        "distance": 0.7222832623596785,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.3016780045351477,
+        "to_s": 2.6035374149659867,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.39971030868967933,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 2.6035374149659867,
+        "to_s": 2.9053968253968256,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.10617212761464156,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 2.9053968253968256,
+        "to_s": 3.056326530612245,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.7166137798883604,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.056326530612245,
+        "to_s": 3.2072562358276646,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.38588761572810726,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.2072562358276646,
+        "to_s": 3.358185941043084,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.7256434751016633,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.358185941043084,
+        "to_s": 3.5091156462585036,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.09075913158472194,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.5091156462585036,
+        "to_s": 3.660045351473923,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.4177569763360215,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 3.660045351473923,
+        "to_s": 3.8109750566893426,
+        "dt_s": 0.15092970521541949,
+        "distance": 0.13835895214002408,
+        "from_line": 1,
+        "to_line": 1
+      },
+      {
+        "from_s": 3.8109750566893426,
+        "to_s": 4.112834467120182,
+        "dt_s": 0.3018594104308394,
+        "distance": 0.6633924877291757,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.112834467120182,
+        "to_s": 4.414693877551021,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.30072159854047936,
+        "from_line": 0,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.414693877551021,
+        "to_s": 4.71655328798186,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.7394657487151968,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 4.71655328798186,
+        "to_s": 5.018412698412699,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.7314650443159058,
+        "from_line": 1,
+        "to_line": 0
+      },
+      {
+        "from_s": 5.018412698412699,
+        "to_s": 5.320272108843538,
+        "dt_s": 0.30185941043083897,
+        "distance": 0.7354780271958389,
+        "from_line": 1,
+        "to_line": 0
+      }
+    ],
+    "guidance_expected": []
+  },
+  "visual_review_required": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "guidance_plan": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/distortedfate.v17.composable-c2.guidance.json"
+}

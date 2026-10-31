@@ -1,0 +1,85 @@
+{
+  "format": "beatglint_role_readability_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/demonkin.v17.composable-c2.chart.json",
+  "chart_sha256": "69eca558a5c0fb5ef8328a9a9bf23b07f1d4f1ec0621eed7edb5c735d8953623",
+  "roles": [
+    {
+      "line_id": "L0",
+      "role": "top",
+      "median_y": 0.84,
+      "expected_side": "below",
+      "expected_count": 309,
+      "reverse_count": 0,
+      "note_count": 309
+    },
+    {
+      "line_id": "L1",
+      "role": "bottom",
+      "median_y": 0.16053988155734034,
+      "expected_side": "above",
+      "expected_count": 302,
+      "reverse_count": 0,
+      "note_count": 302
+    },
+    {
+      "line_id": "L2",
+      "role": "top",
+      "median_y": 0.7081946991753025,
+      "expected_side": "below",
+      "expected_count": 204,
+      "reverse_count": 0,
+      "note_count": 204
+    },
+    {
+      "line_id": "L3",
+      "role": "bottom",
+      "median_y": 0.30131930683398966,
+      "expected_side": "above",
+      "expected_count": 212,
+      "reverse_count": 0,
+      "note_count": 212
+    }
+  ],
+  "reverse_side_notes": [],
+  "reverse_side_count": 0,
+  "reverse_side_fraction": 0.0,
+  "direction_geometry": {
+    "note_count": 1027,
+    "matched_count": 1027,
+    "mismatch_count": 0,
+    "uncertain_count": 0,
+    "mismatch_examples": [],
+    "convention": "screen y down; top expects negative dy, bottom expects positive dy"
+  },
+  "line_spacing": {
+    "sample_count": 3481,
+    "minimum_normalized_gap": 0.36399999999999993,
+    "close_gap_sample_count": 0,
+    "guidance_expected_close_sample_count": 0,
+    "threshold": 0.15,
+    "unexpected_examples": []
+  },
+  "flick_guidance": {
+    "flick_count": 0,
+    "planned_count": 0,
+    "missing_note_ids": [],
+    "guidance_line_count": 0,
+    "guidance_error_count": 0,
+    "guidance_errors": []
+  },
+  "hold_lifecycle": {
+    "hold_count": 135,
+    "chart_end_s": 137.8873469387755,
+    "release_overrun_count": 0,
+    "release_overruns": []
+  },
+  "status": "diagnostic_clear",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "limitations": [
+    "Reverse-side notes may be authored exceptions, but this report does not infer a valid visual cue.",
+    "Line spacing is a centerline diagnostic; sprite extent, occlusion and hand motion are not modeled.",
+    "A clear diagnostic is not a human AP or playability proof."
+  ]
+}

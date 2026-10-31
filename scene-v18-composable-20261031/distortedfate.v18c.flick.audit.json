@@ -1,0 +1,135 @@
+{
+  "format": "beatglint_flick_guidance_audit_v1",
+  "chart": "/workspace/BeatGlint/work/animation-independent-20261030/scene-v17-flick-guidance-20261031/distortedfate.v17.composable-c2.chart.json",
+  "chart_sha256": "83fd08e8e2285b230d3fa1189d46476c4e2300955121086b360a7c74e185e797",
+  "guidance_plan_sha256": "3be1c36089511e16782235545b01bdd0e471e58dc18fa5b2499f58aeba7e0872",
+  "gameplay_line_count": 4,
+  "flick_count": 2,
+  "planned_count": 2,
+  "guidance_row_count": 2,
+  "checks": [
+    {
+      "note_id": "L1:above:11",
+      "target_line": 1,
+      "guidance_line": 4,
+      "samples": [
+        {
+          "time_s": 3.360975,
+          "gap": 0.13222878091252505,
+          "carrier_alpha": 0.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.02,
+          "target_y": 0.15222878091252504
+        },
+        {
+          "time_s": 3.460975,
+          "gap": 0.12029538274612218,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.027305349794238692,
+          "target_y": 0.14760073254036088
+        },
+        {
+          "time_s": 3.710975,
+          "gap": 0.08103266764537237,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.06666666666666607,
+          "target_y": 0.14769933431203844
+        },
+        {
+          "time_s": 3.810975,
+          "gap": 0.00111014082631114,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.15888985917368886
+        },
+        {
+          "time_s": 3.890975,
+          "gap": 0.06222222222222218,
+          "carrier_alpha": 0.06666666666666671,
+          "target_alpha": 1.0,
+          "carrier_y": 0.09777777777777782,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 3.990975,
+          "gap": 0.14,
+          "carrier_alpha": 1.3877787807814457e-17,
+          "target_alpha": 1.0,
+          "carrier_y": 0.01999999999999999,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    },
+    {
+      "note_id": "L1:above:50",
+      "target_line": 1,
+      "guidance_line": 5,
+      "samples": [
+        {
+          "time_s": 22.378118,
+          "gap": 0.1312623756202091,
+          "carrier_alpha": 0.0,
+          "target_alpha": 1.0,
+          "carrier_y": 0.02,
+          "target_y": 0.15126237562020908
+        },
+        {
+          "time_s": 22.478118000000002,
+          "gap": 0.1177046206037772,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.02730534979423874,
+          "target_y": 0.14500997039801594
+        },
+        {
+          "time_s": 22.728118,
+          "gap": 0.09333333333333022,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.06666666666666979,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.828118,
+          "gap": 0.0,
+          "carrier_alpha": 0.12,
+          "target_alpha": 1.0,
+          "carrier_y": 0.16,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 22.908117999999998,
+          "gap": 0.06222222222221889,
+          "carrier_alpha": 0.06666666666666954,
+          "target_alpha": 1.0,
+          "carrier_y": 0.09777777777778111,
+          "target_y": 0.16
+        },
+        {
+          "time_s": 23.008118,
+          "gap": 0.14,
+          "carrier_alpha": 1.3877787807814457e-17,
+          "target_alpha": 1.0,
+          "carrier_y": 0.01999999999999999,
+          "target_y": 0.16
+        }
+      ],
+      "unrelated_competition_count": 0
+    }
+  ],
+  "errors": [],
+  "error_count": 0,
+  "status": "pass",
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "limitations": [
+    "The carrier is a visual cue and never creates a judgement.",
+    "Screen-space sprite extent, human timing and native Phira effects still require visual review."
+  ]
+}

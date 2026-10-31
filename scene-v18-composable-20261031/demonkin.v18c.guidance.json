@@ -1,0 +1,18 @@
+{
+  "format": "beatglint_flick_guidance_lines_v1",
+  "source_chart_sha256": "ebdbbd40f5b4af5a86713143aa8c3e23b3ccc923196f6bc0014e12491e04fcc7",
+  "gameplay_line_count": 4,
+  "guidance_line_count": 0,
+  "guidance_line_ids": [],
+  "flick_count": 0,
+  "guided_count": 0,
+  "fallback_count": 0,
+  "flick_guidance": [],
+  "fallbacks": [],
+  "note_identity_preserved": true,
+  "official_chart_used": false,
+  "official_animation_arrays_read": false,
+  "training_started": false,
+  "promotion_ready": false,
+  "status": "candidate_only"
+}
