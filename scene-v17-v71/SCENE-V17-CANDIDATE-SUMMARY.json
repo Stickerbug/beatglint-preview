@@ -85,7 +85,24 @@
           "empty_actor_operation_count": 0,
           "missing_guidance_group_count": 0
         }
-      ]
+      ],
+      "lowered_event_plan": {
+        "path": "cristalisiaonoken.v17.scene-event-plan.json",
+        "sha256": "01548ec73bd6da0d8bb070ec257a7ceba318184fc4382b72e4577c292594d738",
+        "bytes": 789513,
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1681,
+        "function_counts": {
+          "carrier": 767,
+          "guide": 147,
+          "performer": 767
+        },
+        "dual_role_event_count": 147,
+        "empty_actor_event_count": 0,
+        "finite_lifecycle": true,
+        "error_count": 0
+      }
     },
     {
       "song": "demonkin",
@@ -166,7 +183,24 @@
           "empty_actor_operation_count": 0,
           "missing_guidance_group_count": 0
         }
-      ]
+      ],
+      "lowered_event_plan": {
+        "path": "demonkin.v17.scene-event-plan.json",
+        "sha256": "08783f8189a85d70b8b29f94da6285b077b82ec29b6dc2e487081a0fa0d94685",
+        "bytes": 899703,
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1917,
+        "function_counts": {
+          "carrier": 873,
+          "guide": 171,
+          "performer": 873
+        },
+        "dual_role_event_count": 171,
+        "empty_actor_event_count": 0,
+        "finite_lifecycle": true,
+        "error_count": 0
+      }
     },
     {
       "song": "distortedfate",
@@ -252,7 +286,24 @@
           "empty_actor_operation_count": 0,
           "missing_guidance_group_count": 0
         }
-      ]
+      ],
+      "lowered_event_plan": {
+        "path": "distortedfate.v17.scene-event-plan.json",
+        "sha256": "7d85ff8c2bb003cf00f64422ef3ec129044507a2f301c26a82d49f2f894e4e60",
+        "bytes": 809785,
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1722,
+        "function_counts": {
+          "carrier": 787,
+          "guide": 148,
+          "performer": 787
+        },
+        "dual_role_event_count": 147,
+        "empty_actor_event_count": 2,
+        "finite_lifecycle": true,
+        "error_count": 0
+      }
     }
   ],
   "limitations": [

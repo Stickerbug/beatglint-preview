@@ -73,6 +73,15 @@
           0
         ],
         "status": "candidate_search_only"
+      },
+      "scene_event_plan": {
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1917,
+        "dual_role_event_count": 171,
+        "empty_actor_event_count": 0,
+        "finite_lifecycle": true,
+        "error_count": 0
       }
     },
     {
@@ -128,6 +137,15 @@
           0
         ],
         "status": "candidate_search_only"
+      },
+      "scene_event_plan": {
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1681,
+        "dual_role_event_count": 147,
+        "empty_actor_event_count": 0,
+        "finite_lifecycle": true,
+        "error_count": 0
       }
     },
     {
@@ -185,14 +203,23 @@
           0
         ],
         "status": "candidate_search_only"
+      },
+      "scene_event_plan": {
+        "candidate_id": "scene-candidate-01",
+        "status": "lowered_candidate_only",
+        "event_count": 1722,
+        "dual_role_event_count": 147,
+        "empty_actor_event_count": 2,
+        "finite_lifecycle": true,
+        "error_count": 0
       }
     }
   ],
   "files": [
     {
       "path": "SCENE-V17-CANDIDATE-SUMMARY.json",
-      "sha256": "d734f450f0ca1ed646ac0645b8e6bf8c131aa1b217f8cf6058ad217384051b51",
-      "bytes": 9067
+      "sha256": "817af5c19f2d61d3e5aa5d3194bae836d1e197e62984916792f2c12b9f9033c9",
+      "bytes": 10806
     },
     {
       "path": "cristalisiaonoken.v17-15-17.mp4",
@@ -378,6 +405,7 @@
     "summary_path": "SCENE-V17-CANDIDATE-SUMMARY.json",
     "official_animation_arrays_read": false,
     "training_started": false,
-    "promotion_ready": false
+    "promotion_ready": false,
+    "event_plan_layer": "coordinate_free_finite_lifecycle"
   }
 }

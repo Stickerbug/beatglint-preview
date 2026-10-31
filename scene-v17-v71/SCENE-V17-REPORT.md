@@ -47,6 +47,15 @@
 
 - [组合候选摘要](SCENE-V17-CANDIDATE-SUMMARY.json)
 
+## 事件计划降层
+
+对每首曲目的 `scene-candidate-01` 已生成坐标无关的有限生命周期计划；它把同一演员的承载、表演和引导拆成独立事件通道，并保留双重角色标记。
+
+| 曲目 | 事件数 | 引导事件 | 双重角色引导 | 空演员事件 | 回收生命周期 | 状态 |
+|---|---:|---:|---:|---:|---|---|
+| cristalisiaonoken | 1681 | 147 | 147 | 0 | 通过 | `lowered_candidate_only` |\n| demonkin | 1917 | 171 | 171 | 0 | 通过 | `lowered_candidate_only` |\n| distortedfate | 1722 | 148 | 147 | 2 | 通过 | `lowered_candidate_only` |\n
+事件计划仍使用 `deferred_screen_space`，没有最终坐标或 Phigros 动画数组；它必须经过屏幕空间、首次游玩、FlowPhi 和真实渲染门。
+
 ## 运动门
 
 游戏线使用原有速度/位移/连续性门；Flick 载体的快速画外回收按单独的 recycle 策略审计，不把它误报成游戏线异常。
